@@ -10,10 +10,13 @@
 
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
     <link href="../../css/home.css" rel="stylesheet">
+	<script src = "../../js/trigonometry.js"></script>
+	
   </head>
 
   <body>
   	<br>
+	
   	<div class="container rounded">
 		<h3><font color = "#FEFEFE">Trigonometry Practice Questions</font></h3>
 		<hr>
@@ -24,65 +27,83 @@
 		</div>
 		<br>
 		
-		<h5><font color = "#FEFEFE">Question 1</font></h5>
-		<p><font color = "#FEFEFE">In a right triangle, one angle measures x°, where sin x° = <sup>4</sup>&frasl;<sub>5</sub>. What is cos(90° − x°) ?</font></p>
-		<br>
-		<br>
-		<br>
+		<form id = "trigonometrypractice" name = "trigonometrypractice">
 		
-		<h5><font color = "#FEFEFE">Question 2</font></h5>
-		<p><font color = "#FEFEFE">In triangle ABC, the measure of ∠B is 90°, BC = 16, and AC = 20. Triangle DEF is similar to triangle ABC, where vertices D, E, and F 
-		correspond to vertices A, B, and C, respectively, and each side of triangle DEF is <sup>1</sup>&frasl;<sub>3</sub> the length of the corresponding side of triangle 
-		ABC. What is the value of sin F ?</font></p>
-		<br>
-		<br>
-		<br>
+			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<p><font color = "#FEFEFE">In a right triangle, one angle measures x°, where sin x° = <sup>4</sup>&frasl;<sub>5</sub>. What is cos(90° − x°) ?</font></p>
+			<br>
+			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Trigonometry1"></p>
+			<br>
+			
+			<h5><font color = "#FEFEFE">Question 2</font></h5>
+			<p><font color = "#FEFEFE">In triangle ABC, the measure of ∠B is 90°, BC = 16, and AC = 20. Triangle DEF is similar to triangle ABC, where vertices D, E, and F 
+			correspond to vertices A, B, and C, respectively, and each side of triangle DEF is <sup>1</sup>&frasl;<sub>3</sub> the length of the corresponding side of triangle 
+			ABC. What is the value of sin F ?</font></p>
+			<br>
+			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Trigonometry2"></p>
+			<br>
+			
+			<h5><font color = "#FEFEFE">Question 3</font></h5>
+			<div class="text-center">
+				<img src="Question_3.PNG" alt="Question 3 Graph">
+			</div>
+			<br>
+			<p><font color = "#FEFEFE">The angles shown above are acute and sin(a°) = cos(b°). If a = 4k − 22 and b = 6k − 13, what is the value of k ?</font></p>
+			<br>	
+			<p style="margin-left: 20px"><font color = "#FEFEFE">
+			<input id = "mc" type = "radio" name = "Trigonometry3" value = "A"> A. 4.5<br>
+			<input id = "mc" type = "radio" name = "Trigonometry3" value = "B"> B. 5.5<br>
+			<input id = "mc" type = "radio" name = "Trigonometry3" value = "C"> C. 12.5<br>
+			<input id = "mc" type = "radio" name = "Trigonometry3" value = "D"> D. 21.5
+			</font></p>
+			<br>
+			
+			<h5><font color = "#FEFEFE">Question 4</font></h5>
+			<div class="text-center">
+				<img src="Question_4.PNG" alt="Question 4 Graph">
+			</div>
+			<br>
+			<p><font color = "#FEFEFE">In the triangle above, the sine of x° is 0.6. What is the cosine of y° ?</font></p>
+			<br>
+			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Trigonometry4"></p>
+			<br>
+			
+			<h5><font color = "#FEFEFE">Question 5</font></h5>
+			<p><font color = "#FEFEFE">The number of radians in a 720-degree angle can be written as aπ, where a is a constant. What is the value of a ?</font></p>
+			<br>
+			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Trigonometry5"></p>
+			<br>
+			
+			<h5><font color = "#FEFEFE">Question 6</font></h5>
+			<div class="text-center">
+				<img src="Question_6.PNG" alt="Question 6 Graph">
+			</div>
+			<br>
+			<p><font color = "#FEFEFE">In the figure above, tan B = <sup>3</sup>&frasl;<sub>4</sub>. If BC = 15 and DA = 4, what is the length of DE ?</font></p>
+			<br>
+			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Trigonometry6"></p>
+			<br>
+			
+			<h5><font color = "#FEFEFE">Question 7</font></h5>
+			<div class="text-center">
+				<img src="Question_7.PNG" alt="Question 7 Graph">
+			</div>
+			<br>
+			<p><font color = "#FEFEFE">In triangle RST above, point W (not shown) lies on RT. What is the value of cos(∠RSW) − sin(∠WST) ?</font></p>
+			<br>
+			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Trigonometry7"></p>
+			<br>
+			
+			<div class="text-center">
+				<input id = "button" type = "button" value = "Submit" onclick = "check();">
+			</div>
+			<br>
 		
-		<h5><font color = "#FEFEFE">Question 3</font></h5>
-		<div class="text-center">
-			<img src="Question_3.PNG" alt="Question 3 Graph">
+		</form>
+		
+		<div id = "after_submit" class="text-center">
+			<font color = "#FEFEFE"><p id = "number_correct"></p></font>
 		</div>
-		<br>
-		<p><font color = "#FEFEFE">The angles shown above are acute and sin(a°) = cos(b°). If a = 4k − 22 and b = 6k − 13, what is the value of k ?</font></p>
-		<br>
-		<p style="margin-left: 20px"><font color = "#FEFEFE">A. 4.5<br>
-		B. 5.5<br>C. 12.5<br>D. 21.5</font></p>
-		<br>
-		
-		<h5><font color = "#FEFEFE">Question 4</font></h5>
-		<div class="text-center">
-			<img src="Question_4.PNG" alt="Question 4 Graph">
-		</div>
-		<br>
-		<p><font color = "#FEFEFE">In the triangle above, the sine of x° is 0.6. What is the cosine of y° ?</font></p>
-		<br>
-		<br>
-		<br>
-		
-		<h5><font color = "#FEFEFE">Question 5</font></h5>
-		<p><font color = "#FEFEFE">The number of radians in a 720-degree angle can be written as aπ, where a is a constant. What is the value of a ?</font></p>
-		<br>
-		<br>
-		<br>
-		
-		<h5><font color = "#FEFEFE">Question 6</font></h5>
-		<div class="text-center">
-			<img src="Question_6.PNG" alt="Question 6 Graph">
-		</div>
-		<br>
-		<p><font color = "#FEFEFE">In the figure above, tan B = <sup>3</sup>&frasl;<sub>4</sub>. If BC = 15 and DA = 4, what is the length of DE ?</font></p>
-		<br>
-		<br>
-		<br>
-		
-		<h5><font color = "#FEFEFE">Question 7</font></h5>
-		<div class="text-center">
-			<img src="Question_7.PNG" alt="Question 7 Graph">
-		</div>
-		<br>
-		<p><font color = "#FEFEFE">In triangle RST above, point W (not shown) lies on RT. What is the value of cos(∠RSW) − sin(∠WST) ?</font></p>
-		<br>
-		<br>
 		<br>
 
     </div>

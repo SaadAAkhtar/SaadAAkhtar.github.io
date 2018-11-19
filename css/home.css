@@ -29,3 +29,7 @@ p {
 	position:relative;
 	margin-top:1%;
 }
+
+#after_submit {
+	visibility: hidden;
+}
