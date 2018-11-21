@@ -19,71 +19,71 @@ function check(){
 	var question17 = document.geometrypractice.Geometry17.value;
 	var correct = 0;
 	
-	if (question1 == "") {
+	if (question1 == "1600") {
 		correct++;
 	}
 	
-	if (question2 == "") {
+	if (question2 == "D") {
 		correct++;
 	}
 	
-	if (question3 == "") {
+	if (question3 == "12") {
 		correct++;
 	}
 	
-	if (question4 == "") {
+	if (question4 == "6") {
 		correct++;
 	}
 	
-	if (question5 == "") {
+	if (question5 == "A") {
 		correct++;
 	}
 	
-	if (question6 == "") {
+	if (question6 == "B") {
 		correct++;
 	}
 	
-	if (question7 == "") {
+	if (question7 == "105") {
 		correct++;
 	}
 	
-	if (question8 == "") {
+	if (question8 == "9") {
 		correct++;
 	}
 	
-	if (question9 == "") {
+	if (question9 == "97") {
 		correct++;
 	}
 	
-	if (question10 == "") {
+	if (question10 == "B") {
 		correct++;
 	}
 	
-	if (question11 == "") {
+	if (question11 == "B") {
 		correct++;
 	}
 	
-	if (question12 == "") {
+	if (question12 == "30") {
 		correct++;
 	}
 	
-	if (question13 == "") {
+	if (question13 == "B") {
 		correct++;
 	}
 	
-	if (question14 == "") {
+	if (question14 == "30") {
 		correct++;
 	}
 	
-	if (question15 == "") {
+	if (question15 == "D") {
 		correct++;
 	}
 	
-	if (question16 == "") {
+	if (question16 == "C") {
 		correct++;
 	}
 	
-	if (question17 == "") {
+	if (question17 == "B") {
 		correct++;
 	}
 	
