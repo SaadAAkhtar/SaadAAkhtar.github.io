@@ -58,231 +58,227 @@ function check(){
 	var question56 = document.systemsofequationspractice.SystemsOfEquations56.value;
 	var correct = 0;
 	
-	if (question1 == "") {
+	if (question1 == "B") {
 		correct++;
 	}
 	
-	if (question2 == "") {
+	if (question2 == "D") {
 		correct++;
 	}
 	
-	if (question3 == "") {
+	if (question3 == "7") {
 		correct++;
 	}
 	
-	if (question4 == "") {
+	if (question4 == "C") {
 		correct++;
 	}
 	
-	if (question5 == "") {
+	if (question5 == "B") {
 		correct++;
 	}
 	
-	if (question6 == "") {
+	if (question6 == "107") {
 		correct++;
 	}
 	
-	if (question7 == "") {
+	if (question7 == "B") {
 		correct++;
 	}
 	
-	if (question8 == "") {
+	if (question8 == "B") {
 		correct++;
 	}
 	
-	if (question9 == "") {
+	if (question9 == "1/4" || question9 == ".25" || question9 == "0.25") {
 		correct++;
 	}
 	
-	if (question10 == "") {
+	if (question10 == "C") {
 		correct++;
 	}
 	
-	if (question11 == "") {
+	if (question11 == "A") {
 		correct++;
 	}
 	
-	if (question12 == "") {
+	if (question12 == "105") {
 		correct++;
 	}
 	
-	if (question13 == "") {
+	if (question13 == "B") {
 		correct++;
 	}
 	
-	if (question14 == "") {
+	if (question14 == "C") {
 		correct++;
 	}
 	
-	if (question15 == "") {
+	if (question15 == "A") {
 		correct++;
 	}
 	
-	if (question16 == "") {
+	if (question16 == "A") {
 		correct++;
 	}
 	
-	if (question17 == "") {
+	if (question17 == "370") {
 		correct++;
 	}
 	
-	if (question18 == "") {
+	if (question18 == "B") {
 		correct++;
 	}
 	
-	if (question19 == "") {
+	if (question19 == "B") {
 		correct++;
 	}
 	
-	if (question20 == "") {
+	if (question20 == "D") {
 		correct++;
 	}
 	
-	if (question21 == "") {
+	if (question21 == "A") {
 		correct++;
 	}
 	
-	if (question22 == "") {
+	if (question22 == "750") {
 		correct++;
 	}
 	
-	if (question23 == "") {
+	if (question23 == "A") {
 		correct++;
 	}
 	
-	if (question24 == "") {
+	if (question24 == "0") {
 		correct++;
 	}
 	
-	if (question25 == "") {
+	if (question25 == "B") {
 		correct++;
 	}
 	
-	if (question26 == "") {
+	if (question26 == "C") {
 		correct++;
 	}
 	
-	if (question27 == "") {
+	if (question27 == "A") {
 		correct++;
 	}
 	
-	if (question28 == "") {
+	if (question28 == "A") {
 		correct++;
 	}
 	
-	if (question29 == "") {
+	if (question29 == "D") {
 		correct++;
 	}
 	
-	if (question30 == "") {
+	if (question30 == "150") {
 		correct++;
 	}
 	
-	if (question31 == "") {
+	if (question31 == "C") {
 		correct++;
 	}
 	
-	if (question32 == "") {
+	if (question32 == "A") {
 		correct++;
 	}
 	
-	if (question33 == "") {
+	if (question33 == "D") {
 		correct++;
 	}
 	
-	if (question34 == "") {
+	if (question34 == "21/4" || question34 == "5.25") {
 		correct++;
 	}
 	
-	if (question35 == "") {
+	if (question35 == "B") {
 		correct++;
 	}
 	
-	if (question36 == "") {
+	if (question36 == "D") {
 		correct++;
 	}
 	
-	if (question37 == "") {
+	if (question37 == "13") {
 		correct++;
 	}
 	
-	if (question38 == "") {
+	if (question38 == "A") {
 		correct++;
 	}
 	
-	if (question39 == "") {
+	if (question39 == "1" || question39 == "2" || question39 == "4" || question39 == "8" || question39 == "16") {
 		correct++;
 	}
 	
-	if (question40 == "") {
+	if (question40 == "B") {
 		correct++;
 	}
 	
-	if (question41 == "") {
+	if (question41 == "B") {
 		correct++;
 	}
 	
-	if (question42 == "") {
+	if (question42 == "C") {
 		correct++;
 	}
 	
-	if (question43 == "") {
+	if (question43 == "10") {
 		correct++;
 	}
 	
-	if (question44 == "") {
+	if (question44 == "B") {
 		correct++;
 	}
 	
-	if (question45 == "") {
+	if (question45 == "B") {
 		correct++;
 	}
 	
-	if (question46 == "") {
+	if (question46 == "A") {
 		correct++;
 	}
 	
-	if (question47 == "") {
+	if (question47 == "D") {
 		correct++;
 	}
 	
-	if (question48 == "") {
+	if (question48 == "C") {
 		correct++;
 	}
 	
-	if (question49 == "") {
+	if (question49 == "30") {
 		correct++;
 	}
 	
-	if (question50 == "") {
+	if (question50 == "B") {
 		correct++;
 	}
 	
-	if (question51 == "") {
+	if (question51 == "B") {
 		correct++;
 	}
 	
-	if (question52 == "") {
+	if (question52 == "C") {
 		correct++;
 	}
 	
-	if (question53 == "") {
+	if (question53 == "1.5" || question53 == "3/2") {
 		correct++;
 	}
 	
-	if (question54 == "") {
+	if (question54 == "D") {
 		correct++;
 	}
 	
-	if (question55 == "") {
+	if (question55 == "C") {
 		correct++;
 	}
 	
-	if (question56 == "") {
-		correct++;
-	}
-	
-	if (question57 == "") {
+	if (question56 == "30") {
 		correct++;
 	}
 	
