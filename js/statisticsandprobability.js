@@ -54,211 +54,211 @@ function check(){
 	var question52 = document.statisticsandprobabilitypractice.StatisticsAndProbability52.value;
 	var correct = 0;
 	
-	if (question1 == "") {
+	if (question1 == "D") {
 		correct++;
 	}
 	
-	if (question2 == "") {
+	if (question2 == "C") {
 		correct++;
 	}
 	
-	if (question3 == "") {
+	if (question3 == "C") {
 		correct++;
 	}
 	
-	if (question4 == "") {
+	if (question4 == "C") {
 		correct++;
 	}
 	
-	if (question5 == "") {
+	if (question5 == "C") {
 		correct++;
 	}
 	
-	if (question6 == "") {
+	if (question6 == "C") {
 		correct++;
 	}
 	
-	if (question7 == "") {
+	if (question7 == "D") {
 		correct++;
 	}
 	
-	if (question8 == "") {
+	if (question8 == "C") {
 		correct++;
 	}
 	
-	if (question9 == "") {
+	if (question9 == "B") {
 		correct++;
 	}
 	
-	if (question10 == "") {
+	if (question10 == "C") {
 		correct++;
 	}
 	
-	if (question11 == "") {
+	if (question11 == "B") {
 		correct++;
 	}
 	
-	if (question12 == "") {
+	if (question12 == "C") {
 		correct++;
 	}
 	
-	if (question13 == "") {
+	if (question13 == "B") {
 		correct++;
 	}
 	
-	if (question14 == "") {
+	if (question14 == "A") {
 		correct++;
 	}
 	
-	if (question15 == "") {
+	if (question15 == "B") {
 		correct++;
 	}
 	
-	if (question16 == "") {
+	if (question16 == "A") {
 		correct++;
 	}
 	
-	if (question17 == "") {
+	if (question17 == "58.6") {
 		correct++;
 	}
 	
-	if (question18 == "") {
+	if (question18 == "A") {
 		correct++;
 	}
 	
-	if (question19 == "") {
+	if (question19 == "B") {
 		correct++;
 	}
 	
-	if (question20 == "") {
+	if (question20 == "A") {
 		correct++;
 	}
 	
-	if (question21 == "") {
+	if (question21 == "C") {
 		correct++;
 	}
 	
-	if (question22 == "") {
+	if (question22 == "B") {
 		correct++;
 	}
 	
-	if (question23 == "") {
+	if (question23 == "B") {
 		correct++;
 	}
 	
-	if (question24 == "") {
+	if (question24 == "A") {
 		correct++;
 	}
 	
-	if (question25 == "") {
+	if (question25 == "A") {
 		correct++;
 	}
 	
-	if (question26 == "") {
+	if (question26 == "C") {
 		correct++;
 	}
 	
-	if (question27 == "") {
+	if (question27 == "D") {
 		correct++;
 	}
 	
-	if (question28 == "") {
+	if (question28 == "C") {
 		correct++;
 	}
 	
-	if (question29 == "") {
+	if (question29 == "D") {
 		correct++;
 	}
 	
-	if (question30 == "") {
+	if (question30 == "D") {
 		correct++;
 	}
 	
-	if (question31 == "") {
+	if (question31 == "D") {
 		correct++;
 	}
 	
-	if (question32 == "") {
+	if (question32 == "D") {
 		correct++;
 	}
 	
-	if (question33 == "") {
+	if (question33 == "D") {
 		correct++;
 	}
 	
-	if (question34 == "") {
+	if (question34 == "B") {
 		correct++;
 	}
 	
-	if (question35 == "") {
+	if (question35 == "2.6" || question35 == "13/5") {
 		correct++;
 	}
 	
-	if (question36 == "") {
+	if (question36 == "B") {
 		correct++;
 	}
 	
-	if (question37 == "") {
+	if (question37 == "D") {
 		correct++;
 	}
 	
-	if (question38 == "") {
+	if (question38 == "A") {
 		correct++;
 	}
 	
-	if (question39 == "") {
+	if (question39 == "C") {
 		correct++;
 	}
 	
-	if (question40 == "") {
+	if (question40 == "B") {
 		correct++;
 	}
 	
-	if (question41 == "") {
+	if (question41 == "C") {
 		correct++;
 	}
 	
-	if (question42 == "") {
+	if (question42 == "B") {
 		correct++;
 	}
 	
-	if (question43 == "") {
+	if (question43 == "2.4" || question43 == "12/5") {
 		correct++;
 	}
 	
-	if (question44 == "") {
+	if (question44 == "5/7" || question44 == ".714" || question44 == "0.714") {
 		correct++;
 	}
 	
-	if (question45 == "") {
+	if (question45 == "A") {
 		correct++;
 	}
 	
-	if (question46 == "") {
+	if (question46 == "C") {
 		correct++;
 	}
 	
-	if (question47 == "") {
+	if (question47 == "B") {
 		correct++;
 	}
 	
-	if (question48 == "") {
+	if (question48 == "A") {
 		correct++;
 	}
 	
-	if (question49 == "") {
+	if (question49 == "C") {
 		correct++;
 	}
 	
-	if (question50 == "") {
+	if (question50 == "D") {
 		correct++;
 	}
 	
-	if (question51 == "") {
+	if (question51 == "C") {
 		correct++;
 	}
 	
-	if (question52 == "") {
+	if (question52 == "D") {
 		correct++;
 	}
 	
