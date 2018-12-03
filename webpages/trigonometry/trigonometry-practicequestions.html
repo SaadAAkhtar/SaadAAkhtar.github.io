@@ -18,6 +18,15 @@
   	<br>
 	
   	<div class="container rounded">
+		<!-- ADDED STUFF HERE!!! -->
+		<script type="text/javascript">
+		var clicks = 0;
+		function onClick() {
+			clicks += 1;
+			document.getElementById("clicks").innerHTML = clicks;
+		};
+		</script>
+	
 		<h3><font color = "#FEFEFE">Trigonometry Practice Questions</font></h3>
 		<hr>
 		
@@ -30,6 +39,15 @@
 		<form id = "trigonometrypractice" name = "trigonometrypractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<!--<p>Clicks: <a id="clicks">0</a></p>-->
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
+			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton1" onclick="clock(hintbutton1, clicks); onClick(); document.getElementById('countdown1').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In a right triangle, one angle measures x°, where sin x° = <sup>4</sup>&frasl;<sub>5</sub>. What is cos(90° − x°) ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Trigonometry1"></p>
@@ -37,6 +55,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 2</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown2">Hint Countdown!</p>
+			<div id = "hint2"><p style="margin-left: 20px" id = "hint2result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton2" onclick="clock(hintbutton2, clicks); onClick(); document.getElementById('countdown2').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In triangle ABC, the measure of ∠B is 90°, BC = 16, and AC = 20. Triangle DEF is similar to triangle ABC, where vertices D, E, and F 
 			correspond to vertices A, B, and C, respectively, and each side of triangle DEF is <sup>1</sup>&frasl;<sub>3</sub> the length of the corresponding side of triangle 
 			ABC. What is the value of sin F ?</font></p>

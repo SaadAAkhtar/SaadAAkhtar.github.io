@@ -41,3 +41,40 @@ function check(){
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
 	
 }
+
+var myTimer;
+	function clock(elem, elem2) {
+		myTimer = setInterval(myClock, 1000);
+		
+		if (elem2 > 5 && elem2 <= 10) {
+			var c = 61 + (10 * elem2);
+		}else if (elem2 > 10 && elem2 <= 25) {
+			var c = 61 + (15 * elem2);
+		}else if (elem2 > 25) {
+			var c = 61 + (20 * elem2);
+		}else {
+			var c = 91;
+		}
+		
+		function myClock() {
+			if (elem.id == "hintbutton1") {
+				document.getElementById("hintbutton1").disabled = true;
+				document.getElementById("countdown1").innerHTML = --c;
+				if (c == 0) {
+					document.getElementById("hint1").style.visibility = "visible";
+					document.getElementById("hint1result").innerHTML = "The complementary angle theorem is applicable here.";
+					clearInterval(myTimer);
+				}
+			}
+			
+			if (elem.id == "hintbutton2") {
+				document.getElementById("hintbutton2").disabled = true;
+				document.getElementById("countdown2").innerHTML = --c;
+				if (c == 0) {
+					document.getElementById("hint2").style.visibility = "visible";
+					document.getElementById("hint2result").innerHTML = "As vertex F corresponds to vertex C, the two angle measures are equal.";
+					clearInterval(myTimer);
+				}
+			}
+		}
+	}
