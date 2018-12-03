@@ -76,5 +76,55 @@ var myTimer;
 					clearInterval(myTimer);
 				}
 			}
+			
+			if (elem.id == "hintbutton3") {
+				document.getElementById("hintbutton3").disabled = true;
+				document.getElementById("countdown3").innerHTML = --c;
+				if (c == 0) {
+					document.getElementById("hint3").style.visibility = "visible";
+					document.getElementById("hint3result").innerHTML = "The complementary angle theorem is applicable here.";
+					clearInterval(myTimer);
+				}
+			}
+			
+			if (elem.id == "hintbutton4") {
+				document.getElementById("hintbutton4").disabled = true;
+				document.getElementById("countdown4").innerHTML = --c;
+				if (c == 0) {
+					document.getElementById("hint4").style.visibility = "visible";
+					document.getElementById("hint4result").innerHTML = "The complementary angle theorem is applicable here.";
+					clearInterval(myTimer);
+				}
+			}
+			
+			if (elem.id == "hintbutton5") {
+				document.getElementById("hintbutton5").disabled = true;
+				document.getElementById("countdown5").innerHTML = --c;
+				if (c == 0) {
+					document.getElementById("hint5").style.visibility = "visible";
+					document.getElementById("hint5result").innerHTML = "There are π radians in a 180° angle.";
+					clearInterval(myTimer);
+				}
+			}
+			
+			if (elem.id == "hintbutton6") {
+				document.getElementById("hintbutton6").disabled = true;
+				document.getElementById("countdown6").innerHTML = --c;
+				if (c == 0) {
+					document.getElementById("hint6").style.visibility = "visible";
+					document.getElementById("hint6result").innerHTML = "ΔABC and ΔDBE are both 3-4-5 triangles";
+					clearInterval(myTimer);
+				}
+			}
+			
+			if (elem.id == "hintbutton7") {
+				document.getElementById("hintbutton7").disabled = true;
+				document.getElementById("countdown7").innerHTML = --c;
+				if (c == 0) {
+					document.getElementById("hint7").style.visibility = "visible";
+					document.getElementById("hint7result").innerHTML = "The complementary angle theorem is applicable here as the sum of the measures of ∠RSW and ∠WST is equal to the measure of ∠RST";
+					clearInterval(myTimer);
+				}
+			}
 		}
 	}
