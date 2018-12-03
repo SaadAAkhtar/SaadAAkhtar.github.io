@@ -48,9 +48,9 @@ var myTimer;
 		
 		if (elem2 > 5 && elem2 <= 10) {
 			var c = 61 + (10 * elem2);
-		}else if (elem2 > 10 && elem2 <= 25) {
+		}else if (elem2 > 10 && elem2 <= 20) {
 			var c = 61 + (15 * elem2);
-		}else if (elem2 > 25) {
+		}else if (elem2 > 20) {
 			var c = 61 + (20 * elem2);
 		}else {
 			var c = 91;
