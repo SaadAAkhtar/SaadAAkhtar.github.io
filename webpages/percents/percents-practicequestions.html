@@ -20,9 +20,14 @@
   	<div class="container rounded">
 		<script type="text/javascript">
 		var clicks = 0;
+		var sc = 0;
+		
 		function onClick() {
 			clicks += 1;
-			document.getElementById("clicks").innerHTML = clicks;
+		};
+		
+		function submitClick() {
+			sc += 1;
 		};
 		</script>
 		
@@ -38,6 +43,14 @@
 		<form id = "percentspractice" name = "percentspractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
+			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton1" onclick="clock(hintbutton1, clicks); onClick(); document.getElementById('countdown1').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Alma bought a laptop computer at a store that gave a 20 percent discount off its original price. The total amount 
 			she paid to the cashier was p dollars, including an 8 percent sales tax on the discounted price. Which of the following represents the original 
 			price of the computer in terms of p ?</font></p>
@@ -52,6 +65,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 2</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown2">Hint Countdown!</p>
+			<div id = "hint2"><p style="margin-left: 20px" id = "hint2result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton2" onclick="clock(hintbutton2, clicks); onClick(); document.getElementById('countdown2').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Katarina is a botanist studying the production of pears by two types of pear trees. She noticed that Type A trees 
 			produced 20 percent more pears than Type B trees did. Based on Katarina’s observation, if the Type A trees produced 144 pears, how many pears 
 			did the Type B trees produce?</font></p>
@@ -70,11 +91,27 @@
 			she uses the expression $100(x)<sup>t</sup> to find the value of the account after t years.</font></p>
 			<br>
 			<h5><font color = "#FEFEFE">Question 3</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown3">Hint Countdown!</p>
+			<div id = "hint3"><p style="margin-left: 20px" id = "hint3result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton3" onclick="clock(hintbutton3, clicks); onClick(); document.getElementById('countdown3').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">What is the value of x in the expression?</font></p>
 			<br>
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Percents3"></p>
 			<br>
 			<h5><font color = "#FEFEFE">Question 4</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown4">Hint Countdown!</p>
+			<div id = "hint4"><p style="margin-left: 20px" id = "hint4result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton4" onclick="clock(hintbutton4, clicks); onClick(); document.getElementById('countdown4').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Jessica’s friend Tyshaun found an account that earns 2.5 percent interest compounded annually. Tyshaun made an initial 
 			deposit of $100 into this account at the same time Jessica made a deposit of $100 into her account. After 10 years, how much more money will 
 			Tyshaun’s initial deposit have earned than Jessica’s initial deposit? (Round your answer to the nearest cent and ignore the dollar sign when gridding 
@@ -85,6 +122,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 5</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown5">Hint Countdown!</p>
+			<div id = "hint5"><p style="margin-left: 20px" id = "hint5result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton5" onclick="clock(hintbutton5, clicks); onClick(); document.getElementById('countdown5').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A radioactive substance decays at an annual rate of 13 percent. If the initial amount of the substance is 325 grams, 
 			which of the following functions f models the remaining amount of the substance, in grams, t years later?</font></p>
 			<br>
@@ -98,6 +143,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 6</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown6">Hint Countdown!</p>
+			<div id = "hint6"><p style="margin-left: 20px" id = "hint6result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton6" onclick="clock(hintbutton6, clicks); onClick(); document.getElementById('countdown6').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The performer uses 43% of the money earned to pay the costs involved in putting on each performance. The rest of the 
 			money earned is the performer’s profit. What is the profit the performer makes at a performance where 8 people attend?</font></p>
 			<br>
@@ -111,6 +164,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 7</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown7">Hint Countdown!</p>
+			<div id = "hint7"><p style="margin-left: 20px" id = "hint7result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton7" onclick="clock(hintbutton7, clicks); onClick(); document.getElementById('countdown7').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The atomic weight of an unknown element, in atomic mass units (amu), is approximately 20% less than that of calcium. 
 			The atomic weight of calcium is 40 amu. Which of the following best approximates the atomic weight, in amu, of the unknown element?</font></p>
 			<br>
@@ -124,6 +185,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 8</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown8">Hint Countdown!</p>
+			<div id = "hint8"><p style="margin-left: 20px" id = "hint8result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton8" onclick="clock(hintbutton8, clicks); onClick(); document.getElementById('countdown8').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">At Lincoln High School, approximately 7 percent of enrolled juniors and 5 percent of enrolled seniors were inducted 
 			into the National Honor Society last year. If there were 562 juniors and 602 seniors enrolled at Lincoln High School last year, which of the 
 			following is closest to the total number of juniors and seniors at Lincoln High School last year who were inducted into the National Honor 
@@ -139,6 +208,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 9</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown9">Hint Countdown!</p>
+			<div id = "hint9"><p style="margin-left: 20px" id = "hint9result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton9" onclick="clock(hintbutton9, clicks); onClick(); document.getElementById('countdown9').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Of the following four types of savings account plans, which option would yield exponential growth of the money in 
 			the account?</font></p>
 			<br>
@@ -152,6 +229,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 10</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown10">Hint Countdown!</p>
+			<div id = "hint10"><p style="margin-left: 20px" id = "hint10result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton10" onclick="clock(hintbutton10, clicks); onClick(); document.getElementById('countdown10').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A rectangle was altered by increasing its length by 10 percent and decreasing its width by p percent. If these 
 			alterations decreased the area of the rectangle by 12 percent, what is the value of p ?</font></p>
 			<br>
@@ -165,6 +250,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 11</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown11">Hint Countdown!</p>
+			<div id = "hint11"><p style="margin-left: 20px" id = "hint11result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton11" onclick="clock(hintbutton11, clicks); onClick(); document.getElementById('countdown11').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In planning maintenance for a city’s infrastructure, a civil engineer estimates that, starting from the present, 
 			the population of the city will decrease by 10 percent every 20 years. If the present population of the city is 50,000, which of the following 
 			expressions represents the engineer’s estimate of the population of the city t years from now?</font></p>
@@ -179,6 +272,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 12</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown12">Hint Countdown!</p>
+			<div id = "hint12"><p style="margin-left: 20px" id = "hint12result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton12" onclick="clock(hintbutton12, clicks); onClick(); document.getElementById('countdown12').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The owner of the Good Deals Store opens a new store across town. For the new store, the owner estimates that, during business hours, 
 			an average of 90 shoppers per <u>hour</u> enter the store and each of them stays an average of 12 minutes. The average number of shoppers in the new store at 
 			any time is what percent less than the average number of shoppers in the original store at any time? (Note: Ignore the percent symbol when entering your answer. 
@@ -189,6 +290,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 13</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown13">Hint Countdown!</p>
+			<div id = "hint13"><p style="margin-left: 20px" id = "hint13result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton13" onclick="clock(hintbutton13, clicks); onClick(); document.getElementById('countdown13').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Ken and Paul each ordered a sandwich at a restaurant. The price of Ken’s sandwich was x dollars, and the price of Paul’s sandwich was 
 			$1 more than the price of Ken’s sandwich. If Ken and Paul split the cost of the sandwiches evenly and each paid a 20% tip, which of the following expressions 
 			represents the amount, in dollars, each of them paid? (Assume there is no sales tax.)</font></p>
@@ -203,6 +312,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 14</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown14">Hint Countdown!</p>
+			<div id = "hint14"><p style="margin-left: 20px" id = "hint14result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton14" onclick="clock(hintbutton14, clicks); onClick(); document.getElementById('countdown14').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Nick surveyed a random sample of the freshman class of his high school to determine whether the Fall Festival should be held in October 
 			or November. Of the 90 students surveyed, 25.6% preferred October. Based on this information, about how many students in the entire 225-person class would be 
 			expected to prefer having the Fall Festival in October?</font></p>
@@ -217,6 +334,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 15</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown15">Hint Countdown!</p>
+			<div id = "hint15"><p style="margin-left: 20px" id = "hint15result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton15" onclick="clock(hintbutton15, clicks); onClick(); document.getElementById('countdown15').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_15.PNG" alt="Question 15 Graph">
 			</div>
@@ -239,11 +364,27 @@
 			of its value each week for the next three weeks. The analyst uses the equation V = 360(r)<sup>t</sup> to model the value, V, of the stock after t weeks.</font></p>
 			<br>
 			<h5><font color = "#FEFEFE">Question 16</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown16">Hint Countdown!</p>
+			<div id = "hint16"><p style="margin-left: 20px" id = "hint16result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton16" onclick="clock(hintbutton16, clicks); onClick(); document.getElementById('countdown16').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">What value should the analyst use for r ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Percents16"></p>
 			<br>
 			<h5><font color = "#FEFEFE">Question 17</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown17">Hint Countdown!</p>
+			<div id = "hint17"><p style="margin-left: 20px" id = "hint17result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton17" onclick="clock(hintbutton17, clicks); onClick(); document.getElementById('countdown17').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">To the nearest dollar, what does the analyst believe the value of the stock will be at the end of three weeks? (Note: Disregard the $ sign 
 			when gridding your answer.)</font></p>
 			<br>
@@ -252,6 +393,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 18</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown18">Hint Countdown!</p>
+			<div id = "hint18"><p style="margin-left: 20px" id = "hint18result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton18" onclick="clock(hintbutton18, clicks); onClick(); document.getElementById('countdown18').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_18.PNG" alt="Question 18 Graph">
 			</div>
@@ -272,6 +421,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 19</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown19">Hint Countdown!</p>
+			<div id = "hint19"><p style="margin-left: 20px" id = "hint19result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton19" onclick="clock(hintbutton19, clicks); onClick(); document.getElementById('countdown19').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_19.PNG" alt="Question 19 Graph">
 			</div>
@@ -288,6 +445,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 20</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown20">Hint Countdown!</p>
+			<div id = "hint20"><p style="margin-left: 20px" id = "hint20result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton20" onclick="clock(hintbutton20, clicks); onClick(); document.getElementById('countdown20').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A gardener buys two kinds of fertilizer. Fertilizer A contains 60% filler materials by weight and Fertilizer B contains 40% filler 
 			materials by weight. Together, the fertilizers bought by the gardener contain a total of 240 pounds of filler materials. Which equation models this relationship, 
 			where x is the number of pounds of Fertilizer A and y is the number of pounds of Fertilizer B?</font></p>
@@ -302,6 +467,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 21</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown21">Hint Countdown!</p>
+			<div id = "hint21"><p style="margin-left: 20px" id = "hint21result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton21" onclick="clock(hintbutton21, clicks); onClick(); document.getElementById('countdown21').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">How many liters of a 25% saline solution must be added to 3 liters of a 10% saline solution to obtain a 15% saline solution?</font></p>
 			<br>
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Percents21"></p>
@@ -309,6 +482,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 22</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown22">Hint Countdown!</p>
+			<div id = "hint22"><p style="margin-left: 20px" id = "hint22result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton22" onclick="clock(hintbutton22, clicks); onClick(); document.getElementById('countdown22').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_22.PNG" alt="Question 22 Graph">
 			</div>
@@ -326,6 +507,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 23</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown23">Hint Countdown!</p>
+			<div id = "hint23"><p style="margin-left: 20px" id = "hint23result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton23" onclick="clock(hintbutton23, clicks); onClick(); document.getElementById('countdown23').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A customer’s monthly water bill was $75.74. Due to a rate increase, her monthly bill is now $79.86. To the nearest tenth of a percent, 
 			by what percent did the amount of the customer’s water bill increase?</font></p>
 			<br>
@@ -339,6 +528,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 24</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown24">Hint Countdown!</p>
+			<div id = "hint24"><p style="margin-left: 20px" id = "hint24result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton24" onclick="clock(hintbutton24, clicks); onClick(); document.getElementById('countdown24').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A school district is forming a committee to discuss plans for the construction of a new high school. Of those invited to join the 
 			committee, 15% are parents of students, 45% are teachers from the current high school, 25% are school and district administrators, and the remaining 6 
 			individuals are students. How many more teachers were invited to join the committee than school and district administrators?</font></p>
@@ -348,6 +545,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 25</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown25">Hint Countdown!</p>
+			<div id = "hint25"><p style="margin-left: 20px" id = "hint25result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton25" onclick="clock(hintbutton25, clicks); onClick(); document.getElementById('countdown25').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Ken is working this summer as part of a crew on a farm. He earned $8 per hour for the first 10 hours he worked this week. Because 
 			of his performance, his crew leader raised his salary to $10 per hour for the rest of the week. Ken saves 90% of his earnings from each week. What is the least 
 			number of hours he must work the rest of the week to save at least $270 for the week?</font></p>
@@ -362,6 +567,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 26</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown26">Hint Countdown!</p>
+			<div id = "hint26"><p style="margin-left: 20px" id = "hint26result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton26" onclick="clock(hintbutton26, clicks); onClick(); document.getElementById('countdown26').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Lani spent 15% of her 8-hour workday in meetings. How many <u>minutes</u> of her workday did she spend in meetings?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -374,6 +587,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 27</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown27">Hint Countdown!</p>
+			<div id = "hint27"><p style="margin-left: 20px" id = "hint27result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton27" onclick="clock(hintbutton27, clicks); onClick(); document.getElementById('countdown27').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A customer paid $53.00 for a jacket after a 6 percent sales tax was added. What was the price of the jacket before the sales tax was 
 			added?</font></p>
 			<br>
@@ -387,6 +608,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 28</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown28">Hint Countdown!</p>
+			<div id = "hint28"><p style="margin-left: 20px" id = "hint28result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton28" onclick="clock(hintbutton28, clicks); onClick(); document.getElementById('countdown28').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The world’s population has grown at an average rate of 1.9 percent per year since 1945. There were approximately 4 billion people 
 			in the world in 1975. Which of the following functions represents the world’s population P, in billions of people, t years since 1975 ? 
 			(1 billion = 1,000,000,000)</font></p>
@@ -401,6 +630,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 29</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown29">Hint Countdown!</p>
+			<div id = "hint29"><p style="margin-left: 20px" id = "hint29result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton29" onclick="clock(hintbutton29, clicks); onClick(); document.getElementById('countdown29').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_29.PNG" alt="Question 29 Graph">
 			</div>
@@ -419,6 +656,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 30</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown30">Hint Countdown!</p>
+			<div id = "hint30"><p style="margin-left: 20px" id = "hint30result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton30" onclick="clock(hintbutton30, clicks); onClick(); document.getElementById('countdown30').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_30.PNG" alt="Question 30 Graph">
 			</div>
@@ -436,9 +681,10 @@
 			</font></p>
 			<br>
 			
-			<div class="text-center">
-				<input id = "button" type = "button" value = "Submit" onclick = "check();">
-			</div>
+			<div class="text-center"><font color = "#FEFEFE">
+				<p id="submitcountdown">Submit Countdown!</p>
+				<input id = "submitbutton" type = "button" value = "Submit" onclick = "submitcheck(sc); check(); submitClick();">
+			</font></div>
 			<br>
 			
 		</form>

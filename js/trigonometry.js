@@ -74,11 +74,11 @@ var myTimer;
 		}else if (elem2 > 20) {
 			var c = 61 + (20 * elem2);
 		}else {
-			var c = 91;
+			var c = 5;
 		}
 		
 		function myClock() {
-			if (elem.id == "hintbutton1") {
+			if (elem.id.localeCompare("hintbutton1") == 0 && c > 0) {
 				document.getElementById("hintbutton1").disabled = true;
 				document.getElementById("countdown1").innerHTML = --c;
 				
@@ -89,7 +89,7 @@ var myTimer;
 				}
 			}
 			
-			if (elem.id == "hintbutton2") {
+			if (elem.id.localeCompare("hintbutton2") == 0 && c > 0) {
 				document.getElementById("hintbutton2").disabled = true;
 				document.getElementById("countdown2").innerHTML = --c;
 				
@@ -100,7 +100,7 @@ var myTimer;
 				}
 			}
 			
-			if (elem.id == "hintbutton3") {
+			if (elem.id.localeCompare("hintbutton3") == 0 && c > 0) {
 				document.getElementById("hintbutton3").disabled = true;
 				document.getElementById("countdown3").innerHTML = --c;
 				
@@ -111,7 +111,7 @@ var myTimer;
 				}
 			}
 			
-			if (elem.id == "hintbutton4") {
+			if (elem.id.localeCompare("hintbutton4") == 0 && c > 0) {
 				document.getElementById("hintbutton4").disabled = true;
 				document.getElementById("countdown4").innerHTML = --c;
 				
@@ -122,7 +122,7 @@ var myTimer;
 				}
 			}
 			
-			if (elem.id == "hintbutton5") {
+			if (elem.id.localeCompare("hintbutton5") == 0 && c > 0) {
 				document.getElementById("hintbutton5").disabled = true;
 				document.getElementById("countdown5").innerHTML = --c;
 				
@@ -133,7 +133,7 @@ var myTimer;
 				}
 			}
 			
-			if (elem.id == "hintbutton6") {
+			if (elem.id.localeCompare("hintbutton6") == 0 && c > 0) {
 				document.getElementById("hintbutton6").disabled = true;
 				document.getElementById("countdown6").innerHTML = --c;
 				
@@ -144,7 +144,7 @@ var myTimer;
 				}
 			}
 			
-			if (elem.id == "hintbutton7") {
+			if (elem.id.localeCompare("hintbutton7") == 0 && c > 0) {
 				document.getElementById("hintbutton7").disabled = true;
 				document.getElementById("countdown7").innerHTML = --c;
 				
