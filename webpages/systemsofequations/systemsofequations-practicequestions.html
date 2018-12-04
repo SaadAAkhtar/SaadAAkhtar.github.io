@@ -18,6 +18,19 @@
   	<br>
 	
   	<div class="container rounded">
+		<script type="text/javascript">
+		var clicks = 0;
+		var sc = 0;
+		
+		function onClick() {
+			clicks += 1;
+		};
+		
+		function submitClick() {
+			sc += 1;
+		};
+		</script>
+		
 		<h3><font color = "#FEFEFE">Systems of Equations Practice Questions</font></h3>
 		<hr>
 		
@@ -30,6 +43,14 @@
 		<form id = "systemsofequationspractice" name = "systemsofequationspractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
+			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton1" onclick="clock(hintbutton1, clicks); onClick(); document.getElementById('countdown1').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">3x + 4y = -23<br>2y - x = -19</font></p>
 			<br>
 			<p><font color = "#FEFEFE">What is the solution (x, y) to the system of equations above?</font></p>
@@ -44,6 +65,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 2</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown2">Hint Countdown!</p>
+			<div id = "hint2"><p style="margin-left: 20px" id = "hint2result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton2" onclick="clock(hintbutton2, clicks); onClick(); document.getElementById('countdown2').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">b = 2.35 + 0.25x<br>c = 1.75 + 0.40x</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the equations above, b and c represent the price per pound, in dollars, of beef and chicken, respectively, x weeks after July 1 
@@ -59,6 +88,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 3</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown3">Hint Countdown!</p>
+			<div id = "hint3"><p style="margin-left: 20px" id = "hint3result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton3" onclick="clock(hintbutton3, clicks); onClick(); document.getElementById('countdown3').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">x + y = -9<br>x + 2y = -25</font></p>
 			<br>
 			<p><font color = "#FEFEFE">According to the system of equations above, what is the value of x ?</font></p>
@@ -68,6 +105,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 4</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown4">Hint Countdown!</p>
+			<div id = "hint4"><p style="margin-left: 20px" id = "hint4result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton4" onclick="clock(hintbutton4, clicks); onClick(); document.getElementById('countdown4').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If 16 + 4x is 10 more than 14, what is the value of 8x ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -80,6 +125,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 5</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown5">Hint Countdown!</p>
+			<div id = "hint5"><p style="margin-left: 20px" id = "hint5result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton5" onclick="clock(hintbutton5, clicks); onClick(); document.getElementById('countdown5').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A food truck sells salads for $6.50 each and drinks for $2.00 each. The food truck’s revenue from selling a total of 209 salads and 
 			drinks in one day was $836.50. How many salads were sold that day?</font></p>
 			<br>
@@ -93,6 +146,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 6</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown6">Hint Countdown!</p>
+			<div id = "hint6"><p style="margin-left: 20px" id = "hint6result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton6" onclick="clock(hintbutton6, clicks); onClick(); document.getElementById('countdown6').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The posted weight limit for a covered wooden bridge in Pennsylvania is 6000 pounds. A delivery truck that is carrying x identical 
 			boxes each weighing 14 pounds will pass over the bridge. If the combined weight of the empty delivery truck and its driver is 4500 pounds, what is the maximum 
 			possible value for x that will keep the combined weight of the truck, driver, and boxes below the bridge’s posted weight limit?</font></p>
@@ -102,6 +163,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 7</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown7">Hint Countdown!</p>
+			<div id = "hint7"><p style="margin-left: 20px" id = "hint7result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton7" onclick="clock(hintbutton7, clicks); onClick(); document.getElementById('countdown7').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">x + y = 0<br>3x - 2y = 10</font></p>
 			<br>
 			<p><font color = "#FEFEFE">Which of the following ordered pairs (x, y) satisfies the system of equations above?</font></p>
@@ -116,6 +185,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 8</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown8">Hint Countdown!</p>
+			<div id = "hint8"><p style="margin-left: 20px" id = "hint8result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton8" onclick="clock(hintbutton8, clicks); onClick(); document.getElementById('countdown8').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The graph of a line in the xy-plane has slope 2 and contains the point (1, 8). The graph of a second line passes through the points 
 			(1, 2) and (2, 1). If the two lines intersect at the point (a, b), what is the value of a + b ?</font></p>
 			<br>
@@ -129,6 +206,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 9</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown9">Hint Countdown!</p>
+			<div id = "hint9"><p style="margin-left: 20px" id = "hint9result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton9" onclick="clock(hintbutton9, clicks); onClick(); document.getElementById('countdown9').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">ax + by = 12<br>2x + 8y = 60</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the system of equations above, a and b are constants. If the system has infinitely many solutions, what is the value of 
@@ -139,6 +224,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 10</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown10">Hint Countdown!</p>
+			<div id = "hint10"><p style="margin-left: 20px" id = "hint10result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton10" onclick="clock(hintbutton10, clicks); onClick(); document.getElementById('countdown10').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A musician has a new song available for downloading or streaming. The musician earns $0.09 each time the song is downloaded and 
 			$0.002 each time the song is streamed. Which of the following expressions represents the amount, in dollars, that the musician earns if the song is downloaded 
 			d times and streamed s times?</font></p>
@@ -153,6 +246,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 11</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown11">Hint Countdown!</p>
+			<div id = "hint11"><p style="margin-left: 20px" id = "hint11result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton11" onclick="clock(hintbutton11, clicks); onClick(); document.getElementById('countdown11').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A worker uses a forklift to move boxes that weigh either 40 pounds or 65 pounds each. Let x be the number of 40-pound boxes and y be 
 			the number of 65-pound boxes. The forklift can carry up to either 45 boxes or a weight of 2,400 pounds. Which of the following systems of inequalities represents 
 			this relationship?</font></p>
@@ -176,6 +277,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 12</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown12">Hint Countdown!</p>
+			<div id = "hint12"><p style="margin-left: 20px" id = "hint12result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton12" onclick="clock(hintbutton12, clicks); onClick(); document.getElementById('countdown12').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In one semester, Doug and Laura spent a combined 250 hours in the tutoring lab. If Doug spent 40 more hours in the lab than Laura did, 
 			how many hours did Laura spend in the lab?</font></p>
 			<br>
@@ -184,6 +293,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 13</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown13">Hint Countdown!</p>
+			<div id = "hint13"><p style="margin-left: 20px" id = "hint13result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton13" onclick="clock(hintbutton13, clicks); onClick(); document.getElementById('countdown13').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The number of states that joined the United States between 1776 and 1849 is twice the number of states that joined between 1850 and 
 			1900. If 30 states joined the United States between 1776 and 1849 and x states joined between 1850 and 1900, which of the following equations is true?</font></p>
 			<br>
@@ -197,6 +314,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 14</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown14">Hint Countdown!</p>
+			<div id = "hint14"><p style="margin-left: 20px" id = "hint14result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton14" onclick="clock(hintbutton14, clicks); onClick(); document.getElementById('countdown14').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">2x - 3y = -14<br>3x - 2y = -6</font></p>
 			<br>
 			<p><font color = "#FEFEFE">If (x, y) is a solution to the system of equations above, what is the value of x − y ?</font></p>
@@ -211,6 +336,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 15</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown15">Hint Countdown!</p>
+			<div id = "hint15"><p style="margin-left: 20px" id = "hint15result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton15" onclick="clock(hintbutton15, clicks); onClick(); document.getElementById('countdown15').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">kx - 3y = 4<br>4x - 5y = 7</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the system of equations above, k is a constant and x and y are variables. For what value of k will the system of equations have no 
@@ -226,6 +359,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 16</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown16">Hint Countdown!</p>
+			<div id = "hint16"><p style="margin-left: 20px" id = "hint16result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton16" onclick="clock(hintbutton16, clicks); onClick(); document.getElementById('countdown16').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In the xy-plane, the parabola with equation y = (x − 11)<sup>2</sup> intersects the line with equation y = 25 at two points, A and B. 
 			What is the length of AB ?</font></p>
 			<br>
@@ -239,6 +380,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 17</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown17">Hint Countdown!</p>
+			<div id = "hint17"><p style="margin-left: 20px" id = "hint17result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton17" onclick="clock(hintbutton17, clicks); onClick(); document.getElementById('countdown17').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">At a lunch stand, each hamburger has 50 more calories than each order of fries. If 2 hamburgers and 3 orders of fries have a total of 
 			1700 calories, how many calories does a hamburger have?</font></p>
 			<br>
@@ -247,6 +396,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 18</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown18">Hint Countdown!</p>
+			<div id = "hint18"><p style="margin-left: 20px" id = "hint18result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton18" onclick="clock(hintbutton18, clicks); onClick(); document.getElementById('countdown18').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">S(P) = (<sup>1</sup>&frasl;<sub>2</sub>)(P) + 40<br>D(P) = 220 - P</font></p>
 			<br>
 			<p><font color = "#FEFEFE">The quantity of a product supplied and the quantity of the product demanded in an economic market are functions of the price of the 
@@ -266,6 +423,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 19</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown19">Hint Countdown!</p>
+			<div id = "hint19"><p style="margin-left: 20px" id = "hint19result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton19" onclick="clock(hintbutton19, clicks); onClick(); document.getElementById('countdown19').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The sum of three numbers is 855. One of the numbers, x, is 50% more than the sum of the other two numbers. What is the value of 
 			x ?</font></p>
 			<br>
@@ -279,6 +444,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 20</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown20">Hint Countdown!</p>
+			<div id = "hint20"><p style="margin-left: 20px" id = "hint20result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton20" onclick="clock(hintbutton20, clicks); onClick(); document.getElementById('countdown20').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Mr. Kohl has a beaker containing n milliliters of solution to distribute to the students in his chemistry class. If he gives each 
 			student 3 milliliters of solution, he will have 5 milliliters left over. In order to give each student 4 milliliters of solution, he will need an additional 
 			21 milliliters. How many students are in the class?</font></p>
@@ -293,6 +466,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 21</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown21">Hint Countdown!</p>
+			<div id = "hint21"><p style="margin-left: 20px" id = "hint21result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton21" onclick="clock(hintbutton21, clicks); onClick(); document.getElementById('countdown21').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">3x + b = 5x - 7<br>3y + c = 5y - 7</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the equations above, b and c are constants. If b is c minus <sup>1</sup>&frasl;<sub>2</sub> , which of the following is 
@@ -308,6 +489,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 22</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown22">Hint Countdown!</p>
+			<div id = "hint22"><p style="margin-left: 20px" id = "hint22result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton22" onclick="clock(hintbutton22, clicks); onClick(); document.getElementById('countdown22').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">y ≤ -15x + 3000<br>y ≤ 5x</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the xy-plane, if a point with coordinates (a, b) lies in the solution set of the system of inequalities above, what is the maximum 
@@ -318,6 +507,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 23</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown23">Hint Countdown!</p>
+			<div id = "hint23"><p style="margin-left: 20px" id = "hint23result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton23" onclick="clock(hintbutton23, clicks); onClick(); document.getElementById('countdown23').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE"><sup>x</sup>&frasl;<sub>y</sub> = 6<br>4(y + 1) = x</font></p>
 			<br>
 			<p><font color = "#FEFEFE">If (x, y) is the solution to the system of equations above, what is the value of y ?</font></p>
@@ -332,6 +529,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 24</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown24">Hint Countdown!</p>
+			<div id = "hint24"><p style="margin-left: 20px" id = "hint24result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton24" onclick="clock(hintbutton24, clicks); onClick(); document.getElementById('countdown24').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">-3x + 4y = 20<br>6x + 3y = 15</font></p>
 			<br>
 			<p><font color = "#FEFEFE">If (x, y) is the solution to the system of equations above, what is the value of x ?</font></p>
@@ -341,6 +546,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 25</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown25">Hint Countdown!</p>
+			<div id = "hint25"><p style="margin-left: 20px" id = "hint25result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton25" onclick="clock(hintbutton25, clicks); onClick(); document.getElementById('countdown25').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The monthly membership fee for an online television and movie service is $9.80. The cost of viewing television shows online is 
 			included in the membership fee, but there is an additional fee of $1.50 to rent each movie online. For one month, Jill’s membership and movie rental fees were 
 			$12.80. How many movies did Jill rent online that month?</font></p>
@@ -355,6 +568,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 26</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown26">Hint Countdown!</p>
+			<div id = "hint26"><p style="margin-left: 20px" id = "hint26result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton26" onclick="clock(hintbutton26, clicks); onClick(); document.getElementById('countdown26').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">One of the requirements for becoming a court reporter is the ability to type 225 words per minute. Donald can currently type 180 words 
 			per minute, and believes that with practice he can increase his typing speed by 5 words per minute each month. Which of the following represents the number of 
 			words per minute that Donald believes he will be able to type m months from now?</font></p>
@@ -369,6 +590,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 27</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown27">Hint Countdown!</p>
+			<div id = "hint27"><p style="margin-left: 20px" id = "hint27result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton27" onclick="clock(hintbutton27, clicks); onClick(); document.getElementById('countdown27').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Last week Raul worked 11 more hours than Angelica. If they worked a combined total of 59 hours, how many hours did Angelica work last 
 			week?</font></p>
 			<br>
@@ -382,6 +611,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 28</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown28">Hint Countdown!</p>
+			<div id = "hint28"><p style="margin-left: 20px" id = "hint28result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton28" onclick="clock(hintbutton28, clicks); onClick(); document.getElementById('countdown28').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Mr. Martinson is building a concrete patio in his backyard and deciding where to buy the materials and rent the tools needed for the 
 			project. The table below shows the materials’ cost and daily rental costs for three different stores.</font></p>
 			<br>
@@ -405,6 +642,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 29</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown29">Hint Countdown!</p>
+			<div id = "hint29"><p style="margin-left: 20px" id = "hint29result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton29" onclick="clock(hintbutton29, clicks); onClick(); document.getElementById('countdown29').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_29.PNG" alt="Question 29 Graph">
 			</div>
@@ -422,6 +667,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 30</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown30">Hint Countdown!</p>
+			<div id = "hint30"><p style="margin-left: 20px" id = "hint30result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton30" onclick="clock(hintbutton30, clicks); onClick(); document.getElementById('countdown30').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In a study of bat migration habits, 240 male bats and 160 female bats have been tagged. If 100 more female bats are tagged, how many 
 			more male bats must be tagged so that <sup>3</sup>&frasl;<sub>5</sub> of the total number of bats in the study are male?</font></p>
 			<br>
@@ -430,6 +683,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 31</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown31">Hint Countdown!</p>
+			<div id = "hint31"><p style="margin-left: 20px" id = "hint31result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton31" onclick="clock(hintbutton31, clicks); onClick(); document.getElementById('countdown31').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Jackie has two summer jobs. She works as a tutor, which pays $12 per hour, and she works as a lifeguard, which pays $9.50 per hour. 
 			She can work no more than 20 hours per week, but she wants to earn at least $220 per week. Which of the following systems of inequalities represents this 
 			situation in terms of x and y, where x is the number of hours she tutors and y is the number of hours she works as a lifeguard?</font></p>
@@ -453,6 +714,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 32</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown32">Hint Countdown!</p>
+			<div id = "hint32"><p style="margin-left: 20px" id = "hint32result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton32" onclick="clock(hintbutton32, clicks); onClick(); document.getElementById('countdown32').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">y = x<sup>2</sup><br>2y + 6 = 2(x + 3)</font></p>
 			<br>
 			<p><font color = "#FEFEFE">If (x, y) is a solution of the system of equations above and x > 0, what is the value of xy ?</font></p>
@@ -467,6 +736,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 33</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown33">Hint Countdown!</p>
+			<div id = "hint33"><p style="margin-left: 20px" id = "hint33result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton33" onclick="clock(hintbutton33, clicks); onClick(); document.getElementById('countdown33').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Alan drives an average of 100 miles each week. His car can travel an average of 25 miles per gallon of gasoline. Alan would like to 
 			reduce his weekly expenditure on gasoline by $5. Assuming gasoline costs $4 per gallon, which equation can Alan use to determine how many fewer average miles, m, 
 			he should drive each week?</font></p>
@@ -481,6 +758,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 34</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown34">Hint Countdown!</p>
+			<div id = "hint34"><p style="margin-left: 20px" id = "hint34result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton34" onclick="clock(hintbutton34, clicks); onClick(); document.getElementById('countdown34').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">(<sup>1</sup>&frasl;<sub>2</sub>)(2x + y) = <sup>21</sup>&frasl;<sub>2</sub><br>y = 2x</font></p>
 			<br>
 			<p><font color = "#FEFEFE">The system of equations above has solution (x, y). What is the value of x ?</font></p>
@@ -490,6 +775,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 35</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown35">Hint Countdown!</p>
+			<div id = "hint35"><p style="margin-left: 20px" id = "hint35result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton35" onclick="clock(hintbutton35, clicks); onClick(); document.getElementById('countdown35').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">An online bookstore sells novels and magazines. Each novel sells for $4, and each magazine sells for $1. If Sadie purchased a total 
 			of 11 novels and magazines that have a combined selling price of $20, how many novels did she purchase?</font></p>
 			<br>
@@ -503,6 +796,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 36</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown36">Hint Countdown!</p>
+			<div id = "hint36"><p style="margin-left: 20px" id = "hint36result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton36" onclick="clock(hintbutton36, clicks); onClick(); document.getElementById('countdown36').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">(<sup>1</sup>&frasl;<sub>2</sub>)y = 4<br>x - (<sup>1</sup>&frasl;<sub>2</sub>)y = 2</font></p>
 			<br>
 			<p><font color = "#FEFEFE">The system of equations above has solution (x, y). What is the value of x ?</font></p>
@@ -517,6 +818,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 37</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown37">Hint Countdown!</p>
+			<div id = "hint37"><p style="margin-left: 20px" id = "hint37result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton37" onclick="clock(hintbutton37, clicks); onClick(); document.getElementById('countdown37').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A landscaper is designing a rectangular garden. The length of the garden is to be 5 feet longer than the width. If the area of the 
 			garden will be 104 square feet, what will be the length, in feet, of the garden?</font></p>
 			<br>
@@ -525,6 +834,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 38</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown38">Hint Countdown!</p>
+			<div id = "hint38"><p style="margin-left: 20px" id = "hint38result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton38" onclick="clock(hintbutton38, clicks); onClick(); document.getElementById('countdown38').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If x = (<sup>2</sup>&frasl;<sub>3</sub>)y and y = 18, what is the value of 2x − 3 ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -537,6 +854,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 39</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown39">Hint Countdown!</p>
+			<div id = "hint39"><p style="margin-left: 20px" id = "hint39result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton39" onclick="clock(hintbutton39, clicks); onClick(); document.getElementById('countdown39').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If a<sup><sup>b</sup>&frasl;<sub>4</sub></sup> = 16 for positive integers a and b, what is one possible value of b ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "SystemsOfEquations39"></p>
@@ -544,6 +869,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 40</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown40">Hint Countdown!</p>
+			<div id = "hint40"><p style="margin-left: 20px" id = "hint40result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton40" onclick="clock(hintbutton40, clicks); onClick(); document.getElementById('countdown40').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Between 1497 and 1500, Amerigo Vespucci embarked on two voyages to the New World. According to Vespucci’s letters, the first voyage 
 			lasted 43 days longer than the second voyage, and the two voyages combined lasted a total of 1,003 days. How many days did the second voyage last?</font></p>
 			<br>
@@ -557,6 +890,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 41</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown41">Hint Countdown!</p>
+			<div id = "hint41"><p style="margin-left: 20px" id = "hint41result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton41" onclick="clock(hintbutton41, clicks); onClick(); document.getElementById('countdown41').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">7x + 3y = 8<br>6x - 3y = 5</font></p>
 			<br>
 			<p><font color = "#FEFEFE">For the solution (x, y) to the system of equations above, what is the value of x - y ?</font></p>
@@ -571,6 +912,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 42</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown42">Hint Countdown!</p>
+			<div id = "hint42"><p style="margin-left: 20px" id = "hint42result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton42" onclick="clock(hintbutton42, clicks); onClick(); document.getElementById('countdown42').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">An architect wants to use the riser-tread formula to design a stairway with a total rise of 9 feet, a riser height between 7 and 8 
 			inches, and an odd number of steps. With the architect’s constraints, which of the following must be the tread depth, in inches, of the stairway? 
 			(1 foot = 12 inches)</font></p>
@@ -585,6 +934,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 43</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown43">Hint Countdown!</p>
+			<div id = "hint43"><p style="margin-left: 20px" id = "hint43result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton43" onclick="clock(hintbutton43, clicks); onClick(); document.getElementById('countdown43').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A group of friends decided to divide the $800 cost of a trip equally among themselves. When two of the friends decided not to go on 
 			the trip, those remaining still divided the $800 cost equally, but each friend’s share of the cost increased by $20. How many friends were in the group 
 			originally?</font></p>
@@ -594,6 +951,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 44</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown44">Hint Countdown!</p>
+			<div id = "hint44"><p style="margin-left: 20px" id = "hint44result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton44" onclick="clock(hintbutton44, clicks); onClick(); document.getElementById('countdown44').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">x = y - 3<br><sup>x</sup>&frasl;<sub>2</sub> + 2y = 6</font></p>
 			<br>
 			<p><font color = "#FEFEFE">Which ordered pair (x, y) satisfies the system of equations shown above?</font></p>
@@ -608,6 +973,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 45</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown45">Hint Countdown!</p>
+			<div id = "hint45"><p style="margin-left: 20px" id = "hint45result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton45" onclick="clock(hintbutton45, clicks); onClick(); document.getElementById('countdown45').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Marisa needs to hire at least 10 staff members for an upcoming project. The staff members will be made up of junior directors, who 
 			will be paid $640 per week, and senior directors, who will be paid $880 per week. Her budget for paying the staff members is no more than $9,700 per week. She 
 			must hire at least 3 junior directors and at least 1 senior director. Which of the following systems of inequalities represents the conditions described if x 
@@ -640,6 +1013,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 46</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown46">Hint Countdown!</p>
+			<div id = "hint46"><p style="margin-left: 20px" id = "hint46result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton46" onclick="clock(hintbutton46, clicks); onClick(); document.getElementById('countdown46').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A software company is selling a new game in a standard edition and a collector’s edition. The box for the standard edition has a 
 			volume of 20 cubic inches, and the box for the collector’s edition has a volume of 30 cubic inches. The company receives an order for 75 copies of the game, and 
 			the total volume of the order to be shipped is 1,870 cubic inches. Which of the following systems of equations can be used to determine the number of standard 
@@ -664,6 +1045,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 47</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown47">Hint Countdown!</p>
+			<div id = "hint47"><p style="margin-left: 20px" id = "hint47result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton47" onclick="clock(hintbutton47, clicks); onClick(); document.getElementById('countdown47').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If a − b = 12 and <sup>b</sup>&frasl;<sub>2</sub> = 10, what is the value of a + b ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -676,6 +1065,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 48</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown48">Hint Countdown!</p>
+			<div id = "hint48"><p style="margin-left: 20px" id = "hint48result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton48" onclick="clock(hintbutton48, clicks); onClick(); document.getElementById('countdown48').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_48.PNG" alt="Question 48 Graph">
 			</div>
@@ -696,6 +1093,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 49</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown49">Hint Countdown!</p>
+			<div id = "hint49"><p style="margin-left: 20px" id = "hint49result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton49" onclick="clock(hintbutton49, clicks); onClick(); document.getElementById('countdown49').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The score on a trivia game is obtained by subtracting the number of incorrect answers from twice the number of correct answers. If 
 			a player answered 40 questions and obtained a score of 50, how many questions did the player answer correctly?</font></p>
 			<br>
@@ -704,6 +1109,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 50</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown50">Hint Countdown!</p>
+			<div id = "hint50"><p style="margin-left: 20px" id = "hint50result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton50" onclick="clock(hintbutton50, clicks); onClick(); document.getElementById('countdown50').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The width of a rectangular dance floor is w feet. The length of the floor is 6 feet longer than its width. Which of the following 
 			expresses the perimeter, in feet, of the dance floor in terms of w ?</font></p>
 			<br>
@@ -717,6 +1130,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 51</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown51">Hint Countdown!</p>
+			<div id = "hint51"><p style="margin-left: 20px" id = "hint51result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton51" onclick="clock(hintbutton51, clicks); onClick(); document.getElementById('countdown51').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">y > 2x − 1<br>2x > 5</font></p>
 			<br>
 			<p><font color = "#FEFEFE">Which of the following consists of the y-coordinates of all the points that satisfy the system of inequalities above?</font></p>
@@ -731,6 +1152,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 52</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown52">Hint Countdown!</p>
+			<div id = "hint52"><p style="margin-left: 20px" id = "hint52result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton52" onclick="clock(hintbutton52, clicks); onClick(); document.getElementById('countdown52').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A group of 202 people went on an overnight camping trip, taking 60 tents with them. Some of the tents held 2 people each, and the 
 			rest held 4 people each. Assuming all the tents were filled to capacity and every person got to sleep in a tent, exactly how many of the tents were 2-person 
 			tents?</font></p>
@@ -745,6 +1174,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 53</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown53">Hint Countdown!</p>
+			<div id = "hint53"><p style="margin-left: 20px" id = "hint53result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton53" onclick="clock(hintbutton53, clicks); onClick(); document.getElementById('countdown53').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">-x + y = -3.5<br>x + 3y = 9.5</font></p>
 			<br>
 			<p><font color = "#FEFEFE">If (x, y) satisfies the system of equations above, what is the value of y ?</font></p>
@@ -754,6 +1191,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 54</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown54">Hint Countdown!</p>
+			<div id = "hint54"><p style="margin-left: 20px" id = "hint54result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton54" onclick="clock(hintbutton54, clicks); onClick(); document.getElementById('countdown54').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Two types of tickets were sold for a concert held at an amphitheater. Tickets to sit on a bench during the concert cost $75 each, 
 			and tickets to sit on the lawn during the concert cost $40 each. Organizers of the concert announced that 350 tickets had been sold and that $19,250 had been 
 			raised through ticket sales alone. Which of the following systems of equations could be used to find the number of tickets for bench seats, B, and the number 
@@ -778,6 +1223,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 55</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown55">Hint Countdown!</p>
+			<div id = "hint55"><p style="margin-left: 20px" id = "hint55result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton55" onclick="clock(hintbutton55, clicks); onClick(); document.getElementById('countdown55').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Roberto is an insurance agent who sells two types of policies: a $50,000 policy and a $100,000 policy. Last month, his goal was to 
 			sell at least 57 insurance policies. While he did not meet his goal, the total value of the policies he sold was over $3,000,000. Which of the following systems 
 			of inequalities describes x, the possible number of $50,000 policies, and y, the possible number of $100,000 policies, that Roberto sold last month?</font></p>
@@ -801,15 +1254,24 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 56</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown56">Hint Countdown!</p>
+			<div id = "hint56"><p style="margin-left: 20px" id = "hint56result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton56" onclick="clock(hintbutton56, clicks); onClick(); document.getElementById('countdown56').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In the xy-plane, the equations x + 2y = 10 and 3x + 6y = c represent the same line for some constant c. What is the value of 
 			c ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "SystemsOfEquations56"></p>
 			<br>
 			
-			<div class="text-center">
-				<input id = "button" type = "button" value = "Submit" onclick = "check();">
-			</div>
+			<div class="text-center"><font color = "#FEFEFE">
+				<p id="submitcountdown">Submit Countdown!</p>
+				<input id = "submitbutton" type = "button" value = "Submit" onclick = "submitcheck(sc); check(); submitClick();">
+			</font></div>
 			<br>
 			
 		</form>

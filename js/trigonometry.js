@@ -74,7 +74,7 @@ var myTimer;
 		}else if (elem2 > 20) {
 			var c = 61 + (20 * elem2);
 		}else {
-			var c = 5;
+			var c = 91;
 		}
 		
 		function myClock() {
