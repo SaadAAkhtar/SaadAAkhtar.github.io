@@ -196,6 +196,8 @@ function check(){
 	
 }
 
+var hintClicks = 0;
+
 var myTimer;
 
 	function submitcheck(elem){		
@@ -222,6 +224,13 @@ var myTimer;
 	function clock(elem, elem2) {
 		myTimer = setInterval(myClock, 1000);
 		
+		if (hintClicks > 0) {
+			alert("Only one hint countdown can be active at any given time.");
+			return;
+		}
+		
+		hintClicks += 1;
+		
 		if (elem2 > 5 && elem2 <= 10) {
 			var c = 61 + (10 * elem2);
 		}else if (elem2 > 10 && elem2 <= 20) {
@@ -238,6 +247,7 @@ var myTimer;
 				document.getElementById("countdown1").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
 					document.getElementById("hint1result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -249,6 +259,7 @@ var myTimer;
 				document.getElementById("countdown2").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
 					document.getElementById("hint2result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -260,6 +271,7 @@ var myTimer;
 				document.getElementById("countdown3").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
 					document.getElementById("hint3result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -271,6 +283,7 @@ var myTimer;
 				document.getElementById("countdown4").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
 					document.getElementById("hint4result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -282,6 +295,7 @@ var myTimer;
 				document.getElementById("countdown5").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
 					document.getElementById("hint5result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -293,6 +307,7 @@ var myTimer;
 				document.getElementById("countdown6").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
 					document.getElementById("hint6result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -304,6 +319,7 @@ var myTimer;
 				document.getElementById("countdown7").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
 					document.getElementById("hint7result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -315,6 +331,7 @@ var myTimer;
 				document.getElementById("countdown8").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
 					document.getElementById("hint8result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -326,6 +343,7 @@ var myTimer;
 				document.getElementById("countdown9").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
 					document.getElementById("hint9result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -337,6 +355,7 @@ var myTimer;
 				document.getElementById("countdown10").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
 					document.getElementById("hint10result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -348,6 +367,7 @@ var myTimer;
 				document.getElementById("countdown11").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
 					document.getElementById("hint11result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -359,6 +379,7 @@ var myTimer;
 				document.getElementById("countdown12").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
 					document.getElementById("hint12result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -370,6 +391,7 @@ var myTimer;
 				document.getElementById("countdown13").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
 					document.getElementById("hint13result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -381,6 +403,7 @@ var myTimer;
 				document.getElementById("countdown14").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint14").style.visibility = "visible";
 					document.getElementById("hint14result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -392,6 +415,7 @@ var myTimer;
 				document.getElementById("countdown15").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint15").style.visibility = "visible";
 					document.getElementById("hint15result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -403,6 +427,7 @@ var myTimer;
 				document.getElementById("countdown16").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint16").style.visibility = "visible";
 					document.getElementById("hint16result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -414,6 +439,7 @@ var myTimer;
 				document.getElementById("countdown17").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint17").style.visibility = "visible";
 					document.getElementById("hint17result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -425,6 +451,7 @@ var myTimer;
 				document.getElementById("countdown18").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint18").style.visibility = "visible";
 					document.getElementById("hint18result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -436,6 +463,7 @@ var myTimer;
 				document.getElementById("countdown19").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint19").style.visibility = "visible";
 					document.getElementById("hint19result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -447,6 +475,7 @@ var myTimer;
 				document.getElementById("countdown20").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint20").style.visibility = "visible";
 					document.getElementById("hint20result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -458,6 +487,7 @@ var myTimer;
 				document.getElementById("countdown21").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint21").style.visibility = "visible";
 					document.getElementById("hint21result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -469,6 +499,7 @@ var myTimer;
 				document.getElementById("countdown22").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint22").style.visibility = "visible";
 					document.getElementById("hint22result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -480,6 +511,7 @@ var myTimer;
 				document.getElementById("countdown23").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint23").style.visibility = "visible";
 					document.getElementById("hint23result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -491,6 +523,7 @@ var myTimer;
 				document.getElementById("countdown24").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint24").style.visibility = "visible";
 					document.getElementById("hint24result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -502,6 +535,7 @@ var myTimer;
 				document.getElementById("countdown25").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint25").style.visibility = "visible";
 					document.getElementById("hint25result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -513,6 +547,7 @@ var myTimer;
 				document.getElementById("countdown26").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint26").style.visibility = "visible";
 					document.getElementById("hint26result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -524,6 +559,7 @@ var myTimer;
 				document.getElementById("countdown27").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint27").style.visibility = "visible";
 					document.getElementById("hint27result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -535,6 +571,7 @@ var myTimer;
 				document.getElementById("countdown28").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint28").style.visibility = "visible";
 					document.getElementById("hint28result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -546,6 +583,7 @@ var myTimer;
 				document.getElementById("countdown29").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint29").style.visibility = "visible";
 					document.getElementById("hint29result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -557,6 +595,7 @@ var myTimer;
 				document.getElementById("countdown30").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint30").style.visibility = "visible";
 					document.getElementById("hint30result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -568,6 +607,7 @@ var myTimer;
 				document.getElementById("countdown31").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint31").style.visibility = "visible";
 					document.getElementById("hint31result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -579,6 +619,7 @@ var myTimer;
 				document.getElementById("countdown32").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint32").style.visibility = "visible";
 					document.getElementById("hint32result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -590,6 +631,7 @@ var myTimer;
 				document.getElementById("countdown33").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint33").style.visibility = "visible";
 					document.getElementById("hint33result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -601,6 +643,7 @@ var myTimer;
 				document.getElementById("countdown34").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint34").style.visibility = "visible";
 					document.getElementById("hint34result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -612,6 +655,7 @@ var myTimer;
 				document.getElementById("countdown35").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint35").style.visibility = "visible";
 					document.getElementById("hint35result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -623,6 +667,7 @@ var myTimer;
 				document.getElementById("countdown36").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint36").style.visibility = "visible";
 					document.getElementById("hint36result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -634,6 +679,7 @@ var myTimer;
 				document.getElementById("countdown37").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint37").style.visibility = "visible";
 					document.getElementById("hint37result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -645,6 +691,7 @@ var myTimer;
 				document.getElementById("countdown38").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint38").style.visibility = "visible";
 					document.getElementById("hint38result").innerHTML = "Hello!";
 					clearInterval(myTimer);

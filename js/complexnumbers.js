@@ -31,6 +31,8 @@ function check(){
 	
 }
 
+var hintClicks = 0;
+
 var myTimer;
 
 	function submitcheck(elem){		
@@ -57,6 +59,13 @@ var myTimer;
 	function clock(elem, elem2) {
 		myTimer = setInterval(myClock, 1000);
 		
+		if (hintClicks > 0) {
+			alert("Only one hint countdown can be active at any given time.");
+			return;
+		}
+		
+		hintClicks += 1;
+		
 		if (elem2 > 5 && elem2 <= 10) {
 			var c = 61 + (10 * elem2);
 		}else if (elem2 > 10 && elem2 <= 20) {
@@ -73,6 +82,7 @@ var myTimer;
 				document.getElementById("countdown1").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
 					document.getElementById("hint1result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -84,6 +94,7 @@ var myTimer;
 				document.getElementById("countdown2").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
 					document.getElementById("hint2result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -95,6 +106,7 @@ var myTimer;
 				document.getElementById("countdown3").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
 					document.getElementById("hint3result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -106,6 +118,7 @@ var myTimer;
 				document.getElementById("countdown4").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
 					document.getElementById("hint4result").innerHTML = "Hello!";
 					clearInterval(myTimer);
@@ -117,6 +130,7 @@ var myTimer;
 				document.getElementById("countdown5").innerHTML = --c;
 				
 				if (c == 0) {
+					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
 					document.getElementById("hint5result").innerHTML = "Hello!";
 					clearInterval(myTimer);
