@@ -19,11 +19,21 @@
 	
   	<div class="container rounded">
 		<!-- ADDED STUFF HERE!!! -->
+		<!--<p>Clicks: <a id="clicks">0</a></p>-->
+		<!--Clicks: <a id="sc">0</a></p>-->
+		<!-- ADDED STUFF HERE!!! -->
 		<script type="text/javascript">
 		var clicks = 0;
+		var sc = 0;
+		
 		function onClick() {
 			clicks += 1;
 			document.getElementById("clicks").innerHTML = clicks;
+		};
+		
+		function submitClick() {
+			sc += 1;
+			document.getElementById("sc").innerHTML = sc;
 		};
 		</script>
 	
@@ -39,7 +49,6 @@
 		<form id = "trigonometrypractice" name = "trigonometrypractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
-			<!--<p>Clicks: <a id="clicks">0</a></p>-->
 			<font color = "#FEFEFE">
 			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
 			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
@@ -166,9 +175,10 @@
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Trigonometry7"></p>
 			<br>
 			
-			<div class="text-center">
-				<input id = "button" type = "button" value = "Submit" onclick = "check();">
-			</div>
+			<div class="text-center"><font color = "#FEFEFE">
+				<p id="submitcountdown">Submit Countdown!</p>
+				<input id = "submitbutton" type = "button" value = "Submit" onclick = "submitcheck(sc); check(); submitClick();">
+			</font></div>
 			<br>
 		
 		</form>

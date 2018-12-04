@@ -1,5 +1,5 @@
 body {
-	background-color: #121212;
+	background-color: #000000;
 }
 
 hr {
@@ -8,7 +8,7 @@ hr {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-color: #EEEEEE;
   border-style: solid none;
   border-width: 1px 0;
   margin: 18px 0;
@@ -19,13 +19,13 @@ p {
 }
 
 .container {
-	background-color: #F43A53;
+	background-color: #3182BD;
 	max-width: 960px;
 }
 
 .btn-primary.custom-btn {
-	background-color: #F43A53;
-	border-color: #F43A53;
+	background-color: #3182BD;
+	border-color: #3182BD;
 	position:relative;
 	margin-top:1%;
 }

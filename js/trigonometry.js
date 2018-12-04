@@ -37,12 +37,33 @@ function check(){
 		correct++;
 	}
 	
-	document.getElementById("after_submit").style.visibility = "visible";
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
 	
 }
 
 var myTimer;
+
+	function submitcheck(elem){		
+		if (elem <= 8) {
+			document.getElementById("after_submit").style.visibility = "visible";
+		}else {
+			alert("You have submitted " + (elem + 1) + " times. Review your answers thoroughly and try again once the 'Submit Countdown!' has finished.");
+			document.getElementById("submitbutton").disabled = true;
+			
+			myTimer = setInterval(myClock, 1000)
+			var c = (60 + 10 * (elem - 9)) + 1;
+			
+			function myClock() {
+				document.getElementById("submitcountdown").innerHTML = --c;
+				
+				if (c == 0) {
+					document.getElementById("submitbutton").disabled = false;
+					clearInterval(myTimer);
+				}
+			}
+		}
+	}
+
 	function clock(elem, elem2) {
 		myTimer = setInterval(myClock, 1000);
 		
@@ -60,6 +81,7 @@ var myTimer;
 			if (elem.id == "hintbutton1") {
 				document.getElementById("hintbutton1").disabled = true;
 				document.getElementById("countdown1").innerHTML = --c;
+				
 				if (c == 0) {
 					document.getElementById("hint1").style.visibility = "visible";
 					document.getElementById("hint1result").innerHTML = "The complementary angle theorem is applicable here.";
@@ -70,6 +92,7 @@ var myTimer;
 			if (elem.id == "hintbutton2") {
 				document.getElementById("hintbutton2").disabled = true;
 				document.getElementById("countdown2").innerHTML = --c;
+				
 				if (c == 0) {
 					document.getElementById("hint2").style.visibility = "visible";
 					document.getElementById("hint2result").innerHTML = "As vertex F corresponds to vertex C, the two angle measures are equal.";
@@ -80,6 +103,7 @@ var myTimer;
 			if (elem.id == "hintbutton3") {
 				document.getElementById("hintbutton3").disabled = true;
 				document.getElementById("countdown3").innerHTML = --c;
+				
 				if (c == 0) {
 					document.getElementById("hint3").style.visibility = "visible";
 					document.getElementById("hint3result").innerHTML = "The complementary angle theorem is applicable here.";
@@ -90,6 +114,7 @@ var myTimer;
 			if (elem.id == "hintbutton4") {
 				document.getElementById("hintbutton4").disabled = true;
 				document.getElementById("countdown4").innerHTML = --c;
+				
 				if (c == 0) {
 					document.getElementById("hint4").style.visibility = "visible";
 					document.getElementById("hint4result").innerHTML = "The complementary angle theorem is applicable here.";
@@ -100,6 +125,7 @@ var myTimer;
 			if (elem.id == "hintbutton5") {
 				document.getElementById("hintbutton5").disabled = true;
 				document.getElementById("countdown5").innerHTML = --c;
+				
 				if (c == 0) {
 					document.getElementById("hint5").style.visibility = "visible";
 					document.getElementById("hint5result").innerHTML = "There are π radians in a 180° angle.";
@@ -110,6 +136,7 @@ var myTimer;
 			if (elem.id == "hintbutton6") {
 				document.getElementById("hintbutton6").disabled = true;
 				document.getElementById("countdown6").innerHTML = --c;
+				
 				if (c == 0) {
 					document.getElementById("hint6").style.visibility = "visible";
 					document.getElementById("hint6result").innerHTML = "ΔABC and ΔDBE are both 3-4-5 triangles";
@@ -120,6 +147,7 @@ var myTimer;
 			if (elem.id == "hintbutton7") {
 				document.getElementById("hintbutton7").disabled = true;
 				document.getElementById("countdown7").innerHTML = --c;
+				
 				if (c == 0) {
 					document.getElementById("hint7").style.visibility = "visible";
 					document.getElementById("hint7result").innerHTML = "The complementary angle theorem is applicable here as the sum of the measures of ∠RSW and ∠WST is equal to the measure of ∠RST";
