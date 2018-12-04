@@ -18,6 +18,19 @@
   	<br>
 	
   	<div class="container rounded">
+		<script type="text/javascript">
+		var clicks = 0;
+		var sc = 0;
+		
+		function onClick() {
+			clicks += 1;
+		};
+		
+		function submitClick() {
+			sc += 1;
+		};
+		</script>
+		
 		<h3><font color = "#FEFEFE">Circles Practice Questions</font></h3>
 		<hr>
 		
@@ -30,6 +43,14 @@
 		<form id = "circlespractice" name = "circlespractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
+			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton1" onclick="clock(hintbutton1, clicks); onClick(); document.getElementById('countdown1').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Which of the following is an equation of a circle in the xy-plane with center (0, 4) and a radius with endpoint 
 			(<sup>4</sup>&frasl;<sub>3</sub>, 5) ?</font></p>
 			<br>
@@ -43,6 +64,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 2</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown2">Hint Countdown!</p>
+			<div id = "hint2"><p style="margin-left: 20px" id = "hint2result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton2" onclick="clock(hintbutton2, clicks); onClick(); document.getElementById('countdown2').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">x<sup>2</sup> + y<sup>2</sup> + 4x - 2y = -1</font></p>
 			<br>
 			<p><font color = "#FEFEFE">The equation of a circle in the xy-plane is shown above. What is the radius of the circle?</font></p>
@@ -57,6 +86,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 3</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown3">Hint Countdown!</p>
+			<div id = "hint3"><p style="margin-left: 20px" id = "hint3result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton3" onclick="clock(hintbutton3, clicks); onClick(); document.getElementById('countdown3').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_3.PNG" alt="Question 3 Graph">
 			</div>
@@ -69,6 +106,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 4</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown4">Hint Countdown!</p>
+			<div id = "hint4"><p style="margin-left: 20px" id = "hint4result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton4" onclick="clock(hintbutton4, clicks); onClick(); document.getElementById('countdown4').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In a circle with center O, central angle AOB has a measure of <sup>5π</sup>&frasl;<sub>4</sub> radians. The area of the sector 
 			formed by central angle AOB is what fraction of the area of the circle?</font></p>
 			<br>
@@ -77,6 +122,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 5</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown5">Hint Countdown!</p>
+			<div id = "hint5"><p style="margin-left: 20px" id = "hint5result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton5" onclick="clock(hintbutton5, clicks); onClick(); document.getElementById('countdown5').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_5.PNG" alt="Question 5 Graph">
 			</div>
@@ -94,6 +147,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 6</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown6">Hint Countdown!</p>
+			<div id = "hint6"><p style="margin-left: 20px" id = "hint6result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton6" onclick="clock(hintbutton6, clicks); onClick(); document.getElementById('countdown6').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_6.PNG" alt="Question 6 Graph">
 			</div>
@@ -106,6 +167,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 7</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown7">Hint Countdown!</p>
+			<div id = "hint7"><p style="margin-left: 20px" id = "hint7result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton7" onclick="clock(hintbutton7, clicks); onClick(); document.getElementById('countdown7').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_7.PNG" alt="Question 7 Graph">
 			</div>
@@ -122,6 +191,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 8</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown8">Hint Countdown!</p>
+			<div id = "hint8"><p style="margin-left: 20px" id = "hint8result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton8" onclick="clock(hintbutton8, clicks); onClick(); document.getElementById('countdown8').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">x<sup>2</sup> + 20x + y<sup>2</sup> + 16y = -20</font></p>
 			<br>
 			<p><font color = "#FEFEFE">The equation above defines a circle in the xy-plane. What are the coordinates of the center of the circle?</font></p>
@@ -136,6 +213,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 9</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown9">Hint Countdown!</p>
+			<div id = "hint9"><p style="margin-left: 20px" id = "hint9result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton9" onclick="clock(hintbutton9, clicks); onClick(); document.getElementById('countdown9').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_9.PNG" alt="Question 9 Graph">
 			</div>
@@ -147,6 +232,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 10</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown10">Hint Countdown!</p>
+			<div id = "hint10"><p style="margin-left: 20px" id = "hint10result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton10" onclick="clock(hintbutton10, clicks); onClick(); document.getElementById('countdown10').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Points A and B lie on a circle with radius 1, and arc AB has length <sup>π</sup>&frasl;<sub>3</sub>. What fraction of the 
 			circumference of the circle is the length of arc AB ?</font></p>
 			<br>
@@ -155,6 +248,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 11</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown11">Hint Countdown!</p>
+			<div id = "hint11"><p style="margin-left: 20px" id = "hint11result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton11" onclick="clock(hintbutton11, clicks); onClick(); document.getElementById('countdown11').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In the xy-plane, the graph of 2x<sup>2</sup> - 6x + 2y<sup>2</sup> + 2y = 45 is a circle. What is the radius of the circle?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -167,6 +268,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 12</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown12">Hint Countdown!</p>
+			<div id = "hint12"><p style="margin-left: 20px" id = "hint12result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton12" onclick="clock(hintbutton12, clicks); onClick(); document.getElementById('countdown12').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A circle in the xy-plane has equation (x + 3)<sup>2</sup> + (y - 1)<sup>2</sup> = 25. Which of the following points does NOT lie 
 			in the interior of the circle?</font></p>
 			<br>
@@ -180,6 +289,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 13</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown13">Hint Countdown!</p>
+			<div id = "hint13"><p style="margin-left: 20px" id = "hint13result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton13" onclick="clock(hintbutton13, clicks); onClick(); document.getElementById('countdown13').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_13.PNG" alt="Question 13 Graph">
 			</div>
@@ -191,6 +308,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 14</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown14">Hint Countdown!</p>
+			<div id = "hint14"><p style="margin-left: 20px" id = "hint14result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton14" onclick="clock(hintbutton14, clicks); onClick(); document.getElementById('countdown14').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">(x - 6)<sup>2</sup> + (y + 5)<sup>2</sup> = 16</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the xy-plane, the graph of the equation above is a circle. Point P is on the circle and has coordinates (10, −5). If PQ is a 
@@ -206,6 +331,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 15</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown15">Hint Countdown!</p>
+			<div id = "hint15"><p style="margin-left: 20px" id = "hint15result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton15" onclick="clock(hintbutton15, clicks); onClick(); document.getElementById('countdown15').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_15.PNG" alt="Question 15 Graph">
 			</div>
@@ -216,9 +349,10 @@
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Circles15"></p>
 			<br>
 			
-			<div class="text-center">
-				<input id = "button" type = "button" value = "Submit" onclick = "check();">
-			</div>
+			<div class="text-center"><font color = "#FEFEFE">
+				<p id="submitcountdown">Submit Countdown!</p>
+				<input id = "submitbutton" type = "button" value = "Submit" onclick = "submitcheck(sc); check(); submitClick();">
+			</font></div>
 			<br>
 			
 		</form>

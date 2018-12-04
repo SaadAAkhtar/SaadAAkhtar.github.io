@@ -18,6 +18,19 @@
   	<br>
 	
   	<div class="container rounded">
+		<script type="text/javascript">
+		var clicks = 0;
+		var sc = 0;
+		
+		function onClick() {
+			clicks += 1;
+		};
+		
+		function submitClick() {
+			sc += 1;
+		};
+		</script>
+		
 		<h3><font color = "#FEFEFE">Quadratics Practice Questions</font></h3>
 		<hr>
 		
@@ -30,6 +43,14 @@
 		<form id = "quadraticspractice" name = "quadraticspractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
+			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton1" onclick="clock(hintbutton1, clicks); onClick(); document.getElementById('countdown1').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If t > 0 and t<sup>2</sup> − 4 = 0, what is the value of t ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Quadratics1"></p>
@@ -37,6 +58,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 2</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown2">Hint Countdown!</p>
+			<div id = "hint2"><p style="margin-left: 20px" id = "hint2result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton2" onclick="clock(hintbutton2, clicks); onClick(); document.getElementById('countdown2').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">h = -4.9t<sup>2</sup> + 25t</font></p>
 			<br>
 			<p><font color = "#FEFEFE">The equation above expresses the approximate height h, in meters, of a ball t seconds after it is launched vertically upward from 
@@ -52,6 +81,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 3</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown3">Hint Countdown!</p>
+			<div id = "hint3"><p style="margin-left: 20px" id = "hint3result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton3" onclick="clock(hintbutton3, clicks); onClick(); document.getElementById('countdown3').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">For a polynomial p(x), the value of p(3) is −2. Which of the following must be true about p(x) ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -64,6 +101,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 4</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown4">Hint Countdown!</p>
+			<div id = "hint4"><p style="margin-left: 20px" id = "hint4result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton4" onclick="clock(hintbutton4, clicks); onClick(); document.getElementById('countdown4').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_4.PNG" alt="Question 4 Graph">
 			</div>
@@ -81,6 +126,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 5</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown5">Hint Countdown!</p>
+			<div id = "hint5"><p style="margin-left: 20px" id = "hint5result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton5" onclick="clock(hintbutton5, clicks); onClick(); document.getElementById('countdown5').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">What is the sum of all values of m that satisfy 2m<sup>2</sup> − 16m + 8 = 0 ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -93,6 +146,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 6</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown6">Hint Countdown!</p>
+			<div id = "hint6"><p style="margin-left: 20px" id = "hint6result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton6" onclick="clock(hintbutton6, clicks); onClick(); document.getElementById('countdown6').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">y = x<sup>2</sup> - 6x + 8</font></p>
 			<br>
 			<p><font color = "#FEFEFE">The equation above represents a parabola in the xy-plane. Which of the following equivalent forms of the equation displays the <br>
@@ -108,6 +169,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 7</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown7">Hint Countdown!</p>
+			<div id = "hint7"><p style="margin-left: 20px" id = "hint7result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton7" onclick="clock(hintbutton7, clicks); onClick(); document.getElementById('countdown7').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">y = 3<br>y = ax<sup>2</sup> + b</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the system of equations above, a and b are constants. For which of the following values of a and b does the system of equations 
@@ -123,6 +192,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 8</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown8">Hint Countdown!</p>
+			<div id = "hint8"><p style="margin-left: 20px" id = "hint8result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton8" onclick="clock(hintbutton8, clicks); onClick(); document.getElementById('countdown8').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_8.PNG" alt="Question 8 Graph">
 			</div>
@@ -140,6 +217,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 9</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown9">Hint Countdown!</p>
+			<div id = "hint9"><p style="margin-left: 20px" id = "hint9result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton9" onclick="clock(hintbutton9, clicks); onClick(); document.getElementById('countdown9').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">y = a(x - 2)(x + 4)</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the quadratic equation above, a is a nonzero constant. The graph of the equation in the xy-plane is a parabola with vertex 
@@ -155,6 +240,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 10</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown10">Hint Countdown!</p>
+			<div id = "hint10"><p style="margin-left: 20px" id = "hint10result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton10" onclick="clock(hintbutton10, clicks); onClick(); document.getElementById('countdown10').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">What are the solutions to 3x<sup>2</sup> + 12x + 6 = 0 ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -167,6 +260,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 11</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown11">Hint Countdown!</p>
+			<div id = "hint11"><p style="margin-left: 20px" id = "hint11result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton11" onclick="clock(hintbutton11, clicks); onClick(); document.getElementById('countdown11').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If the function f has five distinct zeros, which of the following could represent the complete graph of f in the xy-plane?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -185,6 +286,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 12</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown12">Hint Countdown!</p>
+			<div id = "hint12"><p style="margin-left: 20px" id = "hint12result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton12" onclick="clock(hintbutton12, clicks); onClick(); document.getElementById('countdown12').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">x = 2y + 5<br>y = (2x - 3)(x + 9)</font></p>
 			<br>
 			<p><font color = "#FEFEFE">How many ordered pairs (x, y) satisfy the system of equations shown above?</font></p>
@@ -199,6 +308,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 13</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown13">Hint Countdown!</p>
+			<div id = "hint13"><p style="margin-left: 20px" id = "hint13result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton13" onclick="clock(hintbutton13, clicks); onClick(); document.getElementById('countdown13').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_13.PNG" alt="Question 13 Graph">
 			</div>
@@ -216,6 +333,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 14</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown14">Hint Countdown!</p>
+			<div id = "hint14"><p style="margin-left: 20px" id = "hint14result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton14" onclick="clock(hintbutton14, clicks); onClick(); document.getElementById('countdown14').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_14.PNG" alt="Question 14 Graph">
 			</div>
@@ -238,6 +363,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 15</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown15">Hint Countdown!</p>
+			<div id = "hint15"><p style="margin-left: 20px" id = "hint15result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton15" onclick="clock(hintbutton15, clicks); onClick(); document.getElementById('countdown15').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In the xy-plane, the graph of function f has x-intercepts at −3, −1, and 1. Which of the following could define f ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -250,6 +383,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 16</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown16">Hint Countdown!</p>
+			<div id = "hint16"><p style="margin-left: 20px" id = "hint16result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton16" onclick="clock(hintbutton16, clicks); onClick(); document.getElementById('countdown16').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">f(x) = (x + 6)(x - 4)</font></p>
 			<br>
 			<p><font color = "#FEFEFE">Which of the following is an equivalent form of the function f above in which the minimum value of f appears as a constant or 
@@ -265,6 +406,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 17</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown17">Hint Countdown!</p>
+			<div id = "hint17"><p style="margin-left: 20px" id = "hint17result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton17" onclick="clock(hintbutton17, clicks); onClick(); document.getElementById('countdown17').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">What are the solutions of the quadratic equation 4x<sup>2</sup> - 8x - 12 = 0 ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -277,6 +426,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 18</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown18">Hint Countdown!</p>
+			<div id = "hint18"><p style="margin-left: 20px" id = "hint18result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton18" onclick="clock(hintbutton18, clicks); onClick(); document.getElementById('countdown18').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Which of the following is an example of a function whose graph in the xy-plane has no x-intercepts?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -289,6 +446,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 19</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown19">Hint Countdown!</p>
+			<div id = "hint19"><p style="margin-left: 20px" id = "hint19result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton19" onclick="clock(hintbutton19, clicks); onClick(); document.getElementById('countdown19').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">4x<sup>2</sup> - 9 = (px + t)(px - t)</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the equation above, p and t are constants. Which of the following could be the value of p ?</font></p>
@@ -303,6 +468,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 20</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown20">Hint Countdown!</p>
+			<div id = "hint20"><p style="margin-left: 20px" id = "hint20result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton20" onclick="clock(hintbutton20, clicks); onClick(); document.getElementById('countdown20').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_20.PNG" alt="Question 20 Graph">
 			</div>
@@ -320,6 +493,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 21</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown21">Hint Countdown!</p>
+			<div id = "hint21"><p style="margin-left: 20px" id = "hint21result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton21" onclick="clock(hintbutton21, clicks); onClick(); document.getElementById('countdown21').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A laundry service is buying detergent and fabric softener from its supplier. The supplier will deliver no more than 300 pounds 
 			in a shipment. Each container of detergent weighs 7.35 pounds, and each container of fabric softener weighs 6.2 pounds. The service wants to buy at least 
 			twice as many containers of detergent as containers of fabric softener. Let d represent the number of containers of detergent, and let s represent the number 
@@ -344,6 +525,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 22</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown22">Hint Countdown!</p>
+			<div id = "hint22"><p style="margin-left: 20px" id = "hint22result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton22" onclick="clock(hintbutton22, clicks); onClick(); document.getElementById('countdown22').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">What is the sum of the solutions to (x - 6)(x + 0.7) = 0 ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -356,6 +545,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 23</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown23">Hint Countdown!</p>
+			<div id = "hint23"><p style="margin-left: 20px" id = "hint23result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton23" onclick="clock(hintbutton23, clicks); onClick(); document.getElementById('countdown23').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The scatterplot below shows the amount of electric energy generated, in millions of megawatt-hours, by nuclear sources over a <br>
 			10-year period.</font></p>
 			<br>
@@ -375,6 +572,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 24</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown24">Hint Countdown!</p>
+			<div id = "hint24"><p style="margin-left: 20px" id = "hint24result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton24" onclick="clock(hintbutton24, clicks); onClick(); document.getElementById('countdown24').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In the xy-plane, the graph of y = 3x<sup>2</sup> - 14x intersects the graph of y = x at the points (0, 0) and (a, a). 
 			What is the value of a ?</font></p>
 			<br>
@@ -383,6 +588,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 25</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown25">Hint Countdown!</p>
+			<div id = "hint25"><p style="margin-left: 20px" id = "hint25result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton25" onclick="clock(hintbutton25, clicks); onClick(); document.getElementById('countdown25').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">x<sup>2</sup> + 6x + 4</font></p>
 			<br>
 			<p><font color = "#FEFEFE">Which of the following is equivalent to the expression above?</font></p>
@@ -397,6 +610,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 26</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown26">Hint Countdown!</p>
+			<div id = "hint26"><p style="margin-left: 20px" id = "hint26result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton26" onclick="clock(hintbutton26, clicks); onClick(); document.getElementById('countdown26').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">ax<sup>3</sup> + bx<sup>2</sup> + cx + d = 0</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the equation above, a, b, c, and d are constants. If the equation has roots −1, −3, and 5, which of the following is a factor of <br>
@@ -412,6 +633,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 27</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown27">Hint Countdown!</p>
+			<div id = "hint27"><p style="margin-left: 20px" id = "hint27result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton27" onclick="clock(hintbutton27, clicks); onClick(); document.getElementById('countdown27').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The function f is defined by f(x) = (x + 3)(x + 1). The graph of f in the xy-plane is a parabola. Which of the following intervals 
 			contains the x-coordinate of the vertex of the graph of f ?</font></p>
 			<br>
@@ -425,6 +654,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 28</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown28">Hint Countdown!</p>
+			<div id = "hint28"><p style="margin-left: 20px" id = "hint28result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton28" onclick="clock(hintbutton28, clicks); onClick(); document.getElementById('countdown28').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The expression (<sup>1</sup>&frasl;<sub>3</sub>)(x<sup>2</sup>) - 2 can be rewritten as (<sup>1</sup>&frasl;<sub>3</sub>)(x - k)(x + k), 
 			where k is a positive constant. What is the value of k ?</font></p>
 			<br>
@@ -438,6 +675,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 29</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown29">Hint Countdown!</p>
+			<div id = "hint29"><p style="margin-left: 20px" id = "hint29result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton29" onclick="clock(hintbutton29, clicks); onClick(); document.getElementById('countdown29').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">In the equation (ax + 3)<sup>2</sup> = 36, a is a constant. If x = −3 is one solution to the equation, what is a possible value 
 			of a ?</font></p>
 			<br>
@@ -451,6 +696,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 30</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown30">Hint Countdown!</p>
+			<div id = "hint30"><p style="margin-left: 20px" id = "hint30result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton30" onclick="clock(hintbutton30, clicks); onClick(); document.getElementById('countdown30').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">h(t) = -16t<sup>2</sup> + 110t + 72</font></p>
 			<br>
 			<p><font color = "#FEFEFE">The function above models the height h, in feet, of an object above ground t seconds after being launched straight up in the air. 
@@ -466,6 +719,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 31</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown31">Hint Countdown!</p>
+			<div id = "hint31"><p style="margin-left: 20px" id = "hint31result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton31" onclick="clock(hintbutton31, clicks); onClick(); document.getElementById('countdown31').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">y = x<sup>2</sup> - 4x + 4<br>y = 4 - x</font></p>
 			<br>
 			<p><font color = "#FEFEFE">If the ordered pair (x, y) satisfies the system of equations above, what is one possible value of x ?</font></p>
@@ -475,6 +736,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 32</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown32">Hint Countdown!</p>
+			<div id = "hint32"><p style="margin-left: 20px" id = "hint32result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton32" onclick="clock(hintbutton32, clicks); onClick(); document.getElementById('countdown32').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_32.PNG" alt="Question 32 Graph">
 			</div>
@@ -491,6 +760,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 33</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown33">Hint Countdown!</p>
+			<div id = "hint33"><p style="margin-left: 20px" id = "hint33result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton33" onclick="clock(hintbutton33, clicks); onClick(); document.getElementById('countdown33').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">y = x<sup>2</sup> + 3x - 7<br>y - 5x + 8 = 0</font></p>
 			<br>
 			<p><font color = "#FEFEFE">How many solutions are there to the system of equations above?</font></p>
@@ -505,6 +782,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 34</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown34">Hint Countdown!</p>
+			<div id = "hint34"><p style="margin-left: 20px" id = "hint34result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton34" onclick="clock(hintbutton34, clicks); onClick(); document.getElementById('countdown34').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">x<sup>2</sup> + x - 12 = 0</font></p>
 			<br>
 			<p><font color = "#FEFEFE">If a is a solution of the equation above and a > 0, what is the value of a ?</font></p>
@@ -514,6 +799,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 35</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown35">Hint Countdown!</p>
+			<div id = "hint35"><p style="margin-left: 20px" id = "hint35result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton35" onclick="clock(hintbutton35, clicks); onClick(); document.getElementById('countdown35').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">x + 1 = (2 / (x + 1))</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the equation above, which of the following is a possible value of x + 1 ?</font></p>
@@ -528,6 +821,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 36</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown36">Hint Countdown!</p>
+			<div id = "hint36"><p style="margin-left: 20px" id = "hint36result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton36" onclick="clock(hintbutton36, clicks); onClick(); document.getElementById('countdown36').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_36.PNG" alt="Question 36 Graph">
 			</div>
@@ -542,6 +843,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 37</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown37">Hint Countdown!</p>
+			<div id = "hint37"><p style="margin-left: 20px" id = "hint37result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton37" onclick="clock(hintbutton37, clicks); onClick(); document.getElementById('countdown37').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The range of the polynomial function f is the set of real numbers less than or equal to 4. If the zeros of f are −3 and 1, which 
 			of the following could be the graph of y = f(x) in the xy-plane?</font></p>
 			<br>
@@ -561,6 +870,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 38</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown38">Hint Countdown!</p>
+			<div id = "hint38"><p style="margin-left: 20px" id = "hint38result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton38" onclick="clock(hintbutton38, clicks); onClick(); document.getElementById('countdown38').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_38.PNG" alt="Question 38 Graph">
 			</div>
@@ -571,9 +888,10 @@
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "Quadratics38"></p>
 			<br>
 			
-			<div class="text-center">
-				<input id = "button" type = "button" value = "Submit" onclick = "check();">
-			</div>
+			<div class="text-center"><font color = "#FEFEFE">
+				<p id="submitcountdown">Submit Countdown!</p>
+				<input id = "submitbutton" type = "button" value = "Submit" onclick = "submitcheck(sc); check(); submitClick();">
+			</font></div>
 			<br>
 			
 		</form>
