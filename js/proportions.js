@@ -13,56 +13,81 @@ function check(){
 	var question11 = document.proportionspractice.Proportions11.value;
 	var question12 = document.proportionspractice.Proportions12.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "D") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "B") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "B") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "B") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "C") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "25") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "A") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
 	if (question8 == "1492") {
 		correct++;
+	}else {
+		answers += "8 ";
 	}
 	
 	if (question9 == "29/3" || question9 == "9.66" || question9 == "9.67") {
 		correct++;
+	}else {
+		answers += "9 ";
 	}
 	
 	if (question10 == "B") {
 		correct++;
+	}else {
+		answers += "10 ";
 	}
 	
 	if (question11 == "B") {
 		correct++;
+	}else {
+		answers += "11 ";
 	}
 	
 	if (question12 == "102") {
 		correct++;
+	}else {
+		answers += "12 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

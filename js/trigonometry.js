@@ -8,36 +8,51 @@ function check(){
 	var question6 = document.trigonometrypractice.Trigonometry6.value;
 	var question7 = document.trigonometrypractice.Trigonometry7.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "4/5" || question1 == "0.8") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "3/5" || question1 == "0.6") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "C") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "3/5" || question4 == "0.6") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "4") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "6") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "0") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

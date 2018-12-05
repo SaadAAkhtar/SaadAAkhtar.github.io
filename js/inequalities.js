@@ -14,60 +14,87 @@ function check(){
 	var question12 = document.inequalitiespractice.Inequalities12.value;
 	var question13 = document.inequalitiespractice.Inequalities13.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "A") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "A") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "C") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 >= "4" && question4 <= "6") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "D") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "4" || question6 == "5") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "A") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
 	if (question8 == "C") {
 		correct++;
+	}else {
+		answers += "8 ";
 	}
 	
 	if (question9 == "D") {
 		correct++;
+	}else {
+		answers += "9 ";
 	}
 	
 	if (question10 == "C") {
 		correct++;
+	}else {
+		answers += "10 ";
 	}
 	
 	if (question11 == "A") {
 		correct++;
+	}else {
+		answers += "11 ";
 	}
 	
 	if (question12 == "C") {
 		correct++;
+	}else {
+		answers += "12 ";
 	}
 	
 	if (question13 == "B") {
 		correct++;
+	}else {
+		answers += "13 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

@@ -13,56 +13,81 @@ function check(){
 	var question11 = document.factoringandrelatedtopicspractice.FactoringandRelatedTopics11.value;
 	var question12 = document.factoringandrelatedtopicspractice.FactoringandRelatedTopics12.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "3") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "A") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "D") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "B") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "1" || question5 == "2") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "5") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "B") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
 	if (question8 == "B") {
 		correct++;
+	}else {
+		answers += "8 ";
 	}
 	
 	if (question9 == "B") {
 		correct++;
+	}else {
+		answers += "9 ";
 	}
 	
 	if (question10 == "D") {
 		correct++;
+	}else {
+		answers += "10 ";
 	}
 	
 	if (question11 == "D") {
 		correct++;
+	}else {
+		answers += "11 ";
 	}
 	
 	if (question12 == "D") {
 		correct++;
+	}else {
+		answers += "12 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

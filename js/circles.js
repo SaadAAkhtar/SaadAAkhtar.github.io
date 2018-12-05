@@ -16,68 +16,99 @@ function check(){
 	var question14 = document.circlespractice.Circles14.value;
 	var question15 = document.circlespractice.Circles15.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "A") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "A") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "32") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "5/8" || question4 == ".625" || question4 == "0.625") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "C") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "29" || question6 == "30" || question6 == "31" || question6 == "32" || question6 == "33" || question6 == "34") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "A") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
 	if (question8 == "B") {
 		correct++;
+	}else {
+		answers += "8 ";
 	}
 	
 	if (question9 == "80") {
 		correct++;
+	}else {
+		answers += "9 ";
 	}
 	
 	if (question10 == "1/6" || question10 == ".166" || question10 == ".167" || question10 == "0.166" || question10 == "0.167") {
 		correct++;
+	}else {
+		answers += "10 ";
 	}
 	
 	if (question11 == "A") {
 		correct++;
+	}else {
+		answers += "11 ";
 	}
 	
 	if (question12 == "D") {
 		correct++;
+	}else {
+		answers += "12 ";
 	}
 	
 	if (question13 == "5/18" || question13 == ".277" || question13 == ".278" || question13 == "0.277" || question13 == "0.278") {
 		correct++;
+	}else {
+		answers += "13 ";
 	}
 	
 	if (question14 == "A") {
 		correct++;
+	}else {
+		answers += "14 ";
 	}
 	
 	if (question15 == "144") {
 		correct++;
+	}else {
+		answers += "15 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

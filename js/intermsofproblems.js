@@ -12,52 +12,75 @@ function check(){
 	var question10 = document.intermsofproblemspractice.InTermsOfProblems10.value;
 	var question11 = document.intermsofproblemspractice.InTermsOfProblems11.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "B") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "A") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "B") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "B") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "B") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "A") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "C") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
 	if (question8 == "B") {
 		correct++;
+	}else {
+		answers += "8 ";
 	}
 	
 	if (question9 == "A") {
 		correct++;
+	}else {
+		answers += "9 ";
 	}
 	
 	if (question10 == "B") {
 		correct++;
+	}else {
+		answers += "10 ";
 	}
 	
 	if (question11 == "A") {
 		correct++;
+	}else {
+		answers += "11 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

@@ -2,12 +2,15 @@ function check(){
 	
 	var question1 = document.complexfractionspractice.ComplexFractions1.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "B") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

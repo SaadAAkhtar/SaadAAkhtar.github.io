@@ -6,28 +6,39 @@ function check(){
 	var question4 = document.exponentialproblemspractice.ExponentialProblems4.value;
 	var question5 = document.exponentialproblemspractice.ExponentialProblems5.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "C") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "B") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "C") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "C") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "30") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

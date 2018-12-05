@@ -31,128 +31,189 @@ function check(){
 	var question29 = document.percentspractice.Percents29.value;
 	var question30 = document.percentspractice.Percents30.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "D") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "B") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "1.02") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "6.11") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "A") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "C") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "C") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
 	if (question8 == "B") {
 		correct++;
+	}else {
+		answers += "8 ";
 	}
 	
 	if (question9 == "C") {
 		correct++;
+	}else {
+		answers += "9 ";
 	}
 	
 	if (question10 == "C") {
 		correct++;
+	}else {
+		answers += "10 ";
 	}
 	
 	if (question11 == "D") {
 		correct++;
+	}else {
+		answers += "11 ";
 	}
 	
 	if (question12 == "60") {
 		correct++;
+	}else {
+		answers += "12 ";
 	}
 	
 	if (question13 == "C") {
 		correct++;
+	}else {
+		answers += "13 ";
 	}
 	
 	if (question14 == "B") {
 		correct++;
+	}else {
+		answers += "14 ";
 	}
 	
 	if (question15 == "B") {
 		correct++;
+	}else {
+		answers += "15 ";
 	}
 	
 	if (question16 == "0.72") {
 		correct++;
+	}else {
+		answers += "16 ";
 	}
 	
 	if (question17 == "134") {
 		correct++;
+	}else {
+		answers += "17 ";
 	}
 	
 	if (question18 == "B") {
 		correct++;
+	}else {
+		answers += "18 ";
 	}
 	
 	if (question19 == "6") {
 		correct++;
+	}else {
+		answers += "19 ";
 	}
 	
 	if (question20 == "B") {
 		correct++;
+	}else {
+		answers += "20 ";
 	}
 	
 	if (question21 == "1.5" || question21 == "3/2") {
 		correct++;
+	}else {
+		answers += "21 ";
 	}
 	
 	if (question22 == "C") {
 		correct++;
+	}else {
+		answers += "22 ";
 	}
 	
 	if (question23 == "D") {
 		correct++;
+	}else {
+		answers += "23 ";
 	}
 	
 	if (question24 == "8") {
 		correct++;
+	}else {
+		answers += "24 ";
 	}
 	
 	if (question25 == "C") {
 		correct++;
+	}else {
+		answers += "25 ";
 	}
 	
 	if (question26 == "D") {
 		correct++;
+	}else {
+		answers += "26 ";
 	}
 	
 	if (question27 == "B") {
 		correct++;
+	}else {
+		answers += "27 ";
 	}
 	
 	if (question28 == "A") {
 		correct++;
+	}else {
+		answers += "28 ";
 	}
 	
 	if (question29 == "B") {
 		correct++;
+	}else {
+		answers += "29 ";
 	}
 	
 	if (question30 == "A") {
 		correct++;
+	}else {
+		answers += "30 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

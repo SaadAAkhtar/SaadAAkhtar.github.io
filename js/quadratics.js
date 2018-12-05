@@ -39,160 +39,237 @@ function check(){
 	var question37 = document.quadraticspractice.Quadratics37.value;
 	var question38 = document.quadraticspractice.Quadratics38.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "2") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "D") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "D") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "D") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "D") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "D") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "B") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
 	if (question8 == "C") {
 		correct++;
+	}else {
+		answers += "8 ";
 	}
 	
 	if (question9 == "A") {
 		correct++;
+	}else {
+		answers += "9 ";
 	}
 	
 	if (question10 == "A") {
 		correct++;
+	}else {
+		answers += "10 ";
 	}
 	
 	if (question11 == "D") {
 		correct++;
+	}else {
+		answers += "11 ";
 	}
 	
 	if (question12 == "C") {
 		correct++;
+	}else {
+		answers += "12 ";
 	}
 	
 	if (question13 == "B") {
 		correct++;
+	}else {
+		answers += "13 ";
 	}
 	
 	if (question14 == "B") {
 		correct++;
+	}else {
+		answers += "14 ";
 	}
 	
 	if (question15 == "C") {
 		correct++;
+	}else {
+		answers += "15 ";
 	}
 	
 	if (question16 == "D") {
 		correct++;
+	}else {
+		answers += "16 ";
 	}
 	
 	if (question17 == "B") {
 		correct++;
+	}else {
+		answers += "17 ";
 	}
 	
 	if (question18 == "C") {
 		correct++;
+	}else {
+		answers += "18 ";
 	}
 	
 	if (question19 == "A") {
 		correct++;
+	}else {
+		answers += "19 ";
 	}
 	
 	if (question20 == "B") {
 		correct++;
+	}else {
+		answers += "20 ";
 	}
 	
 	if (question21 == "A") {
 		correct++;
+	}else {
+		answers += "21 ";
 	}
 	
 	if (question22 == "C") {
 		correct++;
+	}else {
+		answers += "22 ";
 	}
 	
 	if (question23 == "D") {
 		correct++;
+	}else {
+		answers += "23 ";
 	}
 	
 	if (question24 == "5") {
 		correct++;
+	}else {
+		answers += "24 ";
 	}
 	
 	if (question25 == "B") {
 		correct++;
+	}else {
+		answers += "25 ";
 	}
 	
 	if (question26 == "B") {
 		correct++;
+	}else {
+		answers += "26 ";
 	}
 	
 	if (question27 == "B") {
 		correct++;
+	}else {
+		answers += "27 ";
 	}
 	
 	if (question28 == "D") {
 		correct++;
+	}else {
+		answers += "28 ";
 	}
 	
 	if (question29 == "C") {
 		correct++;
+	}else {
+		answers += "29 ";
 	}
 	
 	if (question30 == "A") {
 		correct++;
+	}else {
+		answers += "30 ";
 	}
 	
 	if (question31 == "0" || question31 == "3") {
 		correct++;
+	}else {
+		answers += "31 ";
 	}
 	
 	if (question32 == "B") {
 		correct++;
+	}else {
+		answers += "32 ";
 	}
 	
 	if (question33 == "C") {
 		correct++;
+	}else {
+		answers += "33 ";
 	}
 	
 	if (question34 == "3") {
 		correct++;
+	}else {
+		answers += "34 ";
 	}
 	
 	if (question35 == "B") {
 		correct++;
+	}else {
+		answers += "35 ";
 	}
 	
 	if (question36 == "D") {
 		correct++;
+	}else {
+		answers += "36 ";
 	}
 	
 	if (question37 == "A") {
 		correct++;
+	}else {
+		answers += "37 ";
 	}
 	
 	if (question38 == "2" || question38 == "8") {
 		correct++;
+	}else {
+		answers += "38 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

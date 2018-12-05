@@ -6,28 +6,39 @@ function check(){
 	var question4 = document.complexnumberspractice.ComplexNumbers4.value;
 	var question5 = document.complexnumberspractice.ComplexNumbers5.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "A") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "C") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "A") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "C") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "D") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

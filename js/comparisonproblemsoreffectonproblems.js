@@ -7,32 +7,45 @@ function check(){
 	var question5 = document.comparisonproblemsoreffectonproblemspractice.ComparisonProblemsOrEffectOnProblems5.value;
 	var question6 = document.comparisonproblemsoreffectonproblemspractice.ComparisonProblemsOrEffectOnProblems6.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "A") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "D") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "D") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "9/4" || question4 == "2.25") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "C") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "B") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

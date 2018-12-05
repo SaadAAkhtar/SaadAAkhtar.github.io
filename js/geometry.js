@@ -18,76 +18,111 @@ function check(){
 	var question16 = document.geometrypractice.Geometry16.value;
 	var question17 = document.geometrypractice.Geometry17.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "1600") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "D") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "12") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "6") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "A") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "B") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "105") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
 	if (question8 == "9") {
 		correct++;
+	}else {
+		answers += "8 ";
 	}
 	
 	if (question9 == "97") {
 		correct++;
+	}else {
+		answers += "9 ";
 	}
 	
 	if (question10 == "B") {
 		correct++;
+	}else {
+		answers += "10 ";
 	}
 	
 	if (question11 == "B") {
 		correct++;
+	}else {
+		answers += "11 ";
 	}
 	
 	if (question12 == "30") {
 		correct++;
+	}else {
+		answers += "12 ";
 	}
 	
 	if (question13 == "B") {
 		correct++;
+	}else {
+		answers += "13 ";
 	}
 	
 	if (question14 == "30") {
 		correct++;
+	}else {
+		answers += "14 ";
 	}
 	
 	if (question15 == "D") {
 		correct++;
+	}else {
+		answers += "15 ";
 	}
 	
 	if (question16 == "C") {
 		correct++;
+	}else {
+		answers += "16 ";
 	}
 	
 	if (question17 == "B") {
 		correct++;
+	}else {
+		answers += "17 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

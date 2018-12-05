@@ -4,20 +4,27 @@ function check(){
 	var question2 = document.absolutevaluespractice.AbsoluteValues2.value;
 	var question3 = document.absolutevaluespractice.AbsoluteValues3.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "D") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "A") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "A") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

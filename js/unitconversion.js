@@ -17,72 +17,105 @@ function check(){
 	var question15 = document.unitconversionpractice.UnitConversion15.value;
 	var question16 = document.unitconversionpractice.UnitConversion16.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "D") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "96") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "B") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "A") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "14") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "A") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "C") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
 	if (question8 == "C") {
 		correct++;
+	}else {
+		answers += "8 ";
 	}
 	
 	if (question9 == "4.55") {
 		correct++;
+	}else {
+		answers += "9 ";
 	}
 	
 	if (question10 == "B") {
 		correct++;
+	}else {
+		answers += "10 ";
 	}
 	
 	if (question11 == "C") {
 		correct++;
+	}else {
+		answers += "11 ";
 	}
 	
 	if (question12 == "195") {
 		correct++;
+	}else {
+		answers += "12 ";
 	}
 	
 	if (question13 == "B") {
 		correct++;
+	}else {
+		answers += "13 ";
 	}
 	
 	if (question14 == "D") {
 		correct++;
+	}else {
+		answers += "14 ";
 	}
 	
 	if (question15 == "25.4" || question15 == "127/5") {
 		correct++;
+	}else {
+		answers += "15 ";
 	}
 	
 	if (question16 == "576") {
 		correct++;
+	}else {
+		answers += "16 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 

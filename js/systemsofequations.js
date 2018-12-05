@@ -57,232 +57,345 @@ function check(){
 	var question55 = document.systemsofequationspractice.SystemsOfEquations55.value;
 	var question56 = document.systemsofequationspractice.SystemsOfEquations56.value;
 	var correct = 0;
+	var answers = " ";
 	
 	if (question1 == "B") {
 		correct++;
+	}else {
+		answers += "1 ";
 	}
 	
 	if (question2 == "D") {
 		correct++;
+	}else {
+		answers += "2 ";
 	}
 	
 	if (question3 == "7") {
 		correct++;
+	}else {
+		answers += "3 ";
 	}
 	
 	if (question4 == "C") {
 		correct++;
+	}else {
+		answers += "4 ";
 	}
 	
 	if (question5 == "B") {
 		correct++;
+	}else {
+		answers += "5 ";
 	}
 	
 	if (question6 == "107") {
 		correct++;
+	}else {
+		answers += "6 ";
 	}
 	
 	if (question7 == "B") {
 		correct++;
+	}else {
+		answers += "7 ";
 	}
 	
 	if (question8 == "B") {
 		correct++;
+	}else {
+		answers += "8 ";
 	}
 	
 	if (question9 == "1/4" || question9 == ".25" || question9 == "0.25") {
 		correct++;
+	}else {
+		answers += "9 ";
 	}
 	
 	if (question10 == "C") {
 		correct++;
+	}else {
+		answers += "10 ";
 	}
 	
 	if (question11 == "A") {
 		correct++;
+	}else {
+		answers += "11 ";
 	}
 	
 	if (question12 == "105") {
 		correct++;
+	}else {
+		answers += "12 ";
 	}
 	
 	if (question13 == "B") {
 		correct++;
+	}else {
+		answers += "13 ";
 	}
 	
 	if (question14 == "C") {
 		correct++;
+	}else {
+		answers += "14 ";
 	}
 	
 	if (question15 == "A") {
 		correct++;
+	}else {
+		answers += "15 ";
 	}
 	
 	if (question16 == "A") {
 		correct++;
+	}else {
+		answers += "16 ";
 	}
 	
 	if (question17 == "370") {
 		correct++;
+	}else {
+		answers += "17 ";
 	}
 	
 	if (question18 == "B") {
 		correct++;
+	}else {
+		answers += "18 ";
 	}
 	
 	if (question19 == "B") {
 		correct++;
+	}else {
+		answers += "19 ";
 	}
 	
 	if (question20 == "D") {
 		correct++;
+	}else {
+		answers += "20 ";
 	}
 	
 	if (question21 == "A") {
 		correct++;
+	}else {
+		answers += "21 ";
 	}
 	
 	if (question22 == "750") {
 		correct++;
+	}else {
+		answers += "22 ";
 	}
 	
 	if (question23 == "A") {
 		correct++;
+	}else {
+		answers += "23 ";
 	}
 	
 	if (question24 == "0") {
 		correct++;
+	}else {
+		answers += "24 ";
 	}
 	
 	if (question25 == "B") {
 		correct++;
+	}else {
+		answers += "25 ";
 	}
 	
 	if (question26 == "C") {
 		correct++;
+	}else {
+		answers += "26 ";
 	}
 	
 	if (question27 == "A") {
 		correct++;
+	}else {
+		answers += "27 ";
 	}
 	
 	if (question28 == "A") {
 		correct++;
+	}else {
+		answers += "28 ";
 	}
 	
 	if (question29 == "D") {
 		correct++;
+	}else {
+		answers += "29 ";
 	}
 	
 	if (question30 == "150") {
 		correct++;
+	}else {
+		answers += "30 ";
 	}
 	
 	if (question31 == "C") {
 		correct++;
+	}else {
+		answers += "31 ";
 	}
 	
 	if (question32 == "A") {
 		correct++;
+	}else {
+		answers += "32 ";
 	}
 	
 	if (question33 == "D") {
 		correct++;
+	}else {
+		answers += "33 ";
 	}
 	
 	if (question34 == "21/4" || question34 == "5.25") {
 		correct++;
+	}else {
+		answers += "34 ";
 	}
 	
 	if (question35 == "B") {
 		correct++;
+	}else {
+		answers += "35 ";
 	}
 	
 	if (question36 == "D") {
 		correct++;
+	}else {
+		answers += "36 ";
 	}
 	
 	if (question37 == "13") {
 		correct++;
+	}else {
+		answers += "37 ";
 	}
 	
 	if (question38 == "A") {
 		correct++;
+	}else {
+		answers += "38 ";
 	}
 	
 	if (question39 == "1" || question39 == "2" || question39 == "4" || question39 == "8" || question39 == "16") {
 		correct++;
+	}else {
+		answers += "39 ";
 	}
 	
 	if (question40 == "B") {
 		correct++;
+	}else {
+		answers += "40 ";
 	}
 	
 	if (question41 == "B") {
 		correct++;
+	}else {
+		answers += "41 ";
 	}
 	
 	if (question42 == "C") {
 		correct++;
+	}else {
+		answers += "42 ";
 	}
 	
 	if (question43 == "10") {
 		correct++;
+	}else {
+		answers += "43 ";
 	}
 	
 	if (question44 == "B") {
 		correct++;
+	}else {
+		answers += "44 ";
 	}
 	
 	if (question45 == "B") {
 		correct++;
+	}else {
+		answers += "45 ";
 	}
 	
 	if (question46 == "A") {
 		correct++;
+	}else {
+		answers += "46 ";
 	}
 	
 	if (question47 == "D") {
 		correct++;
+	}else {
+		answers += "47 ";
 	}
 	
 	if (question48 == "C") {
 		correct++;
+	}else {
+		answers += "48 ";
 	}
 	
 	if (question49 == "30") {
 		correct++;
+	}else {
+		answers += "49 ";
 	}
 	
 	if (question50 == "B") {
 		correct++;
+	}else {
+		answers += "50 ";
 	}
 	
 	if (question51 == "B") {
 		correct++;
+	}else {
+		answers += "51 ";
 	}
 	
 	if (question52 == "C") {
 		correct++;
+	}else {
+		answers += "52 ";
 	}
 	
 	if (question53 == "1.5" || question53 == "3/2") {
 		correct++;
+	}else {
+		answers += "53 ";
 	}
 	
 	if (question54 == "D") {
 		correct++;
+	}else {
+		answers += "54 ";
 	}
 	
 	if (question55 == "C") {
 		correct++;
+	}else {
+		answers += "55 ";
 	}
 	
 	if (question56 == "30") {
 		correct++;
+	}else {
+		answers += "56 ";
 	}
 	
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct!";
+	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct! These are the questions you missed:" + answers + ".";
 	
 }
 
