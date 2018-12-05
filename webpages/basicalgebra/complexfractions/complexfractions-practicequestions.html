@@ -19,6 +19,19 @@
   	<br>
 	
   	<div class="container rounded">
+		<script type="text/javascript">
+		var clicks = 0;
+		var sc = 0;
+		
+		function onClick() {
+			clicks += 1;
+		};
+		
+		function submitClick() {
+			sc += 1;
+		};
+		</script>
+		
 		<h3><font color = "#FEFEFE">Complex Fractions Practice Questions</font></h3>
 		<hr>
 		
@@ -31,6 +44,14 @@
 		<form id = "complexfractionspractice" name = "complexfractionspractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
+			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton1" onclick="clock(hintbutton1, clicks); onClick(); document.getElementById('countdown1').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If x > 3, which of the following is equivalent to <span><img src="Question_1.PNG" alt="Question 1 Graph"></span> ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -41,9 +62,10 @@
 			</font></p>
 			<br>
 			
-			<div class="text-center">
-				<input id = "button" type = "button" value = "Submit" onclick = "check();">
-			</div>
+			<div class="text-center"><font color = "#FEFEFE">
+				<p id="submitcountdown">Submit Countdown!</p>
+				<input id = "submitbutton" type = "button" value = "Submit" onclick = "submitcheck(sc); check(); submitClick();">
+			</font></div>
 			<br>
 			
 		</form>

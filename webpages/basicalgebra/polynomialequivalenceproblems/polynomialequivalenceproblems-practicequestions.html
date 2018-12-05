@@ -19,6 +19,19 @@
   	<br>
 	
   	<div class="container rounded">
+		<script type="text/javascript">
+		var clicks = 0;
+		var sc = 0;
+		
+		function onClick() {
+			clicks += 1;
+		};
+		
+		function submitClick() {
+			sc += 1;
+		};
+		</script>
+		
 		<h3><font color = "#FEFEFE">Polynomial Equivalence Problems Practice Questions</font></h3>
 		<hr>
 		
@@ -31,6 +44,14 @@
 		<form id = "polynomialequivalenceproblemspractice" name = "polynomialequivalenceproblemspractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
+			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton1" onclick="clock(hintbutton1, clicks); onClick(); document.getElementById('countdown1').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If (ax + 2)(bx + 7) = 15x<sup>2</sup> + cx + 14 for all values of x, and a + b = 8, what are the two possible values for c ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -43,6 +64,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 2</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown2">Hint Countdown!</p>
+			<div id = "hint2"><p style="margin-left: 20px" id = "hint2result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton2" onclick="clock(hintbutton2, clicks); onClick(); document.getElementById('countdown2').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">2x(3x + 5) + 3(3x + 5) = ax<sup>2</sup> + bx + c</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the equation above, a, b, and c are constants. If the equation is true for all values of x, what is the value of b ?</font></p>
@@ -52,6 +81,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 3</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown3">Hint Countdown!</p>
+			<div id = "hint3"><p style="margin-left: 20px" id = "hint3result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton3" onclick="clock(hintbutton3, clicks); onClick(); document.getElementById('countdown3').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The equation ((24x<sup>2</sup> + 25x - 47) / (ax - 2)) = -8x - 3 - (53 / (ax - 2)) is true for all values of 
 			x ≠ <sup>2</sup>&frasl;<sub>a</sub> , where a is a constant. What is the value of a ?</font></p>
 			<br>
@@ -65,15 +102,24 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 4</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown4">Hint Countdown!</p>
+			<div id = "hint4"><p style="margin-left: 20px" id = "hint4result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton4" onclick="clock(hintbutton4, clicks); onClick(); document.getElementById('countdown4').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The sum of -2x<sup>2</sup> + x + 31 and 3x<sup>2</sup> + 7x - 8 can be written in the form ax<sup>2</sup> + bx + c , where a, b, and c 
 			are constants. What is the value of a + b + c ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "PolynomialEquivalenceProblems4"></p>
 			<br>
 			
-			<div class="text-center">
-				<input id = "button" type = "button" value = "Submit" onclick = "check();">
-			</div>
+			<div class="text-center"><font color = "#FEFEFE">
+				<p id="submitcountdown">Submit Countdown!</p>
+				<input id = "submitbutton" type = "button" value = "Submit" onclick = "submitcheck(sc); check(); submitClick();">
+			</font></div>
 			<br>
 			
 		</form>

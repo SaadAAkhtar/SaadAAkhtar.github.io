@@ -19,6 +19,19 @@
   	<br>
 	
   	<div class="container rounded">
+		<script type="text/javascript">
+		var clicks = 0;
+		var sc = 0;
+		
+		function onClick() {
+			clicks += 1;
+		};
+		
+		function submitClick() {
+			sc += 1;
+		};
+		</script>
+		
 		<h3><font color = "#FEFEFE">Inequalities Practice Questions</font></h3>
 		<hr>
 		
@@ -31,6 +44,14 @@
 		<form id = "inequalitiespractice" name = "inequalitiespractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
+			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton1" onclick="clock(hintbutton1, clicks); onClick(); document.getElementById('countdown1').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Which of the following numbers is NOT a solution of the inequality 3x - 5 ≥ 4x - 3 ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -43,6 +64,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 2</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown2">Hint Countdown!</p>
+			<div id = "hint2"><p style="margin-left: 20px" id = "hint2result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton2" onclick="clock(hintbutton2, clicks); onClick(); document.getElementById('countdown2').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">y < -x + a<br>y > x + b</font></p>
 			<br>
 			<p><font color = "#FEFEFE">In the xy-plane, if (0, 0) is a solution to the system of inequalities above, which of the following relationships between a and b 
@@ -58,6 +87,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 3</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown3">Hint Countdown!</p>
+			<div id = "hint3"><p style="margin-left: 20px" id = "hint3result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton3" onclick="clock(hintbutton3, clicks); onClick(); document.getElementById('countdown3').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_3.PNG" alt="Question 3 Graph">
 			</div>
@@ -75,6 +112,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 4</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown4">Hint Countdown!</p>
+			<div id = "hint4"><p style="margin-left: 20px" id = "hint4result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton4" onclick="clock(hintbutton4, clicks); onClick(); document.getElementById('countdown4').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Wyatt can husk at least 12 dozen ears of corn per hour and at most 18 dozen ears of corn per hour. Based on this information, what is 
 			a possible amount of time, in hours, that it could take Wyatt to husk 72 dozen ears of corn?</font></p>
 			<br>
@@ -83,6 +128,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 5</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown5">Hint Countdown!</p>
+			<div id = "hint5"><p style="margin-left: 20px" id = "hint5result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton5" onclick="clock(hintbutton5, clicks); onClick(); document.getElementById('countdown5').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A project manager estimates that a project will take x hours to complete, where x > 100. The goal is for the estimate to be within 
 			10 hours of the time it will actually take to complete the project. If the manager meets the goal and it takes y hours to complete the project, which of the 
 			following inequalities represents the relationship between the estimated time and the actual completion time?</font></p>
@@ -97,6 +150,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 6</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown6">Hint Countdown!</p>
+			<div id = "hint6"><p style="margin-left: 20px" id = "hint6result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton6" onclick="clock(hintbutton6, clicks); onClick(); document.getElementById('countdown6').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Tickets for a school talent show cost $2 for students and $3 for adults. If Chris spends at least $11 but no more than $14 on x 
 			student tickets and 1 adult ticket, what is one possible value of x ?</font></p>
 			<br>
@@ -105,6 +166,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 7</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown7">Hint Countdown!</p>
+			<div id = "hint7"><p style="margin-left: 20px" id = "hint7result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton7" onclick="clock(hintbutton7, clicks); onClick(); document.getElementById('countdown7').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If 3p - 2 ≥ 1 , what is the least possible value of 3p + 2 ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -117,6 +186,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 8</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown8">Hint Countdown!</p>
+			<div id = "hint8"><p style="margin-left: 20px" id = "hint8result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton8" onclick="clock(hintbutton8, clicks); onClick(); document.getElementById('countdown8').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Let x and y be numbers such that -y < x < y . Which of the following must be true?</font></p>
 			<br>
 			<p style="margin-left: 30px"><font color = "#FEFEFE">I. |x| < y</font></p>
@@ -133,6 +210,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 9</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown9">Hint Countdown!</p>
+			<div id = "hint9"><p style="margin-left: 20px" id = "hint9result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton9" onclick="clock(hintbutton9, clicks); onClick(); document.getElementById('countdown9').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">y ≤ 3x + 1<br>x - y > 1</font></p>
 			<br>
 			<p><font color = "#FEFEFE">Which of the following ordered pairs (x, y) satisfies the system of inequalities above?</font></p>
@@ -147,6 +232,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 10</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown10">Hint Countdown!</p>
+			<div id = "hint10"><p style="margin-left: 20px" id = "hint10result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton10" onclick="clock(hintbutton10, clicks); onClick(); document.getElementById('countdown10').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<div class="text-center">
 				<img src="Question_10.PNG" alt="Question 10 Graph">
 			</div>
@@ -171,6 +264,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 11</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown11">Hint Countdown!</p>
+			<div id = "hint11"><p style="margin-left: 20px" id = "hint11result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton11" onclick="clock(hintbutton11, clicks); onClick(); document.getElementById('countdown11').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">A shipping service restricts the dimensions of the boxes it will ship for a certain type of service. The restriction states that for 
 			boxes shaped like rectangular prisms, the sum of the perimeter of the base of the box and the height of the box cannot exceed 130 inches. The perimeter of the 
 			base is determined using the width and length of the box. If a box has a height of 60 inches and its length is 2.5 times the width, which inequality shows the 
@@ -186,6 +287,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 12</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown12">Hint Countdown!</p>
+			<div id = "hint12"><p style="margin-left: 20px" id = "hint12result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton12" onclick="clock(hintbutton12, clicks); onClick(); document.getElementById('countdown12').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Which of the following ordered pairs (x, y) satisfies the inequality 5x - 3y < 4 ?</font></p>
 			<br>
 			<p style="margin-left: 30px"><font color = "#FEFEFE">I. (1, 1)</font></p>
@@ -202,6 +311,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 13</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown13">Hint Countdown!</p>
+			<div id = "hint13"><p style="margin-left: 20px" id = "hint13result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton13" onclick="clock(hintbutton13, clicks); onClick(); document.getElementById('countdown13').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The average annual energy cost for a certain home is $4,334. The homeowner plans to spend $25,000 to install a geothermal heating 
 			system. The homeowner estimates that the average annual energy cost will then be $2,712. Which of the following inequalities can be solved to find t, the number 
 			of years after installation at which the total amount of energy cost savings will exceed the installation cost?</font></p>
@@ -214,9 +331,10 @@
 			</font></p>
 			<br>
 			
-			<div class="text-center">
-				<input id = "button" type = "button" value = "Submit" onclick = "check();">
-			</div>
+			<div class="text-center"><font color = "#FEFEFE">
+				<p id="submitcountdown">Submit Countdown!</p>
+				<input id = "submitbutton" type = "button" value = "Submit" onclick = "submitcheck(sc); check(); submitClick();">
+			</font></div>
 			<br>
 			
 		</form>

@@ -19,6 +19,19 @@
   	<br>
 	
   	<div class="container rounded">
+		<script type="text/javascript">
+		var clicks = 0;
+		var sc = 0;
+		
+		function onClick() {
+			clicks += 1;
+		};
+		
+		function submitClick() {
+			sc += 1;
+		};
+		</script>
+		
 		<h3><font color = "#FEFEFE">Exponent and Radical Rules Practice Questions</font></h3>
 		<hr>
 		
@@ -31,6 +44,14 @@
 		<form id = "exponentandradicalrulespractice" name = "exponentandradicalrulespractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
+			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton1" onclick="clock(hintbutton1, clicks); onClick(); document.getElementById('countdown1').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If 3x - y = 12, what is the value of <sup>8<sup>x</sup></sup>&frasl;<sub>2<sup>y</sup></sub></font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -43,6 +64,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 2</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown2">Hint Countdown!</p>
+			<div id = "hint2"><p style="margin-left: 20px" id = "hint2result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton2" onclick="clock(hintbutton2, clicks); onClick(); document.getElementById('countdown2').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If <sup>x<sup>a<sup>2</sup></sup></sup>&frasl;<sub>x<sup>b<sup>2</sup></sup></sub> = x<sup>16</sup>, x > 1, and a + b = 2, what is 
 			the value of a - b ?</font></p>
 			<br>
@@ -56,6 +85,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 3</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown3">Hint Countdown!</p>
+			<div id = "hint3"><p style="margin-left: 20px" id = "hint3result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton3" onclick="clock(hintbutton3, clicks); onClick(); document.getElementById('countdown3').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Which of the following is equal to a<sup><sup>2</sup>&frasl;<sub>3</sub></sup>, for all values of a ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -68,6 +105,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 4</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown4">Hint Countdown!</p>
+			<div id = "hint4"><p style="margin-left: 20px" id = "hint4result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton4" onclick="clock(hintbutton4, clicks); onClick(); document.getElementById('countdown4').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Which of the following is equivalent to 9<sup><sup>3</sup>&frasl;<sub>4</sub></sup> ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -80,6 +125,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 5</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown5">Hint Countdown!</p>
+			<div id = "hint5"><p style="margin-left: 20px" id = "hint5result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton5" onclick="clock(hintbutton5, clicks); onClick(); document.getElementById('countdown5').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If a<sup><sup>b</sup>&frasl;<sub>4</sub></sup> = 16 for positive integers a and b, what is one possible value of b ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "ExponentAndRadicalRules5"></p>
@@ -87,6 +140,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 6</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown6">Hint Countdown!</p>
+			<div id = "hint6"><p style="margin-left: 20px" id = "hint6result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton6" onclick="clock(hintbutton6, clicks); onClick(); document.getElementById('countdown6').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The expression <span><img src="Question_6.PNG" alt="Question 6 Graph"> , where x > 1 and y > 1, is equivalent to which of the 
 			following?</span></font></p>
 			<br>
@@ -100,6 +161,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 7</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown7">Hint Countdown!</p>
+			<div id = "hint7"><p style="margin-left: 20px" id = "hint7result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton7" onclick="clock(hintbutton7, clicks); onClick(); document.getElementById('countdown7').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">If a<sup>-<sup>1</sup>&frasl;<sub>2</sub></sup> = x , where a > 0, what is a in terms of x ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><font color = "#FEFEFE">
@@ -110,9 +179,10 @@
 			</font></p>
 			<br>
 			
-			<div class="text-center">
-				<input id = "button" type = "button" value = "Submit" onclick = "check();">
-			</div>
+			<div class="text-center"><font color = "#FEFEFE">
+				<p id="submitcountdown">Submit Countdown!</p>
+				<input id = "submitbutton" type = "button" value = "Submit" onclick = "submitcheck(sc); check(); submitClick();">
+			</font></div>
 			<br>
 			
 		</form>

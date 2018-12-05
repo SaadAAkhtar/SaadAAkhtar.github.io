@@ -19,6 +19,19 @@
   	<br>
 	
   	<div class="container rounded">
+		<script type="text/javascript">
+		var clicks = 0;
+		var sc = 0;
+		
+		function onClick() {
+			clicks += 1;
+		};
+		
+		function submitClick() {
+			sc += 1;
+		};
+		</script>
+		
 		<h3><font color = "#FEFEFE">Exponential Problems Practice Questions</font></h3>
 		<hr>
 		
@@ -31,6 +44,14 @@
 		<form id = "exponentialproblemspractice" name = "exponentialproblemspractice">
 		
 			<h5><font color = "#FEFEFE">Question 1</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown1">Hint Countdown!</p>
+			<div id = "hint1"><p style="margin-left: 20px" id = "hint1result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton1" onclick="clock(hintbutton1, clicks); onClick(); document.getElementById('countdown1').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The population of mosquitoes in a swamp is estimated over the course of twenty weeks, as shown in the table.</font></p>
 			<br>
 			<div class="text-center">
@@ -50,6 +71,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 2</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown2">Hint Countdown!</p>
+			<div id = "hint2"><p style="margin-left: 20px" id = "hint2result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton2" onclick="clock(hintbutton2, clicks); onClick(); document.getElementById('countdown2').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Which of the following scatterplots shows a relationship that is appropriately modeled with the equation y = ax<sup>b</sup>, where a 
 			is positive and b is negative?</font></p>
 			<br>
@@ -73,6 +102,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 3</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown3">Hint Countdown!</p>
+			<div id = "hint3"><p style="margin-left: 20px" id = "hint3result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton3" onclick="clock(hintbutton3, clicks); onClick(); document.getElementById('countdown3').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">The mass of living organisms in a lake is defined to be the biomass of the lake. If the biomass in a lake doubles each year, which of 
 			the following graphs could model the biomass in the lake as a function of time? (Note: In each graph below, O represents (0, 0).)</font></p>
 			<br>
@@ -96,6 +133,14 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 4</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown4">Hint Countdown!</p>
+			<div id = "hint4"><p style="margin-left: 20px" id = "hint4result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton4" onclick="clock(hintbutton4, clicks); onClick(); document.getElementById('countdown4').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p class="text-center"><font color = "#FEFEFE">f(x) = 2<sup>x</sup> + 1</font></p>
 			<br>
 			<p><font color = "#FEFEFE">The function f is defined by the equation above. Which of the following is the graph of y = −f(x) in the xy-plane?</font></p>
@@ -120,15 +165,24 @@
 			<hr>
 			
 			<h5><font color = "#FEFEFE">Question 5</font></h5>
+			<font color = "#FEFEFE">
+			<p style="margin-left: 20px" id="countdown5">Hint Countdown!</p>
+			<div id = "hint5"><p style="margin-left: 20px" id = "hint5result"></p></div>
+			<p style="margin-left: 20px">
+			<button type='button' id="hintbutton5" onclick="clock(hintbutton5, clicks); onClick(); document.getElementById('countdown5').innerHTML='Hint Countdown!';">Hint</button>
+			</p>
+			</font>
+			<br>
 			<p><font color = "#FEFEFE">Jeremy deposited x dollars in his investment account on January 1, 2001. The amount of money in the account doubled each year until 
 			Jeremy had 480 dollars in his investment account on January 1, 2005. What is the value of x ?</font></p>
 			<br>
 			<p style="margin-left: 20px"><input id = "textbox" type="text" name = "ExponentialProblems5"></p>
 			<br>
 			
-			<div class="text-center">
-				<input id = "button" type = "button" value = "Submit" onclick = "check();">
-			</div>
+			<div class="text-center"><font color = "#FEFEFE">
+				<p id="submitcountdown">Submit Countdown!</p>
+				<input id = "submitbutton" type = "button" value = "Submit" onclick = "submitcheck(sc); check(); submitClick();">
+			</font></div>
 			<br>
 			
 		</form>
