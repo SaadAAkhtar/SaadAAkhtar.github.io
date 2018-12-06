@@ -144,7 +144,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "A fraction is undefined when the denominator is equal to 0 as you cannot divide by 0.";
 					clearInterval(myTimer);
 				}
 			}
@@ -156,7 +156,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "You can perform ordinary factoring on this expression.";
 					clearInterval(myTimer);
 				}
 			}
@@ -168,7 +168,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "Carry out polynomial division. Remember to include the remainder in your answer.";
 					clearInterval(myTimer);
 				}
 			}
@@ -180,7 +180,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "You don't have to divide to completion. When divided by a, 24 becomes -8, so what is a?";
 					clearInterval(myTimer);
 				}
 			}
@@ -192,7 +192,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "Get all numbers and variables on one side before performing 'pull out' factoring followed by ordinary factoring.";
 					clearInterval(myTimer);
 				}
 			}
@@ -204,7 +204,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "Perform factoring by grouping.";
 					clearInterval(myTimer);
 				}
 			}
@@ -216,7 +216,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "Factor f(x) via 'pull out' to obtain an equation of the form f(x) = 2x * g(x) . Substitute f(x) with 2x * g(x) for each answer choice.";
 					clearInterval(myTimer);
 				}
 			}
@@ -228,7 +228,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "Substitute z and y before performing 'pull out' factoring and ordinary factoring.";
 					clearInterval(myTimer);
 				}
 			}
@@ -240,7 +240,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "Which answer choice can be 'multiplied out' (a.k.a FOIL) such that we obtain the given equation?";
 					clearInterval(myTimer);
 				}
 			}
@@ -252,7 +252,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "Carry out polynomial division. Remember to include the remainder in your answer.";
 					clearInterval(myTimer);
 				}
 			}
@@ -264,7 +264,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "Carry out polynomial division. Remember to include the remainder in your answer.";
 					clearInterval(myTimer);
 				}
 			}
@@ -276,7 +276,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "Put f(x) over g(x) in a fraction. Is there anything you can cancel out once you've factored the resulting expression?";
 					clearInterval(myTimer);
 				}
 			}
