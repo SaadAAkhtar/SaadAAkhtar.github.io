@@ -270,7 +270,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "The sales tax is 8% of the discounted price on top of the discounted price.";
 					clearInterval(myTimer);
 				}
 			}
@@ -282,7 +282,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "If Type B trees produce x pears, a 20% increase of x pears will not necessarily equal the pears produced by Type A trees.";
 					clearInterval(myTimer);
 				}
 			}
@@ -294,7 +294,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "At the end of 1 year, the new value of the account is $100 plus 2% of the initial deposit as the interest is compounded annually.";
 					clearInterval(myTimer);
 				}
 			}
@@ -306,7 +306,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "The two equations you need to form are similar to one another aside from the interest rates.";
 					clearInterval(myTimer);
 				}
 			}
@@ -318,7 +318,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "Each year, 87% of the previous year's amount remains (essentially, a 13% decrease every year).";
 					clearInterval(myTimer);
 				}
 			}
@@ -330,7 +330,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "If 43% of the money earned is used to pay for costs, the remaining 57% is profit.";
 					clearInterval(myTimer);
 				}
 			}
@@ -342,7 +342,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "The atomic weight of the unknown element is 20% less than the atomic weight of calcium.";
 					clearInterval(myTimer);
 				}
 			}
@@ -354,7 +354,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "The total number of students inducted can be calculated by adding 7% of the juniors and 5% of the seniors.";
 					clearInterval(myTimer);
 				}
 			}
@@ -366,7 +366,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "Linear growth is characterized by an increase of a quantity at a constant rate. Exponential growth is characterized by an increase of a quantity at a relative rate; that is, an increase by the same factor over equal increments of time.";
 					clearInterval(myTimer);
 				}
 			}
@@ -378,7 +378,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "The rectangle is altered by increasing its length L by 10% and decreasing its width W by p% such that the altered length L is 1.1L and the altered width w is (1 - (p / 100)(W) .";
 					clearInterval(myTimer);
 				}
 			}
@@ -390,7 +390,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "For the present population to decrease by 10%, it must be multiplied by the factor 0.9 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -402,7 +402,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "The original store has 3 shoppers enter per minute, so how many shoppers enter the new store per minute?";
 					clearInterval(myTimer);
 				}
 			}
@@ -414,7 +414,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
-					document.getElementById("hint13result").innerHTML = "Hello!";
+					document.getElementById("hint13result").innerHTML = "If Ken's sandwich was x dollars and Paul's sandwich was $1 more, the total price of the sandwiches is 2x + 1.";
 					clearInterval(myTimer);
 				}
 			}
@@ -426,7 +426,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint14").style.visibility = "visible";
-					document.getElementById("hint14result").innerHTML = "Hello!";
+					document.getElementById("hint14result").innerHTML = "Nick's random sample is representative of the entire freshman class.";
 					clearInterval(myTimer);
 				}
 			}
@@ -438,7 +438,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint15").style.visibility = "visible";
-					document.getElementById("hint15result").innerHTML = "Hello!";
+					document.getElementById("hint15result").innerHTML = "To find percent decrease, find the positive difference between two amounts (as in, the result should be positive), divide by the earlier amount (from 2000), and then multiply by 100.";
 					clearInterval(myTimer);
 				}
 			}
@@ -450,7 +450,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint16").style.visibility = "visible";
-					document.getElementById("hint16result").innerHTML = "Hello!";
+					document.getElementById("hint16result").innerHTML = "The equation is an example of exponential decay.";
 					clearInterval(myTimer);
 				}
 			}
@@ -462,7 +462,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint17").style.visibility = "visible";
-					document.getElementById("hint17result").innerHTML = "Hello!";
+					document.getElementById("hint17result").innerHTML = "The stock loses 28% of its value every week.";
 					clearInterval(myTimer);
 				}
 			}
@@ -474,7 +474,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint18").style.visibility = "visible";
-					document.getElementById("hint18result").innerHTML = "Hello!";
+					document.getElementById("hint18result").innerHTML = "The final price of the property occurs after first a 40% discount, then an addition 20% discount off the already discounted price.";
 					clearInterval(myTimer);
 				}
 			}
@@ -486,7 +486,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint19").style.visibility = "visible";
-					document.getElementById("hint19result").innerHTML = "Hello!";
+					document.getElementById("hint19result").innerHTML = "Calculate the time Ms. Simon spends driving from freeway entrance to freeway exit using the formula v = (d / t). The result includes the 33% increase in time.";
 					clearInterval(myTimer);
 				}
 			}
@@ -498,7 +498,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint20").style.visibility = "visible";
-					document.getElementById("hint20result").innerHTML = "Hello!";
+					document.getElementById("hint20result").innerHTML = "Fertilizer A contains 60% filler materials by weight, so it follows that x pounds of Fertilizer A consists of 0.6x pounds of filler materials. This is similarly true for Fertilizer B.";
 					clearInterval(myTimer);
 				}
 			}
@@ -510,7 +510,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint21").style.visibility = "visible";
-					document.getElementById("hint21result").innerHTML = "Hello!";
+					document.getElementById("hint21result").innerHTML = "The total amount, in liters, of a saline solution can be expressed as the liters of each type of saline solution multiplied by the percent of the saline solution.";
 					clearInterval(myTimer);
 				}
 			}
@@ -522,7 +522,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint22").style.visibility = "visible";
-					document.getElementById("hint22result").innerHTML = "Hello!";
+					document.getElementById("hint22result").innerHTML = "According to the table, 63% of survey respondents get most of their medical information from a doctor and 13% get most of their medical information from the Internet.";
 					clearInterval(myTimer);
 				}
 			}
@@ -534,7 +534,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint23").style.visibility = "visible";
-					document.getElementById("hint23result").innerHTML = "Hello!";
+					document.getElementById("hint23result").innerHTML = "To find the percent increase of the customer’s water bill, the absolute increase of the bill, in dollars, is divided by the original amount of the bill.";
 					clearInterval(myTimer);
 				}
 			}
@@ -546,7 +546,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint24").style.visibility = "visible";
-					document.getElementById("hint24result").innerHTML = "Hello!";
+					document.getElementById("hint24result").innerHTML = " The 6 students represent (100 − 15 − 45 − 25)% = 15% of those invited to join the committee.";
 					clearInterval(myTimer);
 				}
 			}
@@ -558,7 +558,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint25").style.visibility = "visible";
-					document.getElementById("hint25result").innerHTML = "Hello!";
+					document.getElementById("hint25result").innerHTML = "The total of Ken’s earnings, in dollars, for the week will be 10x + 80.";
 					clearInterval(myTimer);
 				}
 			}
@@ -570,7 +570,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint26").style.visibility = "visible";
-					document.getElementById("hint26result").innerHTML = "Hello!";
+					document.getElementById("hint26result").innerHTML = "You must calculate 15% of an 8-hour workday in terms of minutes, so you must first convert hours into minutes before you can apply the percentage.";
 					clearInterval(myTimer);
 				}
 			}
@@ -582,7 +582,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint27").style.visibility = "visible";
-					document.getElementById("hint27result").innerHTML = "Hello!";
+					document.getElementById("hint27result").innerHTML = "We don't know the price of the original jacket, but we do know that it's price, in addition to a 6% sales tax, equals $53 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -594,7 +594,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint28").style.visibility = "visible";
-					document.getElementById("hint28result").innerHTML = "Hello!";
+					document.getElementById("hint28result").innerHTML = "Because the world’s population has grown at an average rate of 1.9% per year since 1945, it follows that the world’s population has been growing by a constant factor of 1.019 since 1945.";
 					clearInterval(myTimer);
 				}
 			}
@@ -606,7 +606,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint29").style.visibility = "visible";
-					document.getElementById("hint29result").innerHTML = "Hello!";
+					document.getElementById("hint29result").innerHTML = "After calculating the percent increase from 2012 to 2013, you can find out the percent increase from 2013 to 2014 via the information provided.";
 					clearInterval(myTimer);
 				}
 			}
@@ -618,7 +618,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint30").style.visibility = "visible";
-					document.getElementById("hint30result").innerHTML = "Hello!";
+					document.getElementById("hint30result").innerHTML = "Since x is the number of years since 1985, the year 2000 corresponds to x = 15 and the year 2003 corresponds to x = 18. The corresponding points on the line of best fit are approximately (15, 98) and (18, 107).";
 					clearInterval(myTimer);
 				}
 			}

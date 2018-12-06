@@ -487,7 +487,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "The value of 108 in the equation is the value of P in P = 108 - 23d when d = 0 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -499,7 +499,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "If a, the age of the boy, increases by 1, then h becomes h = 3(a + 1) + 28.6 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -511,7 +511,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "In the xy-plane, all lines that pass through the origin are of the form y = mx .";
 					clearInterval(myTimer);
 				}
 			}
@@ -523,7 +523,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "The total cost C of renting a boat is the sum of the intial cost to rent the boat plus the product of the cost per hour and the number of hours, h, that the boat is rented.";
 					clearInterval(myTimer);
 				}
 			}
@@ -535,7 +535,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "If m is the slope and b is the C-intercept of the line, the relationship between h and C can be represented by C = mh + b .";
 					clearInterval(myTimer);
 				}
 			}
@@ -547,7 +547,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "The amounts given in the table are in thousands of dollars. Therefore, the amount in the annual budget for agriculture/natural resources is actually $488,106,000 in 2010 and $358,708,000 in 2008.";
 					clearInterval(myTimer);
 				}
 			}
@@ -559,7 +559,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "The price of the job, in dollars, is calculated using the expression 60 + 12nh, where 60 is a fixed price and 12nh depends on the number of landscapers, n, working the job and the number of hours, h, the job takes those n landscapers.";
 					clearInterval(myTimer);
 				}
 			}
@@ -571,7 +571,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "Since lines L and k are parallel, the lines have the same slope.";
 					clearInterval(myTimer);
 				}
 			}
@@ -583,7 +583,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "Since a player starts with k points and loses 2 points each time a task is not completed, k is essentially the y-intercept and -2 is the slope of the equation you must form.";
 					clearInterval(myTimer);
 				}
 			}
@@ -595,7 +595,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "The landfill essentially 'starts' with 175,000 tons of trash which increases by 7,500 tons every year. With this information, you should be able to form a linear equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -607,7 +607,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "a + b = 0 can be rewritten as a = -b . This, along with the other coordinate values, can be substituted into the slope equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -619,7 +619,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "The diagonnals of the square are perpendicular, and so the product of the slope of the diagnoals is equal to -1 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -631,7 +631,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
-					document.getElementById("hint13result").innerHTML = "Hello!";
+					document.getElementById("hint13result").innerHTML = "The amount, a, that Jane has deposited after t fixed weekly deposits is equal to the initial deposit plus the total amount of money Jane has deposited in the t fixed weekly deposits.";
 					clearInterval(myTimer);
 				}
 			}
@@ -643,7 +643,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint14").style.visibility = "visible";
-					document.getElementById("hint14result").innerHTML = "Hello!";
+					document.getElementById("hint14result").innerHTML = "(c, d) is an xy-coordinate that can fit into the given equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -655,7 +655,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint15").style.visibility = "visible";
-					document.getElementById("hint15result").innerHTML = "Hello!";
+					document.getElementById("hint15result").innerHTML = "From the table, one can see that an increase in 1 unit in n results in an increase of 3 units in f(n). The y-intercept is the point at which a line intersects the y-axis.";
 					clearInterval(myTimer);
 				}
 			}
@@ -667,7 +667,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint16").style.visibility = "visible";
-					document.getElementById("hint16result").innerHTML = "Hello!";
+					document.getElementById("hint16result").innerHTML = "The given equation is in the standard form of y = mx + b where m is the slope.";
 					clearInterval(myTimer);
 				}
 			}
@@ -679,7 +679,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint17").style.visibility = "visible";
-					document.getElementById("hint17result").innerHTML = "Hello!";
+					document.getElementById("hint17result").innerHTML = "If the price P of the product increases by $10, the effect on the quantity of the product supplied can be determined by substituting P + 10 in for P.";
 					clearInterval(myTimer);
 				}
 			}
@@ -691,7 +691,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint18").style.visibility = "visible";
-					document.getElementById("hint18result").innerHTML = "Hello!";
+					document.getElementById("hint18result").innerHTML = "Either of the two points provided can be used to find the slope of the line.";
 					clearInterval(myTimer);
 				}
 			}
@@ -703,7 +703,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint19").style.visibility = "visible";
-					document.getElementById("hint19result").innerHTML = "Hello!";
+					document.getElementById("hint19result").innerHTML = "You cannot solve an equation that has two unknown variables. Solve for b first.";
 					clearInterval(myTimer);
 				}
 			}
@@ -715,7 +715,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint20").style.visibility = "visible";
-					document.getElementById("hint20result").innerHTML = "Hello!";
+					document.getElementById("hint20result").innerHTML = "Amelia increases the distance of her longest run from 8 miles to 26 miles at a constant rate.";
 					clearInterval(myTimer);
 				}
 			}
@@ -727,7 +727,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint21").style.visibility = "visible";
-					document.getElementById("hint21result").innerHTML = "Hello!";
+					document.getElementById("hint21result").innerHTML = "Parallel lines have the same slope.";
 					clearInterval(myTimer);
 				}
 			}
@@ -739,7 +739,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint22").style.visibility = "visible";
-					document.getElementById("hint22result").innerHTML = "Hello!";
+					document.getElementById("hint22result").innerHTML = "The quadrants of the xy-plane are defined as follows: Quadrant I is above the x-axis and to the right of the y-axis; Quadrant II is above the x-axis and to the left of the y-axis; Quadrant III is below the x-axis and to the left of the y-axis; and Quadrant IV is below the x-axis and to the right of the y-axis.";
 					clearInterval(myTimer);
 				}
 			}
@@ -751,7 +751,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint23").style.visibility = "visible";
-					document.getElementById("hint23result").innerHTML = "Hello!";
+					document.getElementById("hint23result").innerHTML = "The given equation is in the standard form for a linear equation, but is slightly rearranged. Examine it to ascertain what composes the slope.";
 					clearInterval(myTimer);
 				}
 			}
@@ -763,7 +763,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint24").style.visibility = "visible";
-					document.getElementById("hint24result").innerHTML = "Hello!";
+					document.getElementById("hint24result").innerHTML = "Each of the points in the scatterplot represents a large US city, graphed according to its population density (along the horizontal axis) and its relative housing cost (along the vertical axis). The line of best fit for this data represents the expected relative housing cost for a certain population density, based on the data points in the graph.";
 					clearInterval(myTimer);
 				}
 			}
@@ -775,7 +775,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint25").style.visibility = "visible";
-					document.getElementById("hint25result").innerHTML = "Hello!";
+					document.getElementById("hint25result").innerHTML = "The given equation can be rewritten into the standard form for a linear equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -787,7 +787,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint26").style.visibility = "visible";
-					document.getElementById("hint26result").innerHTML = "Hello!";
+					document.getElementById("hint26result").innerHTML = "At what point does the line intersect the y-axis?";
 					clearInterval(myTimer);
 				}
 			}
@@ -799,7 +799,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint27").style.visibility = "visible";
-					document.getElementById("hint27result").innerHTML = "Hello!";
+					document.getElementById("hint27result").innerHTML = "The y-intercept in the equation is the value of S when T = 0 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -811,7 +811,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint28").style.visibility = "visible";
-					document.getElementById("hint28result").innerHTML = "Hello!";
+					document.getElementById("hint28result").innerHTML = "Maria must pay $10 plus $60 for every hour that she rents the boat. The total amount she pays cannot exceed 280, but she also cannot pay for part of an hour (whole hours only).";
 					clearInterval(myTimer);
 				}
 			}
@@ -823,7 +823,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint29").style.visibility = "visible";
-					document.getElementById("hint29result").innerHTML = "Hello!";
+					document.getElementById("hint29result").innerHTML = "You are given at least two coordinates. Pick any two and apply them to the slope equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -835,7 +835,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint30").style.visibility = "visible";
-					document.getElementById("hint30result").innerHTML = "Hello!";
+					document.getElementById("hint30result").innerHTML = "n is the rate and b is the starting point.";
 					clearInterval(myTimer);
 				}
 			}
@@ -847,7 +847,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint31").style.visibility = "visible";
-					document.getElementById("hint31result").innerHTML = "Hello!";
+					document.getElementById("hint31result").innerHTML = "When two nonvertical lines are perpendicular, the product of their slopes is -1 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -859,7 +859,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint32").style.visibility = "visible";
-					document.getElementById("hint32result").innerHTML = "Hello!";
+					document.getElementById("hint32result").innerHTML = "According to the given information, multiplying a tree species’ growth factor by the tree’s diameter is a method to approximate the age of the tree.";
 					clearInterval(myTimer);
 				}
 			}
@@ -871,7 +871,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint33").style.visibility = "visible";
-					document.getElementById("hint33result").innerHTML = "Hello!";
+					document.getElementById("hint33result").innerHTML = "The growth factor of a tree species is approximated by the slope of a line of best fit that models the relationship between diameter and age. A line of best fit can be visually estimated by identifying a line that goes in the same direction of the data and where roughly half the given data points fall above and half the given data points fall below the line. ";
 					clearInterval(myTimer);
 				}
 			}
@@ -883,7 +883,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint34").style.visibility = "visible";
-					document.getElementById("hint34result").innerHTML = "Hello!";
+					document.getElementById("hint34result").innerHTML = "The diameters of the two trees 10 years from now can be found by dividing each tree’s age in 10 years by its respective growth factor.";
 					clearInterval(myTimer);
 				}
 			}
@@ -895,7 +895,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint35").style.visibility = "visible";
-					document.getElementById("hint35result").innerHTML = "Hello!";
+					document.getElementById("hint35result").innerHTML = "The linear function that represents the relationship will be in the form r(p) = ap + b, where a and b are constants and r(p) is the monthly rental price, in dollars, of a property that was purchased with p thousands of dollars.";
 					clearInterval(myTimer);
 				}
 			}
@@ -907,7 +907,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint36").style.visibility = "visible";
-					document.getElementById("hint36result").innerHTML = "Hello!";
+					document.getElementById("hint36result").innerHTML = "(0, -4) is the y-intercept of g.";
 					clearInterval(myTimer);
 				}
 			}
@@ -919,7 +919,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint37").style.visibility = "visible";
-					document.getElementById("hint37result").innerHTML = "Hello!";
+					document.getElementById("hint37result").innerHTML = "The total amount T, in dollars, Salim will pay for n tickets is given by T = 15n + 12, which consists of both a per-ticket charge and a one-time service fee.";
 					clearInterval(myTimer);
 				}
 			}
@@ -931,7 +931,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint38").style.visibility = "visible";
-					document.getElementById("hint38result").innerHTML = "Hello!";
+					document.getElementById("hint38result").innerHTML = "You're looking for a graph with a y-intercept of -5 and a positive slope of 2.";
 					clearInterval(myTimer);
 				}
 			}
@@ -943,7 +943,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint39").style.visibility = "visible";
-					document.getElementById("hint39result").innerHTML = "Hello!";
+					document.getElementById("hint39result").innerHTML = "The y-intercepts are the starting points for both Paul and Mark.";
 					clearInterval(myTimer);
 				}
 			}
@@ -955,7 +955,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint40").style.visibility = "visible";
-					document.getElementById("hint40result").innerHTML = "Hello!";
+					document.getElementById("hint40result").innerHTML = "You must set up a linear equation. 350 is the starting point and d dollars is charged over the course of 12 months.";
 					clearInterval(myTimer);
 				}
 			}
@@ -967,7 +967,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint41").style.visibility = "visible";
-					document.getElementById("hint41result").innerHTML = "Hello!";
+					document.getElementById("hint41result").innerHTML = "What number is shared among all of the values of the inequality? What can you do with that number?";
 					clearInterval(myTimer);
 				}
 			}
@@ -979,7 +979,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint42").style.visibility = "visible";
-					document.getElementById("hint42result").innerHTML = "Hello!";
+					document.getElementById("hint42result").innerHTML = "a is the slope of the equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -991,7 +991,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint43").style.visibility = "visible";
-					document.getElementById("hint43result").innerHTML = "Hello!";
+					document.getElementById("hint43result").innerHTML = "According to the table, the height of the sunflower is 36.36 cm on day 14 and 131.00 cm on day 35.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1003,7 +1003,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint44").style.visibility = "visible";
-					document.getElementById("hint44result").innerHTML = "Hello!";
+					document.getElementById("hint44result").innerHTML = "You are given at least two coordinates. Pick any two and apply them to the slope equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1015,7 +1015,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint45").style.visibility = "visible";
-					document.getElementById("hint45result").innerHTML = "Hello!";
+					document.getElementById("hint45result").innerHTML = "You are given at least two coordinates. Pick any two and apply them to the slope equation. You are also provided the y-intercept.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1027,7 +1027,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint46").style.visibility = "visible";
-					document.getElementById("hint46result").innerHTML = "Hello!";
+					document.getElementById("hint46result").innerHTML = "The x-intercept is the point at which a line crosses the x-axis.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1039,7 +1039,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint47").style.visibility = "visible";
-					document.getElementById("hint47result").innerHTML = "Hello!";
+					document.getElementById("hint47result").innerHTML = "If you add x minutes to y minutes, the result represents the minutes spent doing both x and y.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1051,7 +1051,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint48").style.visibility = "visible";
-					document.getElementById("hint48result").innerHTML = "Hello!";
+					document.getElementById("hint48result").innerHTML = "You start at $32,400 and end at $0 over the course of 12 years. These represent 3 of the 4 values needed in your linear equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1063,7 +1063,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint49").style.visibility = "visible";
-					document.getElementById("hint49result").innerHTML = "Hello!";
+					document.getElementById("hint49result").innerHTML = "The x-intercept is (2, 0), so the line must be of the form y = m(x - 2).";
 					clearInterval(myTimer);
 				}
 			}
@@ -1075,7 +1075,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint50").style.visibility = "visible";
-					document.getElementById("hint50result").innerHTML = "Hello!";
+					document.getElementById("hint50result").innerHTML = "The y-intercept of the graph of y = 19.99 + 1.50x in the xy-plane is the point on the graph with an x-coordinate equal to 0. ";
 					clearInterval(myTimer);
 				}
 			}
@@ -1087,7 +1087,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint51").style.visibility = "visible";
-					document.getElementById("hint51result").innerHTML = "Hello!";
+					document.getElementById("hint51result").innerHTML = "For every 1 unit s you move to the right, how much does t increase?";
 					clearInterval(myTimer);
 				}
 			}
@@ -1099,7 +1099,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint52").style.visibility = "visible";
-					document.getElementById("hint52result").innerHTML = "Hello!";
+					document.getElementById("hint52result").innerHTML = "You are given at least two coordinates. Pick any two and apply them to the slope equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1111,7 +1111,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint53").style.visibility = "visible";
-					document.getElementById("hint53result").innerHTML = "Hello!";
+					document.getElementById("hint53result").innerHTML = "You are able to calculate the slope based off of two points on the line and the line passes through the origin as well.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1123,7 +1123,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint54").style.visibility = "visible";
-					document.getElementById("hint54result").innerHTML = "Hello!";
+					document.getElementById("hint54result").innerHTML = "Oil and gas production decreased at a constant rate, so you can caluclate the slope of the line as you are given two coordinate points.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1135,7 +1135,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint55").style.visibility = "visible";
-					document.getElementById("hint55result").innerHTML = "Hello!";
+					document.getElementById("hint55result").innerHTML = "What would be the starting point for a linear function that represents the given situation?";
 					clearInterval(myTimer);
 				}
 			}
@@ -1147,7 +1147,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint56").style.visibility = "visible";
-					document.getElementById("hint56result").innerHTML = "Hello!";
+					document.getElementById("hint56result").innerHTML = "The faster the decrease, the steeper the slope.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1159,7 +1159,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint57").style.visibility = "visible";
-					document.getElementById("hint57result").innerHTML = "Hello!";
+					document.getElementById("hint57result").innerHTML = "What does m represent in the standard form of a linear equation?";
 					clearInterval(myTimer);
 				}
 			}
@@ -1171,7 +1171,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint58").style.visibility = "visible";
-					document.getElementById("hint58result").innerHTML = "Hello!";
+					document.getElementById("hint58result").innerHTML = "The number 3.39 in the equation y = 3.39x + 46.89 is the slope, which is the change in y per unit change in x.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1183,7 +1183,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint59").style.visibility = "visible";
-					document.getElementById("hint59result").innerHTML = "Hello!";
+					document.getElementById("hint59result").innerHTML = "The linear equation is meant to represent a specific time period, so your P(t)-intercept does not occur when t = 0 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -1195,7 +1195,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint60").style.visibility = "visible";
-					document.getElementById("hint60result").innerHTML = "Hello!";
+					document.getElementById("hint60result").innerHTML = "Since the point (p, r) lies on the line with equation y = x + b, the point must satisfy the equation. Similarly, since the point (2p, 5r) lies on the line with the equation y = 2x + b, the point must satisfy the equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1207,7 +1207,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint61").style.visibility = "visible";
-					document.getElementById("hint61result").innerHTML = "Hello!";
+					document.getElementById("hint61result").innerHTML = "30% of 5,000 is the amount of paper that has been used up over the course of 20 minutes. This is a slope.";
 					clearInterval(myTimer);
 				}
 			}
