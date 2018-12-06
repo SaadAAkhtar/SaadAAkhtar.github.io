@@ -452,7 +452,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -464,7 +464,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "Determine the value of x when b = c .";
 					clearInterval(myTimer);
 				}
 			}
@@ -476,7 +476,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -488,7 +488,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "The keyword 'is' is generally a substitute for '=' in math word problems.";
 					clearInterval(myTimer);
 				}
 			}
@@ -500,7 +500,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "You can form two equations where one equation represents the total number of product sold and the other equation equals the total revenue from the product sold.";
 					clearInterval(myTimer);
 				}
 			}
@@ -512,7 +512,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "What will be crossing the bridge is the driver, the truck, and the boxes and all of these must have a weight that does not exceed 6000 pounds.";
 					clearInterval(myTimer);
 				}
 			}
@@ -524,7 +524,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -536,7 +536,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "Use the information provided to form two linear equations and replace x and y with a and b, respectively. Finally, use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -548,7 +548,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "This system of linear equations has infinite solutions which means that they must be the same equation. As such, all constants from one equation must be equivalent to the constants form the other equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -560,7 +560,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "The musician earns $0.09 for every d and $0.002 for every s.";
 					clearInterval(myTimer);
 				}
 			}
@@ -572,7 +572,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "You can form two inequalities where one inequality represents the weight limit and the other inequality represents the box limit.";
 					clearInterval(myTimer);
 				}
 			}
@@ -584,7 +584,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "You can form two equations where one equation represents the combined hours and the other equation represents the comparison between Doug and Laura.";
 					clearInterval(myTimer);
 				}
 			}
@@ -596,7 +596,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
-					document.getElementById("hint13result").innerHTML = "Hello!";
+					document.getElementById("hint13result").innerHTML = "The keyword 'is' is generally a substitute for '=' in math word problems. As such, which side will the '2' end up on?";
 					clearInterval(myTimer);
 				}
 			}
@@ -608,7 +608,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint14").style.visibility = "visible";
-					document.getElementById("hint14result").innerHTML = "Hello!";
+					document.getElementById("hint14result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -620,7 +620,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint15").style.visibility = "visible";
-					document.getElementById("hint15result").innerHTML = "Hello!";
+					document.getElementById("hint15result").innerHTML = "If a system of two linear equations has no solution, then the lines represented by the equations in the coordinate plane are parallel.";
 					clearInterval(myTimer);
 				}
 			}
@@ -632,7 +632,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint16").style.visibility = "visible";
-					document.getElementById("hint16result").innerHTML = "Hello!";
+					document.getElementById("hint16result").innerHTML = "If any two equations intersect, then they must be equal at at least one point.";
 					clearInterval(myTimer);
 				}
 			}
@@ -644,7 +644,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint17").style.visibility = "visible";
-					document.getElementById("hint17result").innerHTML = "Hello!";
+					document.getElementById("hint17result").innerHTML = "You can form two equations where one equation represents the total calories and the other equation represents the comparison between a hamburger and fries.";
 					clearInterval(myTimer);
 				}
 			}
@@ -656,7 +656,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint18").style.visibility = "visible";
-					document.getElementById("hint18result").innerHTML = "Hello!";
+					document.getElementById("hint18result").innerHTML = "The quantity of the product supplied to the market will equal the quantity of the product demanded by the market if S(P) is equal to D(P).";
 					clearInterval(myTimer);
 				}
 			}
@@ -668,7 +668,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint19").style.visibility = "visible";
-					document.getElementById("hint19result").innerHTML = "Hello!";
+					document.getElementById("hint19result").innerHTML = "You can form two equations where one equation represents the sum of all the variables and the other equation represents the comparison of one variable against two other variables.";
 					clearInterval(myTimer);
 				}
 			}
@@ -680,7 +680,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint20").style.visibility = "visible";
-					document.getElementById("hint20result").innerHTML = "Hello!";
+					document.getElementById("hint20result").innerHTML = " Let c be the number of students in Mr. Kohl’s class. Form two equations that both represent n (the total solution amount) in terms of c.";
 					clearInterval(myTimer);
 				}
 			}
@@ -692,7 +692,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint21").style.visibility = "visible";
-					document.getElementById("hint21result").innerHTML = "Hello!";
+					document.getElementById("hint21result").innerHTML = "Isolate b and c before setting both equations equal to one another with the added caveat of satisfying the stated relationship between b and c.";
 					clearInterval(myTimer);
 				}
 			}
@@ -704,7 +704,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint22").style.visibility = "visible";
-					document.getElementById("hint22result").innerHTML = "Hello!";
+					document.getElementById("hint22result").innerHTML = "The inequalities can be graphed on the xy-plane. They are represented by the lower half-planes with their respective boundary lines. The solution set of the system of inequalities will be the intersection of these half-planes, including the boundary lines, and the solution (a, b) with the greatest possible value of b will be the point of intersection of the boundary lines.";
 					clearInterval(myTimer);
 				}
 			}
@@ -716,7 +716,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint23").style.visibility = "visible";
-					document.getElementById("hint23result").innerHTML = "Hello!";
+					document.getElementById("hint23result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -728,7 +728,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint24").style.visibility = "visible";
-					document.getElementById("hint24result").innerHTML = "Hello!";
+					document.getElementById("hint24result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -740,7 +740,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint25").style.visibility = "visible";
-					document.getElementById("hint25result").innerHTML = "Hello!";
+					document.getElementById("hint25result").innerHTML = "There is a base fee of $9.80 with additional fees applying to rented movies per month.";
 					clearInterval(myTimer);
 				}
 			}
@@ -752,7 +752,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint26").style.visibility = "visible";
-					document.getElementById("hint26result").innerHTML = "Hello!";
+					document.getElementById("hint26result").innerHTML = "Donald is starting at 180 words per minute and is looking to increase that rate by 5 words per minute each month.";
 					clearInterval(myTimer);
 				}
 			}
@@ -764,7 +764,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint27").style.visibility = "visible";
-					document.getElementById("hint27result").innerHTML = "Hello!";
+					document.getElementById("hint27result").innerHTML = "You can form two equations where one equation represents the combined hours worked and the other equation represents the comparison between Raul and Angelica.";
 					clearInterval(myTimer);
 				}
 			}
@@ -776,7 +776,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint28").style.visibility = "visible";
-					document.getElementById("hint28result").innerHTML = "Hello!";
+					document.getElementById("hint28result").innerHTML = "The total cost y, in dollars, of buying the materials and renting the tools for x days from Store A and Store B is found by substituting the respective values for these stores from the table into the given equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -788,7 +788,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint29").style.visibility = "visible";
-					document.getElementById("hint29result").innerHTML = "Hello!";
+					document.getElementById("hint29result").innerHTML = "If two lines have three possible solutions, then they must intersect three times.";
 					clearInterval(myTimer);
 				}
 			}
@@ -800,7 +800,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint30").style.visibility = "visible";
-					document.getElementById("hint30result").innerHTML = "Hello!";
+					document.getElementById("hint30result").innerHTML = "You can form two equations where one equation represents the total number of bats and the other equation represents the proportion of the number of male bats to the total number of bats.";
 					clearInterval(myTimer);
 				}
 			}
@@ -812,7 +812,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint31").style.visibility = "visible";
-					document.getElementById("hint31result").innerHTML = "Hello!";
+					document.getElementById("hint31result").innerHTML = "You can form two inequalities where one inequality represents her total pay in a week and the other inequality represents the her total hours worked in a week.";
 					clearInterval(myTimer);
 				}
 			}
@@ -824,7 +824,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint32").style.visibility = "visible";
-					document.getElementById("hint32result").innerHTML = "Hello!";
+					document.getElementById("hint32result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -836,7 +836,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint33").style.visibility = "visible";
-					document.getElementById("hint33result").innerHTML = "Hello!";
+					document.getElementById("hint33result").innerHTML = "In order to calculate dollars per mile, you must divide dollars per gallon by miles per gallon.";
 					clearInterval(myTimer);
 				}
 			}
@@ -848,7 +848,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint34").style.visibility = "visible";
-					document.getElementById("hint34result").innerHTML = "Hello!";
+					document.getElementById("hint34result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -860,7 +860,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint35").style.visibility = "visible";
-					document.getElementById("hint35result").innerHTML = "Hello!";
+					document.getElementById("hint35result").innerHTML = "You can form two equations where one equation represents the total product bought and the other equation represents the combined price of the product bought.";
 					clearInterval(myTimer);
 				}
 			}
@@ -872,7 +872,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint36").style.visibility = "visible";
-					document.getElementById("hint36result").innerHTML = "Hello!";
+					document.getElementById("hint36result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -884,7 +884,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint37").style.visibility = "visible";
-					document.getElementById("hint37result").innerHTML = "Hello!";
+					document.getElementById("hint37result").innerHTML = "You can form an area formula exclusively in terms of the width of the rectangular garden. The result is a quadratic equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -896,7 +896,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint38").style.visibility = "visible";
-					document.getElementById("hint38result").innerHTML = "Hello!";
+					document.getElementById("hint38result").innerHTML = "Use the substitution method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -908,7 +908,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint39").style.visibility = "visible";
-					document.getElementById("hint39result").innerHTML = "Hello!";
+					document.getElementById("hint39result").innerHTML = "'16' can be written in exponential form where a and b are positive integers. There are multiple correct answers, so pick one.";
 					clearInterval(myTimer);
 				}
 			}
@@ -920,7 +920,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint40").style.visibility = "visible";
-					document.getElementById("hint40result").innerHTML = "Hello!";
+					document.getElementById("hint40result").innerHTML = "You can form one formula exclusively in terms of the number of days the second voyage lasted.";
 					clearInterval(myTimer);
 				}
 			}
@@ -932,7 +932,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint41").style.visibility = "visible";
-					document.getElementById("hint41result").innerHTML = "Hello!";
+					document.getElementById("hint41result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -944,7 +944,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint42").style.visibility = "visible";
-					document.getElementById("hint42result").innerHTML = "Hello!";
+					document.getElementById("hint42result").innerHTML = "Let h be the riser height, in inches, and n be the number of the steps in the stairway. Create a formula that relates n and h to total rise of the stairway.";
 					clearInterval(myTimer);
 				}
 			}
@@ -956,7 +956,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint43").style.visibility = "visible";
-					document.getElementById("hint43result").innerHTML = "Hello!";
+					document.getElementById("hint43result").innerHTML = "Let n be the number of friends originally in the group. Since the cost of the trip was $800, the share, in dollars, for each friend was originally (800 / n). When two friends decided not to go on the trip, the number of friends who split the $800 cost became n − 2 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -968,7 +968,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint44").style.visibility = "visible";
-					document.getElementById("hint44result").innerHTML = "Hello!";
+					document.getElementById("hint44result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -980,7 +980,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint45").style.visibility = "visible";
-					document.getElementById("hint45result").innerHTML = "Hello!";
+					document.getElementById("hint45result").innerHTML = "One inequality relates to total staff pay per week and another relates to staff hires.";
 					clearInterval(myTimer);
 				}
 			}
@@ -992,7 +992,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint46").style.visibility = "visible";
-					document.getElementById("hint46result").innerHTML = "Hello!";
+					document.getElementById("hint46result").innerHTML = "You can form two equations where one equation represents the total volume of the order and the other equation represents the comparison between the collector's edition and the standard edition.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1004,7 +1004,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint47").style.visibility = "visible";
-					document.getElementById("hint47result").innerHTML = "Hello!";
+					document.getElementById("hint47result").innerHTML = "Use the substitution method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1016,7 +1016,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint48").style.visibility = "visible";
-					document.getElementById("hint48result").innerHTML = "Hello!";
+					document.getElementById("hint48result").innerHTML = "If Mosteller’s and Current’s formulas give the same estimate for A, then the right-hand sides of these two equations are equal.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1028,7 +1028,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint49").style.visibility = "visible";
-					document.getElementById("hint49result").innerHTML = "Hello!";
+					document.getElementById("hint49result").innerHTML = "You can form two equations where one equation represents the number of incorrect answers and the other represents the number of correct answers.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1040,7 +1040,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint50").style.visibility = "visible";
-					document.getElementById("hint50result").innerHTML = "Hello!";
+					document.getElementById("hint50result").innerHTML = "The width of the dance floor is w feet and the length is 6 feet longer than the width. Knowing this, what is the length of the dance floor?";
 					clearInterval(myTimer);
 				}
 			}
@@ -1052,7 +1052,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint51").style.visibility = "visible";
-					document.getElementById("hint51result").innerHTML = "Hello!";
+					document.getElementById("hint51result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1064,7 +1064,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint52").style.visibility = "visible";
-					document.getElementById("hint52result").innerHTML = "Hello!";
+					document.getElementById("hint52result").innerHTML = "You can form two equations where one equation represents the total number of tents and the other represents the total number of people.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1076,7 +1076,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint53").style.visibility = "visible";
-					document.getElementById("hint53result").innerHTML = "Hello!";
+					document.getElementById("hint53result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1088,7 +1088,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint54").style.visibility = "visible";
-					document.getElementById("hint54result").innerHTML = "Hello!";
+					document.getElementById("hint54result").innerHTML = "You can form two equations where one equation represents the total money raised and the other represents the total number of attendees.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1100,7 +1100,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint55").style.visibility = "visible";
-					document.getElementById("hint55result").innerHTML = "Hello!";
+					document.getElementById("hint55result").innerHTML = "You can form two inequalities where one inequality represents the unreached sell goal for insurance policies and the other inequality represents the minimum total value of the policies.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1112,7 +1112,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint56").style.visibility = "visible";
-					document.getElementById("hint56result").innerHTML = "Hello!";
+					document.getElementById("hint56result").innerHTML = "If the two equations represent the same line, they must be equivalent.";
 					clearInterval(myTimer);
 				}
 			}
