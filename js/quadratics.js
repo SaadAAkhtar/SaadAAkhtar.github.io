@@ -326,7 +326,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "Perform ordinary factoring in order to get solutions for t.";
 					clearInterval(myTimer);
 				}
 			}
@@ -338,7 +338,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "What is the height of the ball when it hits the ground relative to where it started?";
 					clearInterval(myTimer);
 				}
 			}
@@ -350,7 +350,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "Does p(3) = -2 have to imply p(5) = 0 ?";
 					clearInterval(myTimer);
 				}
 			}
@@ -362,7 +362,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "A quadratic equation must be in vertex form in order to identify the vertex as constants in the equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -374,7 +374,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "If it's not possible to factor by hand, what formula do we have to resort to in our darkest hour?";
 					clearInterval(myTimer);
 				}
 			}
@@ -386,7 +386,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "In order to get a quadratic equation to display its intercepts, we must get it in intercept form. How do we do that?";
 					clearInterval(myTimer);
 				}
 			}
@@ -398,7 +398,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "Two equations have two solutions if they intersect at two points. What provided values of a and b result in two intersections?";
 					clearInterval(myTimer);
 				}
 			}
@@ -410,7 +410,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "What number do we set a factor equal to?";
 					clearInterval(myTimer);
 				}
 			}
@@ -422,7 +422,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "A quadratic equation must be in vertex form in order to identify the vertex as constants in the equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -434,7 +434,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "If it's not possible to factor by hand, what formula do we have to resort to in our darkest hour?";
 					clearInterval(myTimer);
 				}
 			}
@@ -446,7 +446,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "An x-intercept is the same as a zero.";
 					clearInterval(myTimer);
 				}
 			}
@@ -458,7 +458,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "Two equations have one solution if they intersect once, two solutions if they intersect twice, etc.";
 					clearInterval(myTimer);
 				}
 			}
@@ -470,7 +470,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
-					document.getElementById("hint13result").innerHTML = "Hello!";
+					document.getElementById("hint13result").innerHTML = "The two equations intersect when both f(x) and g(x) equal 0.";
 					clearInterval(myTimer);
 				}
 			}
@@ -482,7 +482,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint14").style.visibility = "visible";
-					document.getElementById("hint14result").innerHTML = "Hello!";
+					document.getElementById("hint14result").innerHTML = "If it's not possible to factor by hand, what formula do we have to resort to in our darkest hour?";
 					clearInterval(myTimer);
 				}
 			}
@@ -494,7 +494,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint15").style.visibility = "visible";
-					document.getElementById("hint15result").innerHTML = "Hello!";
+					document.getElementById("hint15result").innerHTML = "-3, -1, and 1 are also the solutions of our polynomial. Those solutions can be identified via facotring.";
 					clearInterval(myTimer);
 				}
 			}
@@ -506,7 +506,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint16").style.visibility = "visible";
-					document.getElementById("hint16result").innerHTML = "Hello!";
+					document.getElementById("hint16result").innerHTML = "A quadratic equation can only have a minimum when it is facing upwards. What is the minimum called in that scenario?";
 					clearInterval(myTimer);
 				}
 			}
@@ -518,7 +518,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint17").style.visibility = "visible";
-					document.getElementById("hint17result").innerHTML = "Hello!";
+					document.getElementById("hint17result").innerHTML = "In order to get the solutions of a quadratic equation, we must factor the equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -530,7 +530,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint18").style.visibility = "visible";
-					document.getElementById("hint18result").innerHTML = "Hello!";
+					document.getElementById("hint18result").innerHTML = "An equation has an x-intercept when it intersects the x-axis.";
 					clearInterval(myTimer);
 				}
 			}
@@ -542,7 +542,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint19").style.visibility = "visible";
-					document.getElementById("hint19result").innerHTML = "Hello!";
+					document.getElementById("hint19result").innerHTML = "One side of the equation must equal the other side. Can we manipulate the left-hand side such that it looks similar to the right-hand side without having to pay attention to the right-hand side?";
 					clearInterval(myTimer);
 				}
 			}
@@ -554,7 +554,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint20").style.visibility = "visible";
-					document.getElementById("hint20result").innerHTML = "Hello!";
+					document.getElementById("hint20result").innerHTML = "The given equation is in vertex form. The sign of a determines whether the quadratic equation opens up or down.";
 					clearInterval(myTimer);
 				}
 			}
@@ -566,7 +566,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint21").style.visibility = "visible";
-					document.getElementById("hint21result").innerHTML = "Hello!";
+					document.getElementById("hint21result").innerHTML = "If any two equations intersect, then they must be equal at at least one point.";
 					clearInterval(myTimer);
 				}
 			}
@@ -578,7 +578,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint22").style.visibility = "visible";
-					document.getElementById("hint22result").innerHTML = "Hello!";
+					document.getElementById("hint22result").innerHTML = "Solve for x for each factor in order to get the solutions.";
 					clearInterval(myTimer);
 				}
 			}
@@ -590,7 +590,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint23").style.visibility = "visible";
-					document.getElementById("hint23result").innerHTML = "Hello!";
+					document.getElementById("hint23result").innerHTML = "The y-intercept is represented by the quadratic equation's constant.";
 					clearInterval(myTimer);
 				}
 			}
@@ -602,7 +602,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint24").style.visibility = "visible";
-					document.getElementById("hint24result").innerHTML = "Hello!";
+					document.getElementById("hint24result").innerHTML = "x and y can both be substituted by a in both equations.";
 					clearInterval(myTimer);
 				}
 			}
@@ -614,7 +614,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint25").style.visibility = "visible";
-					document.getElementById("hint25result").innerHTML = "Hello!";
+					document.getElementById("hint25result").innerHTML = "The answers are in vertex form. How can you manipulate the given quadratic equation into the vertex form?";
 					clearInterval(myTimer);
 				}
 			}
@@ -626,7 +626,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint26").style.visibility = "visible";
-					document.getElementById("hint26result").innerHTML = "Hello!";
+					document.getElementById("hint26result").innerHTML = "Roots are the same as zeros, so the factors of the polynomial can be set equal to zero in order to figure out the solutions.";
 					clearInterval(myTimer);
 				}
 			}
@@ -638,7 +638,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint27").style.visibility = "visible";
-					document.getElementById("hint27result").innerHTML = "Hello!";
+					document.getElementById("hint27result").innerHTML = "You must 'complete the square' in order to get a quadratic equation into vertex form.";
 					clearInterval(myTimer);
 				}
 			}
@@ -650,7 +650,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint28").style.visibility = "visible";
-					document.getElementById("hint28result").innerHTML = "Hello!";
+					document.getElementById("hint28result").innerHTML = "The vertex form is manipulated into the intercept form and the intercept form can be manipulated into the vertex form. Use the answer choice values to inform your final answer.";
 					clearInterval(myTimer);
 				}
 			}
@@ -662,7 +662,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint29").style.visibility = "visible";
-					document.getElementById("hint29result").innerHTML = "Hello!";
+					document.getElementById("hint29result").innerHTML = "If you know a possible value of x, you can solve for a possible value of a.";
 					clearInterval(myTimer);
 				}
 			}
@@ -674,7 +674,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint30").style.visibility = "visible";
-					document.getElementById("hint30result").innerHTML = "Hello!";
+					document.getElementById("hint30result").innerHTML = "What is the minimum value of h(t)?";
 					clearInterval(myTimer);
 				}
 			}
@@ -686,7 +686,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint31").style.visibility = "visible";
-					document.getElementById("hint31result").innerHTML = "Hello!";
+					document.getElementById("hint31result").innerHTML = "Use either the substitution or elimination method.";
 					clearInterval(myTimer);
 				}
 			}
@@ -698,7 +698,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint32").style.visibility = "visible";
-					document.getElementById("hint32result").innerHTML = "Hello!";
+					document.getElementById("hint32result").innerHTML = "The function intersects the x-axis three times.";
 					clearInterval(myTimer);
 				}
 			}
@@ -710,7 +710,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint33").style.visibility = "visible";
-					document.getElementById("hint33result").innerHTML = "Hello!";
+					document.getElementById("hint33result").innerHTML = "How many times do the two equations intersect?";
 					clearInterval(myTimer);
 				}
 			}
@@ -722,7 +722,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint34").style.visibility = "visible";
-					document.getElementById("hint34result").innerHTML = "Hello!";
+					document.getElementById("hint34result").innerHTML = "How can you find the solutions of a quadratic equation?";
 					clearInterval(myTimer);
 				}
 			}
@@ -734,7 +734,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint35").style.visibility = "visible";
-					document.getElementById("hint35result").innerHTML = "Hello!";
+					document.getElementById("hint35result").innerHTML = "Since we're solving for x + 1, we don't have to solve for x individually. Instead, we could substitute x + 1 by another variable.";
 					clearInterval(myTimer);
 				}
 			}
@@ -746,7 +746,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint36").style.visibility = "visible";
-					document.getElementById("hint36result").innerHTML = "Hello!";
+					document.getElementById("hint36result").innerHTML = "A fraction is undefined when the denominator is equal to 0 as you cannot divide by 0.";
 					clearInterval(myTimer);
 				}
 			}
@@ -758,7 +758,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint37").style.visibility = "visible";
-					document.getElementById("hint37result").innerHTML = "Hello!";
+					document.getElementById("hint37result").innerHTML = "Zeros are also x-intercepts.";
 					clearInterval(myTimer);
 				}
 			}
@@ -770,7 +770,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint38").style.visibility = "visible";
-					document.getElementById("hint38result").innerHTML = "Hello!";
+					document.getElementById("hint38result").innerHTML = "f(a) is equal to g(a) at some point. That means the two equations intersect at some point.";
 					clearInterval(myTimer);
 				}
 			}

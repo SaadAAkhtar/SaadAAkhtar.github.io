@@ -632,7 +632,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint16").style.visibility = "visible";
-					document.getElementById("hint16result").innerHTML = "If any two equations intersect, then they must be equal at at least one point.";
+					document.getElementById("hint16result").innerHTML = "You can form two inequalities where one inequality represents the maximum weight and the other inequality represents the comparison between detergent and fabric softener.";
 					clearInterval(myTimer);
 				}
 			}
