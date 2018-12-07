@@ -144,7 +144,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "How many grams are in a 2-decagram container?";
 					clearInterval(myTimer);
 				}
 			}
@@ -156,7 +156,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "We have a proportion of 7 bulbs selected for every 400 bulbs produced.";
 					clearInterval(myTimer);
 				}
 			}
@@ -168,7 +168,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "We have a proportion of 25 meters walked for every 13.7 seconds.";
 					clearInterval(myTimer);
 				}
 			}
@@ -180,7 +180,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "Since Earth's g and the W of the object on Earth are both known, we can calculate the object's mass.";
 					clearInterval(myTimer);
 				}
 			}
@@ -192,7 +192,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "We have a proportion of 1 ounce for every (28 / 3) acres.";
 					clearInterval(myTimer);
 				}
 			}
@@ -204,7 +204,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "We have a proportion of 30 kilometers for every 75° Celsius decrease.";
 					clearInterval(myTimer);
 				}
 			}
@@ -216,7 +216,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "We have a proportion of (2.5 / 16) pounds for every muffin.";
 					clearInterval(myTimer);
 				}
 			}
@@ -228,7 +228,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "We have a proportion of 5 horsepower for every 3730 watts.";
 					clearInterval(myTimer);
 				}
 			}
@@ -240,7 +240,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "The proportion ratio is (1 / 3), so one side of the proportion equation is already solved.";
 					clearInterval(myTimer);
 				}
 			}
@@ -252,7 +252,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "We have a proportion of 50 coins for every (31 / 8) inches.";
 					clearInterval(myTimer);
 				}
 			}
@@ -264,7 +264,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "We are trying to find the proportion ratio between x and k. How does the table help us calculate this ratio?";
 					clearInterval(myTimer);
 				}
 			}
@@ -276,7 +276,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "we have a proportion of two atoms of hydrogen for every one molecule of water.";
 					clearInterval(myTimer);
 				}
 			}
