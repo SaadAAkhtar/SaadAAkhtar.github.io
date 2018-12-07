@@ -424,7 +424,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "";
+					document.getElementById("hint1result").innerHTML = "Negative association means negative slope, so which graph is most clearly negative?";
 					clearInterval(myTimer);
 				}
 			}
@@ -436,7 +436,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "Use the formula for calculating mean.";
 					clearInterval(myTimer);
 				}
 			}
@@ -448,7 +448,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "Each answer choice represents exactly one value from the table.";
 					clearInterval(myTimer);
 				}
 			}
@@ -460,7 +460,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "How are mean, median, and range all calculated?";
 					clearInterval(myTimer);
 				}
 			}
@@ -472,7 +472,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "You narrow down the initial group of people before picking, at random, from that narrowed-down group.";
 					clearInterval(myTimer);
 				}
 			}
@@ -484,7 +484,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "How many 1-by-1 squares are there in a 10-by-10 field?";
 					clearInterval(myTimer);
 				}
 			}
@@ -496,7 +496,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "A small sample size is not always bad. Is there something worse than a small sample size in the survey performed?";
 					clearInterval(myTimer);
 				}
 			}
@@ -508,7 +508,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "When the y-coordinate is 550 billion, what is the x-coordinate?";
 					clearInterval(myTimer);
 				}
 			}
@@ -520,7 +520,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "You narrow down the initial group of people before picking, at random, from that narrowed-down group.";
 					clearInterval(myTimer);
 				}
 			}
@@ -532,7 +532,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "Do outliers have a stronger effect on the mean or the median?";
 					clearInterval(myTimer);
 				}
 			}
@@ -544,7 +544,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "There are 600 total students and you're looking for the mean of the 300th and 301st data points.";
 					clearInterval(myTimer);
 				}
 			}
@@ -556,7 +556,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "Though both schools have the same percentage of students with four siblings, the number of students in each school differs.";
 					clearInterval(myTimer);
 				}
 			}
@@ -568,7 +568,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
-					document.getElementById("hint13result").innerHTML = "Hello!";
+					document.getElementById("hint13result").innerHTML = "The keyword 'or' indicates addition of the two probabilities.";
 					clearInterval(myTimer);
 				}
 			}
@@ -580,7 +580,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint14").style.visibility = "visible";
-					document.getElementById("hint14result").innerHTML = "Hello!";
+					document.getElementById("hint14result").innerHTML = "Based off of one study, how strong of a conclusion can be made?";
 					clearInterval(myTimer);
 				}
 			}
@@ -592,7 +592,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint15").style.visibility = "visible";
-					document.getElementById("hint15result").innerHTML = "Hello!";
+					document.getElementById("hint15result").innerHTML = "When the x-coordinate is 34, what is the y-coordinate of Michael's swim time and what is the y-coordinate of the line of best fit?";
 					clearInterval(myTimer);
 				}
 			}
@@ -604,7 +604,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint16").style.visibility = "visible";
-					document.getElementById("hint16result").innerHTML = "Hello!";
+					document.getElementById("hint16result").innerHTML = "Assume there are x left-handed female students and y left-handed male students.";
 					clearInterval(myTimer);
 				}
 			}
@@ -616,7 +616,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint17").style.visibility = "visible";
-					document.getElementById("hint17result").innerHTML = "Hello!";
+					document.getElementById("hint17result").innerHTML = "Use the formula for calculating mean.";
 					clearInterval(myTimer);
 				}
 			}
@@ -628,7 +628,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint18").style.visibility = "visible";
-					document.getElementById("hint18result").innerHTML = "Hello!";
+					document.getElementById("hint18result").innerHTML = "You are choosing from a group of all of the movies.";
 					clearInterval(myTimer);
 				}
 			}
@@ -640,7 +640,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint19").style.visibility = "visible";
-					document.getElementById("hint19result").innerHTML = "Hello!";
+					document.getElementById("hint19result").innerHTML = "You narrow down the initial group of voters before picking, at random, from that narrowed-down group.";
 					clearInterval(myTimer);
 				}
 			}
@@ -652,7 +652,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint20").style.visibility = "visible";
-					document.getElementById("hint20result").innerHTML = "Hello!";
+					document.getElementById("hint20result").innerHTML = "You are not just limited to points A, B, C, and D on the chart; you can pick from all points.";
 					clearInterval(myTimer);
 				}
 			}
@@ -664,7 +664,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint21").style.visibility = "visible";
-					document.getElementById("hint21result").innerHTML = "Hello!";
+					document.getElementById("hint21result").innerHTML = "For a data point to be above the line y = x, the value of y must be greater than the value of x.";
 					clearInterval(myTimer);
 				}
 			}
@@ -676,7 +676,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint22").style.visibility = "visible";
-					document.getElementById("hint22result").innerHTML = "Hello!";
+					document.getElementById("hint22result").innerHTML = "Standard deviation is basically the average distance of the data points from the center of the data. If data is far away from the center, what happens to the standard deviation?";
 					clearInterval(myTimer);
 				}
 			}
@@ -688,7 +688,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint23").style.visibility = "visible";
-					document.getElementById("hint23result").innerHTML = "Hello!";
+					document.getElementById("hint23result").innerHTML = "You need to form three equations before finding the mean of those three equations.";
 					clearInterval(myTimer);
 				}
 			}
@@ -700,7 +700,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint24").style.visibility = "visible";
-					document.getElementById("hint24result").innerHTML = "Hello!";
+					document.getElementById("hint24result").innerHTML = "You are choosing from a group of all of the surgeons.";
 					clearInterval(myTimer);
 				}
 			}
@@ -712,7 +712,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint25").style.visibility = "visible";
-					document.getElementById("hint25result").innerHTML = "Hello!";
+					document.getElementById("hint25result").innerHTML = "It's not good enough for the statement to likely be true, it must be true.";
 					clearInterval(myTimer);
 				}
 			}
@@ -724,7 +724,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint26").style.visibility = "visible";
-					document.getElementById("hint26result").innerHTML = "Hello!";
+					document.getElementById("hint26result").innerHTML = "Since 34.6% of 26 is 8.996, there must have been 9 students in the class who reported having at least two siblings and 17 students who reported that they had fewer than two siblings. How can this information be applied to the whole state?";
 					clearInterval(myTimer);
 				}
 			}
@@ -736,7 +736,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint27").style.visibility = "visible";
-					document.getElementById("hint27result").innerHTML = "Hello!";
+					document.getElementById("hint27result").innerHTML = "Of the first 150 participants, 36 chose the first picture in the set, and of the 150 remaining participants, p chose the first picture in the set. Hence, what is the proportion of participants who chose the first picture in the set?";
 					clearInterval(myTimer);
 				}
 			}
@@ -748,7 +748,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint28").style.visibility = "visible";
-					document.getElementById("hint28result").innerHTML = "Hello!";
+					document.getElementById("hint28result").innerHTML = "You can set up a mean formula such that there is only one unknown variable.";
 					clearInterval(myTimer);
 				}
 			}
@@ -760,7 +760,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint29").style.visibility = "visible";
-					document.getElementById("hint29result").innerHTML = "Hello!";
+					document.getElementById("hint29result").innerHTML = "What is the minimum number of miles Jaime want to bike?";
 					clearInterval(myTimer);
 				}
 			}
@@ -772,7 +772,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint30").style.visibility = "visible";
-					document.getElementById("hint30result").innerHTML = "Hello!";
+					document.getElementById("hint30result").innerHTML = "The city council wants the opinions of all city residents, not any one specific portion of the population. Does their survey reflect this desire?";
 					clearInterval(myTimer);
 				}
 			}
@@ -784,7 +784,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint31").style.visibility = "visible";
-					document.getElementById("hint31result").innerHTML = "Hello!";
+					document.getElementById("hint31result").innerHTML = "You narrow down the initial group before picking, at random, from that narrowed-down group.";
 					clearInterval(myTimer);
 				}
 			}
@@ -796,7 +796,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint32").style.visibility = "visible";
-					document.getElementById("hint32result").innerHTML = "Hello!";
+					document.getElementById("hint32result").innerHTML = "Which part of the graph has the smallest slope?";
 					clearInterval(myTimer);
 				}
 			}
@@ -808,7 +808,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint33").style.visibility = "visible";
-					document.getElementById("hint33result").innerHTML = "Hello!";
+					document.getElementById("hint33result").innerHTML = "Does the random sample contain a variety of fish?";
 					clearInterval(myTimer);
 				}
 			}
@@ -820,7 +820,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint34").style.visibility = "visible";
-					document.getElementById("hint34result").innerHTML = "Hello!";
+					document.getElementById("hint34result").innerHTML = "Which data point/s occurs in the middle of the dataset?";
 					clearInterval(myTimer);
 				}
 			}
@@ -832,7 +832,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint35").style.visibility = "visible";
-					document.getElementById("hint35result").innerHTML = "Hello!";
+					document.getElementById("hint35result").innerHTML = "You can set up a mean formula such that there is only one unknown variable.";
 					clearInterval(myTimer);
 				}
 			}
@@ -844,7 +844,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint36").style.visibility = "visible";
-					document.getElementById("hint36result").innerHTML = "Hello!";
+					document.getElementById("hint36result").innerHTML = "You narrow down the initial group of pets before picking, at random, from that narrowed-down group.";
 					clearInterval(myTimer);
 				}
 			}
@@ -856,7 +856,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint37").style.visibility = "visible";
-					document.getElementById("hint37result").innerHTML = "Hello!";
+					document.getElementById("hint37result").innerHTML = "A specific group of people were surveyed, so survey results apply only to that group of people.";
 					clearInterval(myTimer);
 				}
 			}
@@ -868,7 +868,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint38").style.visibility = "visible";
-					document.getElementById("hint38result").innerHTML = "Hello!";
+					document.getElementById("hint38result").innerHTML = "What is the trend of the line of best fit?";
 					clearInterval(myTimer);
 				}
 			}
@@ -880,7 +880,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint39").style.visibility = "visible";
-					document.getElementById("hint39result").innerHTML = "Hello!";
+					document.getElementById("hint39result").innerHTML = "When the x-coordinate is 1.2, what is the y-coordinate on the line of best fit?";
 					clearInterval(myTimer);
 				}
 			}
@@ -892,7 +892,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint40").style.visibility = "visible";
-					document.getElementById("hint40result").innerHTML = "Hello!";
+					document.getElementById("hint40result").innerHTML = "We're not interested in the x-axis whatsoever.";
 					clearInterval(myTimer);
 				}
 			}
@@ -904,7 +904,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint41").style.visibility = "visible";
-					document.getElementById("hint41result").innerHTML = "Hello!";
+					document.getElementById("hint41result").innerHTML = "Pick any two points and calculate the slope.";
 					clearInterval(myTimer);
 				}
 			}
@@ -916,7 +916,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint42").style.visibility = "visible";
-					document.getElementById("hint42result").innerHTML = "Hello!";
+					document.getElementById("hint42result").innerHTML = "Which data point occurs in the middle of the dataset?";
 					clearInterval(myTimer);
 				}
 			}
@@ -928,7 +928,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint43").style.visibility = "visible";
-					document.getElementById("hint43result").innerHTML = "Hello!";
+					document.getElementById("hint43result").innerHTML = "The scores are not represented directly on the table. However, you do know how many questions each participant correctly answered.";
 					clearInterval(myTimer);
 				}
 			}
@@ -940,7 +940,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint44").style.visibility = "visible";
-					document.getElementById("hint44result").innerHTML = "Hello!";
+					document.getElementById("hint44result").innerHTML = "No contestant received the same score on two different days, so each of the contestants who received a score of 5 is represented in the “5 out of 5” column of the table exactly once.";
 					clearInterval(myTimer);
 				}
 			}
@@ -952,7 +952,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint45").style.visibility = "visible";
-					document.getElementById("hint45result").innerHTML = "Hello!";
+					document.getElementById("hint45result").innerHTML = "3 over 200 represents the fraction of cars that have a manufacturing defect among the random sample.";
 					clearInterval(myTimer);
 				}
 			}
@@ -964,7 +964,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint46").style.visibility = "visible";
-					document.getElementById("hint46result").innerHTML = "Hello!";
+					document.getElementById("hint46result").innerHTML = "Use the formula for the line of best fit.";
 					clearInterval(myTimer);
 				}
 			}
@@ -976,7 +976,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint47").style.visibility = "visible";
-					document.getElementById("hint47result").innerHTML = "Hello!";
+					document.getElementById("hint47result").innerHTML = "You narrow down the initial group of adults before picking from that narrowed-down group.";
 					clearInterval(myTimer);
 				}
 			}
@@ -988,7 +988,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint48").style.visibility = "visible";
-					document.getElementById("hint48result").innerHTML = "Hello!";
+					document.getElementById("hint48result").innerHTML = "How are mean, median, and mode all calculated?";
 					clearInterval(myTimer);
 				}
 			}
@@ -1000,7 +1000,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint49").style.visibility = "visible";
-					document.getElementById("hint49result").innerHTML = "Hello!";
+					document.getElementById("hint49result").innerHTML = "When the x-coordinate is -2, what is the y-coordinate on the line of best fit?";
 					clearInterval(myTimer);
 				}
 			}
@@ -1012,7 +1012,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint50").style.visibility = "visible";
-					document.getElementById("hint50result").innerHTML = "Hello!";
+					document.getElementById("hint50result").innerHTML = "Contestant 2 earned 70% of the votes cast using social media and 40% of the votes cast using a text message.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1024,7 +1024,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint51").style.visibility = "visible";
-					document.getElementById("hint51result").innerHTML = "Hello!";
+					document.getElementById("hint51result").innerHTML = "Families with children would most likely frequent a playground and Tabitha surveyed these families only.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1036,7 +1036,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint52").style.visibility = "visible";
-					document.getElementById("hint52result").innerHTML = "Hello!";
+					document.getElementById("hint52result").innerHTML = "Standard deviation is basically the average distance of the data points from the center of the data. If data is spread out, what happens to the standard deviation?";
 					clearInterval(myTimer);
 				}
 			}
