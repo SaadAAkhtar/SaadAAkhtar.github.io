@@ -438,7 +438,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "";
+					document.getElementById("hint1result").innerHTML = "The equation has two unknown variables. However, since you know the value of one of them, you can solve for the other.";
 					clearInterval(myTimer);
 				}
 			}
@@ -450,7 +450,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -462,7 +462,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "Manipulate (a / b) = 2 such that it looks similar to ((4b) / a) .";
 					clearInterval(myTimer);
 				}
 			}
@@ -474,7 +474,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "Solve for k, then solve for y when x = 5 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -486,7 +486,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "Since you know a, you can solve for t.";
 					clearInterval(myTimer);
 				}
 			}
@@ -498,7 +498,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "Refer to the formula sheet for the correct volume formula.";
 					clearInterval(myTimer);
 				}
 			}
@@ -510,7 +510,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "Solve for x, then plug it into 10x + 3 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -522,7 +522,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "Since you know A, you can solve for n.";
 					clearInterval(myTimer);
 				}
 			}
@@ -534,7 +534,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "Since you know L, you can solve for m.";
 					clearInterval(myTimer);
 				}
 			}
@@ -546,7 +546,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "You can form an equation such that you can figure out the price for each ticket.";
 					clearInterval(myTimer);
 				}
 			}
@@ -558,7 +558,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "You need to convert the words provided into math symbols in order to form an equation.";
 					clearInterval(myTimer);
 				}
 			}
@@ -570,7 +570,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "All units must be the same (as in, minutes must be added to minutes).";
 					clearInterval(myTimer);
 				}
 			}
@@ -582,7 +582,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
-					document.getElementById("hint13result").innerHTML = "Hello!";
+					document.getElementById("hint13result").innerHTML = "Since you know x and f(x), you can solve for b.";
 					clearInterval(myTimer);
 				}
 			}
@@ -594,7 +594,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint14").style.visibility = "visible";
-					document.getElementById("hint14result").innerHTML = "Hello!";
+					document.getElementById("hint14result").innerHTML = "The equation provided must be solved for two times with different variables put in each time.";
 					clearInterval(myTimer);
 				}
 			}
@@ -606,7 +606,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint15").style.visibility = "visible";
-					document.getElementById("hint15result").innerHTML = "Hello!";
+					document.getElementById("hint15result").innerHTML = "All variables aside from k are known, so solve for k.";
 					clearInterval(myTimer);
 				}
 			}
@@ -618,7 +618,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint16").style.visibility = "visible";
-					document.getElementById("hint16result").innerHTML = "Hello!";
+					document.getElementById("hint16result").innerHTML = "There is only one variable that changes depending on the price of paint.";
 					clearInterval(myTimer);
 				}
 			}
@@ -630,7 +630,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint17").style.visibility = "visible";
-					document.getElementById("hint17result").innerHTML = "Hello!";
+					document.getElementById("hint17result").innerHTML = "Solve for r in the equation, then solve for 6r + 3 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -642,7 +642,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint18").style.visibility = "visible";
-					document.getElementById("hint18result").innerHTML = "Hello!";
+					document.getElementById("hint18result").innerHTML = "Solve for x using fraction busting.";
 					clearInterval(myTimer);
 				}
 			}
@@ -654,7 +654,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint19").style.visibility = "visible";
-					document.getElementById("hint19result").innerHTML = "Hello!";
+					document.getElementById("hint19result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -666,7 +666,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint20").style.visibility = "visible";
-					document.getElementById("hint20result").innerHTML = "Hello!";
+					document.getElementById("hint20result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -678,7 +678,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint21").style.visibility = "visible";
-					document.getElementById("hint21result").innerHTML = "Hello!";
+					document.getElementById("hint21result").innerHTML = "Solve for w using fraction busting.";
 					clearInterval(myTimer);
 				}
 			}
@@ -690,7 +690,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint22").style.visibility = "visible";
-					document.getElementById("hint22result").innerHTML = "Hello!";
+					document.getElementById("hint22result").innerHTML = "Sine you know both m and Mercury's g, you can solve for weight.";
 					clearInterval(myTimer);
 				}
 			}
@@ -702,7 +702,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint23").style.visibility = "visible";
-					document.getElementById("hint23result").innerHTML = "Hello!";
+					document.getElementById("hint23result").innerHTML = "Refer to the formula sheet for the correct volume formulas.";
 					clearInterval(myTimer);
 				}
 			}
@@ -714,7 +714,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint24").style.visibility = "visible";
-					document.getElementById("hint24result").innerHTML = "Hello!";
+					document.getElementById("hint24result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -726,7 +726,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint25").style.visibility = "visible";
-					document.getElementById("hint25result").innerHTML = "Hello!";
+					document.getElementById("hint25result").innerHTML = "Since you know N and r, you can solve for T.";
 					clearInterval(myTimer);
 				}
 			}
@@ -738,7 +738,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint26").style.visibility = "visible";
-					document.getElementById("hint26result").innerHTML = "Hello!";
+					document.getElementById("hint26result").innerHTML = "You must FOIL in order to get the answer.";
 					clearInterval(myTimer);
 				}
 			}
@@ -750,7 +750,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint27").style.visibility = "visible";
-					document.getElementById("hint27result").innerHTML = "Hello!";
+					document.getElementById("hint27result").innerHTML = "The equation can be rewritten such that we are only left with (a / b).";
 					clearInterval(myTimer);
 				}
 			}
@@ -762,7 +762,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint28").style.visibility = "visible";
-					document.getElementById("hint28result").innerHTML = "Hello!";
+					document.getElementById("hint28result").innerHTML = "Solve using fraction busting.";
 					clearInterval(myTimer);
 				}
 			}
@@ -774,7 +774,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint29").style.visibility = "visible";
-					document.getElementById("hint29result").innerHTML = "Hello!";
+					document.getElementById("hint29result").innerHTML = "Since you know the mass and density, you can solve for volume.";
 					clearInterval(myTimer);
 				}
 			}
@@ -786,7 +786,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint30").style.visibility = "visible";
-					document.getElementById("hint30result").innerHTML = "Hello!";
+					document.getElementById("hint30result").innerHTML = "You start with 600 gallons before adding 8 gallons every minute for 70 minutes.";
 					clearInterval(myTimer);
 				}
 			}
@@ -798,7 +798,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint31").style.visibility = "visible";
-					document.getElementById("hint31result").innerHTML = "Hello!";
+					document.getElementById("hint31result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -810,7 +810,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint32").style.visibility = "visible";
-					document.getElementById("hint32result").innerHTML = "Hello!";
+					document.getElementById("hint32result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -822,7 +822,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint33").style.visibility = "visible";
-					document.getElementById("hint33result").innerHTML = "Hello!";
+					document.getElementById("hint33result").innerHTML = "There are two fractions with different denominators but the two fractions can be combined if the denominators are made the same.";
 					clearInterval(myTimer);
 				}
 			}
@@ -834,7 +834,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint34").style.visibility = "visible";
-					document.getElementById("hint34result").innerHTML = "Hello!";
+					document.getElementById("hint34result").innerHTML = "'c+ d' can be treated as one variable.";
 					clearInterval(myTimer);
 				}
 			}
@@ -846,7 +846,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint35").style.visibility = "visible";
-					document.getElementById("hint35result").innerHTML = "Hello!";
+					document.getElementById("hint35result").innerHTML = "You must find the weight of the object on Venus and Jupiter before calculating the difference between the two numbers.";
 					clearInterval(myTimer);
 				}
 			}
@@ -858,7 +858,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint36").style.visibility = "visible";
-					document.getElementById("hint36result").innerHTML = "Hello!";
+					document.getElementById("hint36result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -870,7 +870,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint37").style.visibility = "visible";
-					document.getElementById("hint37result").innerHTML = "Hello!";
+					document.getElementById("hint37result").innerHTML = "PS is the sum of all of its individual segments.";
 					clearInterval(myTimer);
 				}
 			}
@@ -882,7 +882,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint38").style.visibility = "visible";
-					document.getElementById("hint38result").innerHTML = "Hello!";
+					document.getElementById("hint38result").innerHTML = "You must FOIL in order to get the answer.";
 					clearInterval(myTimer);
 				}
 			}
@@ -894,7 +894,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint39").style.visibility = "visible";
-					document.getElementById("hint39result").innerHTML = "Hello!";
+					document.getElementById("hint39result").innerHTML = "Solve using fraction busting.";
 					clearInterval(myTimer);
 				}
 			}
@@ -906,7 +906,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint40").style.visibility = "visible";
-					document.getElementById("hint40result").innerHTML = "Hello!";
+					document.getElementById("hint40result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -918,7 +918,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint41").style.visibility = "visible";
-					document.getElementById("hint41result").innerHTML = "Hello!";
+					document.getElementById("hint41result").innerHTML = "The task is to calculate the population density for only the land portion of the coastal city.";
 					clearInterval(myTimer);
 				}
 			}
@@ -930,7 +930,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint42").style.visibility = "visible";
-					document.getElementById("hint42result").innerHTML = "Hello!";
+					document.getElementById("hint42result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -942,7 +942,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint43").style.visibility = "visible";
-					document.getElementById("hint43result").innerHTML = "Hello!";
+					document.getElementById("hint43result").innerHTML = "Refer to the formula sheet for the correct volume formula.";
 					clearInterval(myTimer);
 				}
 			}
@@ -954,7 +954,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint44").style.visibility = "visible";
-					document.getElementById("hint44result").innerHTML = "Hello!";
+					document.getElementById("hint44result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -966,7 +966,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint45").style.visibility = "visible";
-					document.getElementById("hint45result").innerHTML = "Hello!";
+					document.getElementById("hint45result").innerHTML = "Solve the equation for x before using the answer to calculate x + 4 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -978,7 +978,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint46").style.visibility = "visible";
-					document.getElementById("hint46result").innerHTML = "Hello!";
+					document.getElementById("hint46result").innerHTML = "Combine like terms such that the result resembles the provided form.";
 					clearInterval(myTimer);
 				}
 			}
@@ -990,7 +990,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint47").style.visibility = "visible";
-					document.getElementById("hint47result").innerHTML = "Hello!";
+					document.getElementById("hint47result").innerHTML = "Combine like terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1002,7 +1002,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint48").style.visibility = "visible";
-					document.getElementById("hint48result").innerHTML = "Hello!";
+					document.getElementById("hint48result").innerHTML = "Refer to the formula sheet for the correct volume formula. You will need to find the difference between two calculated volumes.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1014,7 +1014,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint49").style.visibility = "visible";
-					document.getElementById("hint49result").innerHTML = "Hello!";
+					document.getElementById("hint49result").innerHTML = "Combine like terms before solving for x.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1026,7 +1026,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint50").style.visibility = "visible";
-					document.getElementById("hint50result").innerHTML = "Hello!";
+					document.getElementById("hint50result").innerHTML = "Manipulate the equation using cross multiplication such that (b / a) ends up alone on one side.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1038,7 +1038,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint51").style.visibility = "visible";
-					document.getElementById("hint51result").innerHTML = "Hello!";
+					document.getElementById("hint51result").innerHTML = "It is $2 for every c pounds of grapes. How much would the grapes cost if c = 1 ? How about if c = 3 ?";
 					clearInterval(myTimer);
 				}
 			}
@@ -1050,7 +1050,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint52").style.visibility = "visible";
-					document.getElementById("hint52result").innerHTML = "Hello!";
+					document.getElementById("hint52result").innerHTML = "Since you know V, you can solve for k.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1062,7 +1062,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint53").style.visibility = "visible";
-					document.getElementById("hint53result").innerHTML = "Hello!";
+					document.getElementById("hint53result").innerHTML = "Since you know x, you can solve for a.";
 					clearInterval(myTimer);
 				}
 			}
@@ -1074,7 +1074,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint54").style.visibility = "visible";
-					document.getElementById("hint54result").innerHTML = "Hello!";
+					document.getElementById("hint54result").innerHTML = "If we know P(t) and t, we can estimate b. Where can we get the values for P(t) and t?";
 					clearInterval(myTimer);
 				}
 			}
