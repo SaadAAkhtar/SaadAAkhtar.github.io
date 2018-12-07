@@ -165,7 +165,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "What is the general graphing form of a circle (a.k.a standard form)?";
 					clearInterval(myTimer);
 				}
 			}
@@ -177,7 +177,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "You must 'complete the square' twice in order to get the equation into standard form.";
 					clearInterval(myTimer);
 				}
 			}
@@ -189,7 +189,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "LONM can be split into two triangles such that the measure of angle O could be calculated.";
 					clearInterval(myTimer);
 				}
 			}
@@ -201,7 +201,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "The central angle measure over 360 degrees is equivalent to the area of the sector over the area of the circle.";
 					clearInterval(myTimer);
 				}
 			}
@@ -213,7 +213,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "Since AB is a diameter, it passes through the center of the circle and, essentially, cuts it in half.";
 					clearInterval(myTimer);
 				}
 			}
@@ -225,7 +225,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "You can use the radius to calculate the circle's circumfrence as well as the perimeter of sector BOA.";
 					clearInterval(myTimer);
 				}
 			}
@@ -237,7 +237,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "You have a central angle measure, 360 degrees, and a circumfrence. What equation can you use to find the length of arc AC?";
 					clearInterval(myTimer);
 				}
 			}
@@ -249,7 +249,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "You must 'complete the square' twice in order to get the equation into standard form.";
 					clearInterval(myTimer);
 				}
 			}
@@ -261,7 +261,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "A line drawn from P to A would be a radius.";
 					clearInterval(myTimer);
 				}
 			}
@@ -273,7 +273,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "The arc length over the circle's circumfrence is equivalent to the area of the sector over the area of the circle.";
 					clearInterval(myTimer);
 				}
 			}
@@ -285,7 +285,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "You must 'complete the square' twice in order to get the equation into standard form.";
 					clearInterval(myTimer);
 				}
 			}
@@ -297,7 +297,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "For a point to be inside of the circle, the distance from that point to the center must be less than the radius.";
 					clearInterval(myTimer);
 				}
 			}
@@ -309,7 +309,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
-					document.getElementById("hint13result").innerHTML = "Hello!";
+					document.getElementById("hint13result").innerHTML = "The central angle measure over 360 degrees is equivalent to the area of the sector over the area of the circle.";
 					clearInterval(myTimer);
 				}
 			}
@@ -321,7 +321,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint14").style.visibility = "visible";
-					document.getElementById("hint14result").innerHTML = "Hello!";
+					document.getElementById("hint14result").innerHTML = "What is the length of the diameter of the circle as represented by the given equation?";
 					clearInterval(myTimer);
 				}
 			}
@@ -333,7 +333,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint15").style.visibility = "visible";
-					document.getElementById("hint15result").innerHTML = "Hello!";
+					document.getElementById("hint15result").innerHTML = "The central angle measure over 360 degrees is equivalent to the arc length over the circle's circumfrence.";
 					clearInterval(myTimer);
 				}
 			}

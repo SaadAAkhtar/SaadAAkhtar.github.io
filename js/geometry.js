@@ -179,7 +179,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "∠ABE equals ∠DBC as they are vertical angles.";
 					clearInterval(myTimer);
 				}
 			}
@@ -191,7 +191,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "Using alternate interior angles and vertical angles, several angles can be related to each other.";
 					clearInterval(myTimer);
 				}
 			}
@@ -203,7 +203,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "Are there any alternate interior angles in this figure?";
 					clearInterval(myTimer);
 				}
 			}
@@ -215,7 +215,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "There is a special right triangle in this figure that can inform us of the measure of ∠AOB.";
 					clearInterval(myTimer);
 				}
 			}
@@ -227,7 +227,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "If you don't know the area formula for some unusual shape, split up the unusual shape into shapes you can figure out the area of such as triangles, squares, and retangles.";
 					clearInterval(myTimer);
 				}
 			}
@@ -239,7 +239,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "Apply the properties of vertical angles to the figure.";
 					clearInterval(myTimer);
 				}
 			}
@@ -251,7 +251,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "If two sides of a single triangle are equal to one another, that means their corresponding angles are equal to one another.";
 					clearInterval(myTimer);
 				}
 			}
@@ -263,7 +263,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "Since the three shelves of the triangular shelf system are parallel, the three triangles in the figure are similar.";
 					clearInterval(myTimer);
 				}
 			}
@@ -275,7 +275,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "Apply your knowledge of triangle angles and supplementary angles.";
 					clearInterval(myTimer);
 				}
 			}
@@ -287,7 +287,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "There is at least one special right traingle in this figure.";
 					clearInterval(myTimer);
 				}
 			}
@@ -299,7 +299,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "A cube has 6 square surfaces that compose the surface area.";
 					clearInterval(myTimer);
 				}
 			}
@@ -311,7 +311,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "The two triangles shown have corresponding angles.";
 					clearInterval(myTimer);
 				}
 			}
@@ -323,7 +323,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
-					document.getElementById("hint13result").innerHTML = "Hello!";
+					document.getElementById("hint13result").innerHTML = "Which angle is equal to angle A?";
 					clearInterval(myTimer);
 				}
 			}
@@ -335,7 +335,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint14").style.visibility = "visible";
-					document.getElementById("hint14result").innerHTML = "Hello!";
+					document.getElementById("hint14result").innerHTML = "Apply your knowledge of triangle angles, supplementary angles, and isosceles triangles.";
 					clearInterval(myTimer);
 				}
 			}
@@ -347,7 +347,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint15").style.visibility = "visible";
-					document.getElementById("hint15result").innerHTML = "Hello!";
+					document.getElementById("hint15result").innerHTML = "What formula do you use to find the number of degrees in a polygon with n sides?";
 					clearInterval(myTimer);
 				}
 			}
@@ -359,7 +359,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint16").style.visibility = "visible";
-					document.getElementById("hint16result").innerHTML = "Hello!";
+					document.getElementById("hint16result").innerHTML = "Apply your knowledge of triangle angles, supplementary angles, and isosceles triangles.";
 					clearInterval(myTimer);
 				}
 			}
@@ -371,7 +371,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint17").style.visibility = "visible";
-					document.getElementById("hint17result").innerHTML = "Hello!";
+					document.getElementById("hint17result").innerHTML = "Apply your knowledge of interior angles, triangles angles, and supplementary angles.";
 					clearInterval(myTimer);
 				}
 			}

@@ -95,7 +95,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "Treat 'i' as you would an unknown variable like x when combining like-terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -107,7 +107,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "We must multiply the top and bottom of the given fraction by the conjugate of the denominator.";
 					clearInterval(myTimer);
 				}
 			}
@@ -119,7 +119,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "We must multiply the top and bottom of the given fraction by the conjugate of the denominator.";
 					clearInterval(myTimer);
 				}
 			}
@@ -131,7 +131,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "Treat 'i' as you would an unknown variable like x when combining like-terms.";
 					clearInterval(myTimer);
 				}
 			}
@@ -143,7 +143,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "Treat 'i' as you would an unknown variable like x when combining like-terms. Also, what does i * i equal?";
 					clearInterval(myTimer);
 				}
 			}
