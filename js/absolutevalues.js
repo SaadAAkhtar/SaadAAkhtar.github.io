@@ -81,7 +81,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "In order to solve an absolute value equation, we must split the original equation into two separate equations.";
 					clearInterval(myTimer);
 				}
 			}
@@ -93,7 +93,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "Set up each absolute value equation before isolating the absolute value portion. Which equations are possible to solve?";
 					clearInterval(myTimer);
 				}
 			}
@@ -105,7 +105,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "The central value is -4 and the distance away from the central value is 3.";
 					clearInterval(myTimer);
 				}
 			}

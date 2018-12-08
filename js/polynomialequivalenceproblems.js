@@ -88,7 +88,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "FOIL the left-hand side of the equation and manipulate it such that the left-hand terms are in the same order as the right-hand terms. Then, form your equations after comparing both sides.";
 					clearInterval(myTimer);
 				}
 			}
@@ -100,7 +100,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "Expand the left-hand side until all left-hand terms are properly combined. Then, compare the middle terms of both equations sides.";
 					clearInterval(myTimer);
 				}
 			}
@@ -112,7 +112,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "We make the left-hand side of the equation similar to the right-hand side by using polynomial division on the left-hand side.";
 					clearInterval(myTimer);
 				}
 			}
@@ -124,7 +124,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "Add the polynomial equations to one another before comparing the result to the given form.";
 					clearInterval(myTimer);
 				}
 			}

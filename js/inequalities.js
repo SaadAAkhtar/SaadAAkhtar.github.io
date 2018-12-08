@@ -151,7 +151,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "";
+					document.getElementById("hint1result").innerHTML = "Isolate x as you would in a normal equation. However, be aware of dividing or multiplying by negative numbers.";
 					clearInterval(myTimer);
 				}
 			}
@@ -163,7 +163,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "You can solve each inequality for a and b as x = 0 and y = 0 .";
 					clearInterval(myTimer);
 				}
 			}
@@ -175,7 +175,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "Graph the lines as you would normal equations, but you must also shade the correct regions. The shaded regions contain solutions to their respective inequality.";
 					clearInterval(myTimer);
 				}
 			}
@@ -187,7 +187,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "The answer falls in between the minimum and maximum hours it takes Wyatt to husk 72 dozen ears of corn";
 					clearInterval(myTimer);
 				}
 			}
@@ -199,7 +199,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "If x and y are equal to one another, the difference between them is 0. This difference cannot be under or over 10 hours.";
 					clearInterval(myTimer);
 				}
 			}
@@ -211,7 +211,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "Form the equation that represents the total amount Chris spent for x students and 1 adult. Then, create your inequalities.";
 					clearInterval(myTimer);
 				}
 			}
@@ -223,7 +223,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "We can add and subtract numbers as we like to one side of an equation as long as we do the same for the other side.";
 					clearInterval(myTimer);
 				}
 			}
@@ -235,7 +235,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "Pick a negative and positive value for both x and y such that the inequality is satisfied (along with any other caveats), then evaluate each statement.";
 					clearInterval(myTimer);
 				}
 			}
@@ -247,7 +247,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "Graph the inequalties. Inequalities don't just have solutions that occur on their line.";
 					clearInterval(myTimer);
 				}
 			}
@@ -259,7 +259,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "We're trying to find all minimum values that satisfy the code requirement for riser height. The minimum riser height is 5. The code requires that d must be at least 9 . As such, can we find the other minimum for h using the given equation?";
 					clearInterval(myTimer);
 				}
 			}
@@ -271,7 +271,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "If x is the width, in inches, of the box, then the length of the box is 2.5x inches. It follows that the perimeter of the base is 2(2.5x + x), or 7x inches.";
 					clearInterval(myTimer);
 				}
 			}
@@ -283,7 +283,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "Plug each ordered pair into the inequality and see if any ordered pair satisfies the inequality or graph the inequality and pinpoint where each ordered pair falls on the graph.";
 					clearInterval(myTimer);
 				}
 			}
@@ -295,7 +295,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
-					document.getElementById("hint13result").innerHTML = "Hello!";
+					document.getElementById("hint13result").innerHTML = "After some years t, the savings will be greater than the intial cost. How much money is saved each year?";
 					clearInterval(myTimer);
 				}
 			}
