@@ -172,7 +172,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "We want to convert decagrams into milligrams. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}
@@ -184,7 +184,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "We want to convert 24 hours into 30 minutes. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}
@@ -196,7 +196,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "If Tony reads 250 words per minute, how many words can he read in 3 hours? In 24 hours?";
 					clearInterval(myTimer);
 				}
 			}
@@ -208,7 +208,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "We want to convert miles per year to miles per hour. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}
@@ -220,7 +220,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "We want to convert feet per year to years. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}
@@ -232,7 +232,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "We want to convert dollars per minute to dollars per hour. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}
@@ -244,7 +244,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "We want to convert the pounds for each slice to the ounces for each slice. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}
@@ -256,7 +256,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "After calculating the volume in terms of cubic inches, we want to convert cubic inches to gallons. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}
@@ -268,7 +268,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "We want to convert Roman digits to feet. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}
@@ -280,7 +280,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "We want the kilometer increae in terms of miles. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}
@@ -292,7 +292,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "How many 3 centimeter portions of tape can fit in 6 meters of tape?";
 					clearInterval(myTimer);
 				}
 			}
@@ -304,7 +304,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint12").style.visibility = "visible";
-					document.getElementById("hint12result").innerHTML = "Hello!";
+					document.getElementById("hint12result").innerHTML = "We want to convert dollars to ounces. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}
@@ -316,7 +316,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint13").style.visibility = "visible";
-					document.getElementById("hint13result").innerHTML = "Hello!";
+					document.getElementById("hint13result").innerHTML = "We want to convert fluid ounces to gallons. After doing so, how many of the newly converted gallons fit into one gallon?";
 					clearInterval(myTimer);
 				}
 			}
@@ -328,7 +328,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint14").style.visibility = "visible";
-					document.getElementById("hint14result").innerHTML = "Hello!";
+					document.getElementById("hint14result").innerHTML = "We have the volume and density of the block, so how do we set up our fractions such that we end up with grams as our units?";
 					clearInterval(myTimer);
 				}
 			}
@@ -340,7 +340,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint15").style.visibility = "visible";
-					document.getElementById("hint15result").innerHTML = "Hello!";
+					document.getElementById("hint15result").innerHTML = "We want to convert miles per minute to miles per hour. After doing so, how many of the newly converted gallons fit into one gallon?";
 					clearInterval(myTimer);
 				}
 			}
@@ -352,7 +352,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint16").style.visibility = "visible";
-					document.getElementById("hint16result").innerHTML = "Hello!";
+					document.getElementById("hint16result").innerHTML = "All of the penicillin concentration values are present in one milliliter of blood. How can we set up our fractions in order to cancel out the units we don't want?";
 					clearInterval(myTimer);
 				}
 			}

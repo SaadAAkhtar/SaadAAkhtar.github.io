@@ -109,7 +109,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "You can use the Quotient Rule here.";
 					clearInterval(myTimer);
 				}
 			}
@@ -121,7 +121,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "You can use the Quotient Rule here and form a system of equations.";
 					clearInterval(myTimer);
 				}
 			}
@@ -133,7 +133,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "You can use the Fractional Exponent and Radical Rule here.";
 					clearInterval(myTimer);
 				}
 			}
@@ -145,7 +145,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "You can use the Fractional Exponent and Radical Rule here.";
 					clearInterval(myTimer);
 				}
 			}
@@ -157,7 +157,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "There are multiple correct answers here. You just need to make sure your answer satisfies the given parameters.";
 					clearInterval(myTimer);
 				}
 			}
@@ -169,7 +169,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "You can use the Fractional Exponent and Radical Rule here in addition to the Negative Exponent Rule.";
 					clearInterval(myTimer);
 				}
 			}
@@ -181,7 +181,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "You can use the Fractional Exponent and Radical Rule here in addition to the Negative Exponent Rule to isolate a.";
 					clearInterval(myTimer);
 				}
 			}

@@ -137,7 +137,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "It looks intimidating, but you can essentially treat the numerator as one variable and the denominator as another variable.";
 					clearInterval(myTimer);
 				}
 			}
@@ -149,7 +149,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "You need to isolate t. Use your algebraic skills (addition, subtraction, etc.).";
 					clearInterval(myTimer);
 				}
 			}
@@ -161,7 +161,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "You need to isolate F. Use your algebraic skills (addition, subtraction, etc.).";
 					clearInterval(myTimer);
 				}
 			}
@@ -173,7 +173,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "You need to isolate r^2. Use your algebraic skills (addition, subtraction, etc.).";
 					clearInterval(myTimer);
 				}
 			}
@@ -185,7 +185,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "You need to isolate v. Use your algebraic skills (addition, subtraction, etc.).";
 					clearInterval(myTimer);
 				}
 			}
@@ -197,7 +197,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "After interpreting the formula for density, you need to isolate m. Use your algebraic skills (addition, subtraction, etc.).";
 					clearInterval(myTimer);
 				}
 			}
@@ -209,7 +209,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "You need to isolate L. Use your algebraic skills (addition, subtraction, etc.).";
 					clearInterval(myTimer);
 				}
 			}
@@ -221,7 +221,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "You need to isolate h in the given formula. Use your algebraic skills (addition, subtraction, etc.).";
 					clearInterval(myTimer);
 				}
 			}
@@ -233,7 +233,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "You need to isolate w in Current's formula. Use your algebraic skills (addition, subtraction, etc.).";
 					clearInterval(myTimer);
 				}
 			}
@@ -245,7 +245,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "It is given that there are 4.0 food calories per gram of protein, 9.0 food calories per gram of fat, and 4.0 food calories per gram of carbohydrate.";
 					clearInterval(myTimer);
 				}
 			}
@@ -257,7 +257,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "You need to isolate P. Use your algebraic skills (addition, subtraction, etc.).";
 					clearInterval(myTimer);
 				}
 			}

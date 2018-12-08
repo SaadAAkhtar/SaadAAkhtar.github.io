@@ -102,7 +102,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "In order to get the '5' in '5√2' back under the root, we square the '5', multiply it by the '2' under the root, and put the result under the root.";
 					clearInterval(myTimer);
 				}
 			}
@@ -114,7 +114,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "We get rid of a square root by squaring both sides of an equation (given that the square root is alone on one side).";
 					clearInterval(myTimer);
 				}
 			}
@@ -126,7 +126,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "We get rid of a square root by squaring both sides of an equation (given that the square root is alone on one side).";
 					clearInterval(myTimer);
 				}
 			}
@@ -138,7 +138,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "We get rid of a square root by squaring both sides of an equation (given that the square root is alone on one side).";
 					clearInterval(myTimer);
 				}
 			}
@@ -150,7 +150,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "Are there any numbers we can simplify before isolating the '√x' on onse side?";
 					clearInterval(myTimer);
 				}
 			}
@@ -162,7 +162,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "We get rid of a square root by squaring both sides of an equation (given that the square root is alone on one side).";
 					clearInterval(myTimer);
 				}
 			}

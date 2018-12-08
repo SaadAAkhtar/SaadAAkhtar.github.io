@@ -137,7 +137,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "Replace all of the x's in the function with 4 to solve for a.";
 					clearInterval(myTimer);
 				}
 			}
@@ -149,7 +149,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "What is the lowest point of the function?";
 					clearInterval(myTimer);
 				}
 			}
@@ -161,7 +161,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "What does g(3) equal? Plug that number into function f.";
 					clearInterval(myTimer);
 				}
 			}
@@ -173,7 +173,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "At what points is the function equal to 1 ?";
 					clearInterval(myTimer);
 				}
 			}
@@ -185,7 +185,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "When are the two functions equal in terms of the number but opposite in terms of the sign?";
 					clearInterval(myTimer);
 				}
 			}
@@ -197,7 +197,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "Plug -3x in for x wherever x appears in the function f.";
 					clearInterval(myTimer);
 				}
 			}
@@ -209,7 +209,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint7").style.visibility = "visible";
-					document.getElementById("hint7result").innerHTML = "Hello!";
+					document.getElementById("hint7result").innerHTML = "If we know f(x) and x, we are able to solve for the only variable left, k.";
 					clearInterval(myTimer);
 				}
 			}
@@ -221,7 +221,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint8").style.visibility = "visible";
-					document.getElementById("hint8result").innerHTML = "Hello!";
+					document.getElementById("hint8result").innerHTML = "When x is a certain value, does w(x) + t(x) equal that x value?";
 					clearInterval(myTimer);
 				}
 			}
@@ -233,7 +233,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint9").style.visibility = "visible";
-					document.getElementById("hint9result").innerHTML = "Hello!";
+					document.getElementById("hint9result").innerHTML = "Plug -1 in for x wherever x appears in the function f.";
 					clearInterval(myTimer);
 				}
 			}
@@ -245,7 +245,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint10").style.visibility = "visible";
-					document.getElementById("hint10result").innerHTML = "Hello!";
+					document.getElementById("hint10result").innerHTML = "In order to solve for h(0), we need to solve for g(0) as well.";
 					clearInterval(myTimer);
 				}
 			}
@@ -257,7 +257,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint11").style.visibility = "visible";
-					document.getElementById("hint11result").innerHTML = "Hello!";
+					document.getElementById("hint11result").innerHTML = "What is the highest point of the function?";
 					clearInterval(myTimer);
 				}
 			}

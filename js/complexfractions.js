@@ -67,7 +67,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "What are the two steps for handling a complex fraction?";
 					clearInterval(myTimer);
 				}
 			}

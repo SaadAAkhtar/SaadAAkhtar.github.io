@@ -102,7 +102,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "Perform the first step of the four steps except isolate r as that variable is the point of comparison. Next, the intensity is 16 times stronger, so where does the '16' fit into the equation?";
 					clearInterval(myTimer);
 				}
 			}
@@ -114,7 +114,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "You could either do carry out the four steps for each option or you could graph the function. According to the graph, how much does C rise for every one unit increase in F?";
 					clearInterval(myTimer);
 				}
 			}
@@ -126,7 +126,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "If we're looking for how much additional money was generated, how do we compare the equation when r = 5 and the equation when r = 3 ?";
 					clearInterval(myTimer);
 				}
 			}
@@ -138,7 +138,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "Perform the first step of the four steps as variable q is the point of comparison. Next, the velocity is 1.5 times faster, so where does the '1.5' fit into the equation?";
 					clearInterval(myTimer);
 				}
 			}
@@ -150,7 +150,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "Refer to the formula sheet for the correct volume formula. Volume is the point of comparison where the radius is twice as long, so where does the '2' fit into the equation?";
 					clearInterval(myTimer);
 				}
 			}
@@ -162,7 +162,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint6").style.visibility = "visible";
-					document.getElementById("hint6result").innerHTML = "Hello!";
+					document.getElementById("hint6result").innerHTML = "When n is increased by 1, by how much does t increase?";
 					clearInterval(myTimer);
 				}
 			}

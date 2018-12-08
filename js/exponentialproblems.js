@@ -95,7 +95,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint1").style.visibility = "visible";
-					document.getElementById("hint1result").innerHTML = "Hello!";
+					document.getElementById("hint1result").innerHTML = "Is the rate increasing (as in, are we multiplying by the same value)?";
 					clearInterval(myTimer);
 				}
 			}
@@ -107,7 +107,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint2").style.visibility = "visible";
-					document.getElementById("hint2result").innerHTML = "Hello!";
+					document.getElementById("hint2result").innerHTML = "What does b, the negative power of x, do to x according to exponent rules?";
 					clearInterval(myTimer);
 				}
 			}
@@ -119,7 +119,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint3").style.visibility = "visible";
-					document.getElementById("hint3result").innerHTML = "Hello!";
+					document.getElementById("hint3result").innerHTML = "Is the rate increasing (as in, are we multiplying by the same value)?";
 					clearInterval(myTimer);
 				}
 			}
@@ -131,7 +131,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint4").style.visibility = "visible";
-					document.getElementById("hint4result").innerHTML = "Hello!";
+					document.getElementById("hint4result").innerHTML = "When x = 0, what is f(x)?";
 					clearInterval(myTimer);
 				}
 			}
@@ -143,7 +143,7 @@ var myTimer;
 				if (c == 0) {
 					hintClicks -= 1;
 					document.getElementById("hint5").style.visibility = "visible";
-					document.getElementById("hint5result").innerHTML = "Hello!";
+					document.getElementById("hint5result").innerHTML = "We are multiplying by the same value each year and 4 years pass.";
 					clearInterval(myTimer);
 				}
 			}
