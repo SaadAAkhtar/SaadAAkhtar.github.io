@@ -231,8 +231,6 @@ var myTimer;
 			myTimer = setInterval(myClock, 1000)
 			var c = (60 + 10 * (elem - 2)) + 1;
 			
-			var c = 6;
-			
 			function myClock() {
 				document.getElementById("submitcountdown").innerHTML = --c;
 				
@@ -263,8 +261,6 @@ var myTimer;
 		}else {
 			var c = 121;
 		}
-		
-		var c = 6;
 		
 		function myClock() {
 			if (elem.id.localeCompare("hintbutton1") == 0 && c > 0) {
