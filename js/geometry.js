@@ -131,14 +131,14 @@ var hintClicks = 0;
 var myTimer;
 
 	function submitcheck(elem){		
-		if (elem <= 8) {
+		if (elem <= 1) {
 			document.getElementById("after_submit").style.visibility = "visible";
 		}else {
 			alert("You have submitted " + (elem + 1) + " times. Review your answers thoroughly and try again once the 'Submit Countdown!' has finished.");
 			document.getElementById("submitbutton").disabled = true;
 			
 			myTimer = setInterval(myClock, 1000)
-			var c = (60 + 10 * (elem - 9)) + 1;
+			var c = (60 + 10 * (elem - 2)) + 1;
 			
 			function myClock() {
 				document.getElementById("submitcountdown").innerHTML = --c;
@@ -162,13 +162,13 @@ var myTimer;
 		hintClicks += 1;
 		
 		if (elem2 > 5 && elem2 <= 10) {
-			var c = 61 + (10 * elem2);
+			var c = 91 + (10 * elem2);
 		}else if (elem2 > 10 && elem2 <= 20) {
-			var c = 61 + (15 * elem2);
+			var c = 91 + (15 * elem2);
 		}else if (elem2 > 20) {
-			var c = 61 + (20 * elem2);
+			var c = 91 + (20 * elem2);
 		}else {
-			var c = 91;
+			var c = 121;
 		}
 		
 		function myClock() {
